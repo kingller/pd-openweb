@@ -57,15 +57,15 @@ const AddParamsBtn = styled.div`
   }
 
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 
 const LinkText = styled.span`
-  color: #1e88e5;
+  color: var(--primary-regular);
   cursor: pointer;
   &:hover {
-    color: #1565c0 !important;
+    color: var(--primary-hover) !important;
   }
 `;
 

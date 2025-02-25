@@ -27,7 +27,7 @@ const Wrap = styled.div`
       span.addIcon {
         position: relative;
         background: #f8f8f8;
-        color: #2196f3;
+        color: var(--primary-regular);
         border-radius: 3px;
         display: block;
         padding: 12px 0;
@@ -38,7 +38,7 @@ const Wrap = styled.div`
           font-size: 20px;
         }
         &:hover {
-          color: #1565c0;
+          color: var(--primary-hover);
           background: #f5f5f5;
         }
       }
@@ -75,7 +75,7 @@ const Wrap = styled.div`
       }
       span.addIcon {
         position: relative;
-        background: #2196f3;
+        background: var(--primary-regular);
         border-radius: 3px;
         color: #fff;
         display: inline-block;
@@ -86,7 +86,7 @@ const Wrap = styled.div`
           font-size: 20px;
         }
         &:hover {
-          background: #1565c0;
+          background: var(--primary-hover);
         }
       }
     }

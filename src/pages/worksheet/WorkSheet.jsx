@@ -19,8 +19,18 @@ import UnNormal from 'worksheet/views/components/UnNormal';
 import { getSheetListFirstId, findSheet, moveSheetCache } from './util';
 import './worksheet.less';
 import _, { get, includes } from 'lodash';
+import { utils } from 'pandora';
 
 let request = null;
+
+const getThemeColorFromCookie = () => {
+  const theme = utils.getCookie('Gaia_Theme');
+  if (theme) {
+      const themeObj = JSON.parse(theme);
+      return themeObj.themeColor || '';
+  }
+  return '';
+};
 
 const WorkSheetContainer = props => {
   const { appId, id, type, params, sheetListLoading, isCharge, sheetList, appPkg } = props;
@@ -208,7 +218,7 @@ class WorkSheet extends Component {
       _.get(this.props, 'appPkg.iconColor') !== _.get(nextProps, 'appPkg.iconColor') ||
       (!this.appThemeColorStyle && _.get(nextProps, 'appPkg.iconColor'))
     ) {
-      this.changeAppThemeColor(_.get(nextProps, 'appPkg.iconColor'));
+      this.changeAppThemeColor(getThemeColorFromCookie() || _.get(nextProps, 'appPkg.iconColor'));
     }
   }
   shouldComponentUpdate(nextProps) {

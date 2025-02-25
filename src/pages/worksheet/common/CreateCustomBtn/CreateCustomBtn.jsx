@@ -702,7 +702,7 @@ class CreateCustomBtnCon extends React.Component {
                   <IconTabs
                     projectId={this.props.projectId}
                     icon={icon.replace(/_svg$/, '')}
-                    iconColor={'#2196f3'}
+                    iconColor={'var(--primary-regular)'}
                     handleClick={({ icon, iconUrl }) => {
                       this.setState({
                         icon: `${icon}_svg`,

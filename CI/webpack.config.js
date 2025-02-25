@@ -8,6 +8,10 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const InjectPlugin = require('webpack-inject-plugin').default;
 const MomentLocalesPlugin = require('moment-locales-webpack-plugin');
 
+const pandoraPath = path.join(process.cwd(), './node_modules/pandora');
+const pandoraExternals = require(path.resolve(pandoraPath, 'webpack.externals.js'));
+delete pandoraExternals['react-router-dom'];
+
 const isProduction = process.env.NODE_ENV === 'production';
 const rules = isProduction
   ? [
@@ -36,10 +40,12 @@ const rules = isProduction
       },
       {
         test: /\.css$/,
+        resourceQuery: { not: [/raw/] },
         use: [{ loader: 'style-loader' }, { loader: 'css-loader', options: { sourceMap: true } }],
       },
       {
         test: /\.less$/,
+        resourceQuery: { not: [/raw/] },
         use: [
           { loader: 'style-loader' },
           { loader: 'css-loader', options: { sourceMap: true } },
@@ -47,9 +53,14 @@ const rules = isProduction
         ],
       },
       { test: /\.js$/, enforce: 'pre', use: ['source-map-loader'] },
+      {
+        resourceQuery: /raw/,
+        type: 'asset/source',
+      },
     ];
 
 module.exports = function (alonePath = '') {
+  const mode = isProduction ? 'production' : 'development';
   return {
     entry: {
       globals: ['src/common/global'],
@@ -73,7 +84,7 @@ module.exports = function (alonePath = '') {
       sourceMapFilename: isProduction ? '[name].[contenthash].js.map' : '[name].js.map',
       pathinfo: false,
     },
-    mode: isProduction ? 'production' : 'development',
+    mode,
     module: {
       rules: [
         ...rules,
@@ -94,7 +105,20 @@ module.exports = function (alonePath = '') {
       }),
       new MomentLocalesPlugin({ localesToKeep: ['es-us', 'zh-cn', 'zh-tw', 'ja'] }),
       ...(isProduction
-        ? [new MiniCssExtractPlugin({ filename: '[contenthash].css', ignoreOrder: true })]
+        ? [
+            new MiniCssExtractPlugin({
+              filename: '[contenthash].css',
+              ignoreOrder: true,
+              insert: function (linkTag) {
+                var target = document.getElementById('less:theme:color');
+                if (target) {
+                  target.parentNode.insertBefore(linkTag, target);
+                } else {
+                  document.head.appendChild(linkTag);
+                }
+              },
+            }),
+          ]
         : [new CaseSensitivePathsPlugin()]),
       // new BundleAnalyzerPlugin(),
     ],
@@ -163,6 +187,6 @@ module.exports = function (alonePath = '') {
     },
     cache: true,
     devtool: alonePath || isProduction ? undefined : 'eval',
-    externals: { jquery: 'jQuery' },
+    externals: { jquery: '$', ...pandoraExternals },
   };
 };

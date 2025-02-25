@@ -16,7 +16,7 @@ const Con = styled.div`
   .RelateRecordDropdown-selected {
     border-color: #ddd;
     &.active {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
   &:hover {

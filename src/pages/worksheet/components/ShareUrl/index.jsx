@@ -99,9 +99,9 @@ const SeparateDisplayButton = styled(TextBlock)`
   }
 
   :hover {
-    color: #2196f3;
+    color: var(--primary-regular);
     i {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   ${({ theme }) =>
@@ -110,7 +110,7 @@ const SeparateDisplayButton = styled(TextBlock)`
     background: #fff;
     border: 1px solid #ddd;
     :hover {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   `}
 `;

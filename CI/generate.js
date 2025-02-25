@@ -69,7 +69,8 @@ function generate() {
       });
       html = html.replace(
         '</head>',
-        `<script>
+        `<link href="https://assets.gaiaworkforce.com/libs/pandora/29.3.0/pandora.min.css" rel="stylesheet" crossorigin="" integrity="sha384-k/NjdzlqplJ2gZYniD2oVCcXsrymstMbkUJayjUcu5JsK5TIoeunpMD08wWpLB64">
+        <script>
           if (
             navigator.userAgent.toLowerCase().match(/(msie\\s|trident.*rv:)([\\w.]+)/) ||
             (navigator.userAgent.toLowerCase().match(/(chrome)\\/([\\w.]+)/) && parseInt(navigator.userAgent.toLowerCase().match(/(chrome)\\/([\\w.]+)/)[2]) < 50)
@@ -80,7 +81,19 @@ function generate() {
         </script>
         <script src="/staticfiles/staticLanguages.js"></script>
         </head>`,
-      );
+      ).replace(/<body[^>]*>/, (match) => `${match}${
+        `<script src="https://assets.gaiaworkforce.com/libs/babel-polyfill/7.12.1/polyfill.min.js" crossorigin="" integrity="sha384-FCwalFIn/oY5yqK5WoHWMqsdHAQgG5e8hoHwtQ/stzqubOMOvFXsWocs/XvlofdX"></script>
+        <script src="https://assets.gaiaworkforce.com/libs/react/18.3.1/umd/react.production.min.js" crossorigin="" integrity="sha384-DGyLxAyjq0f9SPpVevD6IgztCFlnMF6oW/XQGmfe+IsZ8TqEiDrcHkMLKI6fiB/Z"></script>
+        <script src="https://assets.gaiaworkforce.com/libs/react-dom/18.3.1/umd/react-dom.production.min.js" crossorigin="" integrity="sha384-gTGxhz21lVGYNMcdJOyq01Edg0jhn/c22nsx0kyqP0TxaV5WVdsSH1fSDUf5YJj1"></script>
+        <script src="https://assets.gaiaworkforce.com/libs/i18next/22.0.6/i18next.min.js" crossorigin="" integrity="sha384-K+smMP43jORkmerlPZ4OOiZaVoIA0RN2Qp3pJtQC463q+WDdn8RHajg8dnoBslBO"></script>
+        <script src="https://assets.gaiaworkforce.com/libs/mobx/4.15.4/mobx.umd.min.js" crossorigin="" integrity="sha384-BWuWyZdx2hglCvqie0ePKarVs1ebjZpA/94WeTWknVSgBF4bDtxwQDl1nRiR7Ze9"></script>
+        <script src="https://assets.gaiaworkforce.com/libs/mobx-react/6.3.1/index.min.js" crossorigin="" integrity="sha384-bSe+ulIxqETcpDWaa0K24ijbbw82GwjYspquX/FYrwt8ZCZTGAYqjYkwGcpyF1EY"></script>
+        <script src="https://assets.gaiaworkforce.com/libs/lodash.js/4.17.21/lodash.min.js" crossorigin="" integrity="sha384-H6KKS1H1WwuERMSm+54dYLzjg0fKqRK5ZRyASdbrI/lwrCc6bXEmtGYr5SwvP1pZ"></script>
+        <script src="https://assets.gaiaworkforce.com/libs/react-router-dom/4.4.0/react-router-dom.min.js" crossorigin="" integrity="sha384-chb8/LDXmdl26IJ0f2ct42V4Nf7bUoorL2fuDYZi90uakuTDDsvo3jd+zyVoDHmE"></script>
+        <script src="https://assets.gaiaworkforce.com/libs/dayjs/1.11.9/dayjs.min.js" crossorigin="" integrity="sha384-ok2ureoh4h8/yzfhscH9aGBd1IrWT0jPFG7JF7dbo+uFAQCn3jc6nY1AYH5y6hhv"></script>
+        <script src="https://assets.gaiaworkforce.com/libs/pandora/29.3.0/pandora.min.js" crossorigin="" integrity="sha384-xfO8RewJQIfrXgWRCfqQv5eRE5ZrzS7nW/n+elZooLnK/tyNhIPW7dH3/dMj+iS6"></script>
+        <script src="https://assets.gaiaworkforce.com/libs/jquery/3.6.0/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>`
+      }`);
       const $ = cheerio.load(html);
       const $entryScript = $('script')
         .filter((i, node) => $(node).attr('src') === entry.origin)

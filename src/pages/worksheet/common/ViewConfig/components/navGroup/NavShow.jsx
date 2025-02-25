@@ -45,7 +45,7 @@ const Wrap = styled.div`
       border-radius: 4px;
       height: 36px;
       &.active {
-        border: 1px solid #2196f3;
+        border: 1px solid var(--primary-regular);
       }
       .value,
       .Dropdown--placeholder {

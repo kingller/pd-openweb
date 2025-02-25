@@ -1,0 +1,994 @@
+body {
+
+    [class^="icon-"],
+    [class*=" icon-"] {
+        &:before {
+            font-family: 'MD_Icon', icomoon !important;
+        }
+    }
+
+    a {
+        color: var(--primary-regular) !important;
+
+        &:hover {
+            color: var(--primary-hover) !important;
+        }
+
+        &:active {
+            color: var(--primary-active) !important;
+        }
+    }
+
+    ::selection {
+        background: var(--primary-regular);
+    }
+
+    .ant-btn-primary {
+        border-color: var(--primary-regular) !important;
+        background: var(--primary-regular) !important;
+
+        &:hover,
+        &:focus {
+            border-color: var(--primary-hover) !important;
+            background: var(--primary-hover) !important;
+        }
+
+        &:active {
+            border-color: var(--primary-active) !important;
+            background: var(--primary-active) !important;
+        }
+
+        &[disabled] {
+
+            &,
+            &:hover,
+            &:focus,
+            &:active {
+                border-color: var(--color-border-regular) !important;
+                background: var(--color-bg-disabled) !important;
+            }
+        }
+    }
+
+    .ant-input {
+        &:hover {
+            border-color: var(--primary-regular);
+        }
+    }
+
+    .MdLoader-path {
+        stroke: var(--primary-regular);
+    }
+
+    .ant-picker-today-btn {
+        color: var(--primary-regular) !important;
+
+        &:hover {
+            color: var(--primary-hover) !important;
+        }
+
+        &:active {
+            color: var(--primary-active) !important;
+        }
+    }
+
+    .ant-picker-cell:hover {
+
+        &:not(.ant-picker-cell-in-view),
+        &:not(.ant-picker-cell-selected):not(.ant-picker-cell-range-start):not(.ant-picker-cell-range-end):not(.ant-picker-cell-range-hover-start):not(.ant-picker-cell-range-hover-end) {
+            .ant-picker-cell-inner {
+                background: var(--primary-light-hover) !important;
+            }
+        }
+    }
+
+    .ant-picker-cell-in-view {
+        &.ant-picker-cell-today {
+            .ant-picker-cell-inner {
+                &::before {
+                    border-color: var(--primary-regular) !important;
+                }
+            }
+        }
+
+        &.ant-picker-cell-selected,
+        &.ant-picker-cell-range-start,
+        &.ant-picker-cell-range-end {
+            .ant-picker-cell-inner {
+                background: var(--primary-regular) !important;
+            }
+        }
+    }
+
+    .ant-picker-time-panel-column {
+        &>li {
+            &.ant-picker-time-panel-cell {
+                .ant-picker-time-panel-cell-inner {
+                    &:hover {
+                        background: var(--primary-light-hover) !important;
+                    }
+                }
+            }
+
+            &.ant-picker-time-panel-cell-selected {
+                .ant-picker-time-panel-cell-inner {
+                    background: var(--primary-light-active) !important;
+                }
+            }
+        }
+    }
+
+    .CascaderSelectWrap-List {
+        &-Item {
+            &.active {
+                background: var(--primary-light-active) !important;
+            }
+
+            &:hover {
+                background: var(--primary-light-hover) !important;
+            }
+        }
+    }
+
+    .ant-select-item {
+        &:not(.ant-select-item-option-disabled) {
+            &:hover {
+                background-color: var(--primary-light-hover);
+            }
+        }
+    }
+
+    .ant-select-item-option-active {
+        &:not(.ant-select-item-option-disabled) {
+            background-color: var(--primary-light-hover);
+        }
+    }
+
+    .ant-select-item-option-selected {
+        &:not(.ant-select-item-option-disabled) {
+            background-color: var(--primary-light-active);
+        }
+    }
+
+    .ThemeColor3 {
+        color: var(--primary-regular) !important;
+
+        &:hover {
+            color: var(--primary-hover) !important;
+        }
+    }
+
+    .ThemeBorderColor3 {
+        border-color: var(--primary-regular) !important;
+    }
+
+    .ThemeHoverColor3 {
+        &:hover {
+            color: var(--primary-regular) !important;
+        }
+    }
+
+    .ThemeHoverBorderColor3 {
+        &:hover {
+            border-color: var(--primary-regular) !important;
+        }
+    }
+
+    .customFormControlBox {
+        .addSignature {
+            &:hover {
+                color: var(--primary-regular) !important;
+            }
+        }
+    }
+
+
+    .ant-dropdown-menu-item,
+    .ant-dropdown-menu-submenu-title {
+        &:hover {
+            background-color: var(--primary-light-hover) !important;
+        }
+    }
+
+    .sortItem {
+        .sortSelect {
+            .item {
+                &.active {
+                    color: var(--primary-regular) !important;
+                    border-color: var(--primary-regular) !important;
+
+                    &+.item {
+                        border-left-color: var(--primary-regular) !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .statisticsCard {
+        .header {
+            .iconItem {
+                &:hover {
+                    color: var(--primary-regular) !important;
+                }
+            }
+        }
+    }
+
+    .ChartDialog {
+        .header {
+
+            .icon:hover,
+            .active {
+                color: var(--primary-regular) !important;
+            }
+        }
+    }
+
+    .mdModal {
+        .ant-modal-close-x {
+            &:hover {
+                .icon {
+                    color: var(--primary-regular) !important;
+                }
+            }
+        }
+    }
+
+    .worksheetSheet {
+        .menuVisible {
+            color: var(--primary-regular) !important;
+        }
+
+        .addViewIcon:hover,
+        .allVieListwIcon:hover,
+        .sheetHeader .icon-back-02:hover,
+        .sheetHeader .moreOperate>.icon:hover,
+        .sheetHeader .searchInputComp.queryInput.default .icon-search:hover,
+        .sheetHeader .openStatisticsBtn:hover,
+        .sheetHeader .icon-discussion:hover,
+        .sheetHeader .icon-drafts_approval:hover,
+        .sheetHeader .fullRotate:hover {
+            color: var(--primary-regular) !important;
+        }
+
+        .sheetHeader {
+            .addRow {
+                background-color: var(--primary-regular) !important;
+
+                &:hover {
+                    background-color: var(--primary-hover) !important;
+                }
+
+                &:active {
+                    background-color: var(--primary-active) !important;
+                }
+            }
+        }
+    }
+
+    .drawerWorksheetShowListItem {
+        &.active {
+            background: var(--primary-light-active) !important;
+        }
+
+        &:hover {
+            background: var(--primary-light-hover) !important;
+        }
+    }
+
+    .ming {
+        &.Input {
+            &:focus {
+                border-color: var(--primary-regular) !important;
+            }
+        }
+
+        &.MenuItem {
+            .Item-content {
+                &:not(.disabled) {
+                    &:hover {
+                        color: currentColor !important;
+                        background-color: var(--primary-light-hover) !important;
+
+                        .icon,
+                        i[class^="icon-"] {
+                            color: var(--color-text-secondary);
+                        }
+                    }
+                }
+            }
+
+            &.deleteItem {
+                .Item-content {
+                    &:not(.disabled) {
+                        color: var(--error-regular) !important;
+
+                        &:hover {
+                            color: var(--error-regular) !important;
+
+                            .icon {
+                                color: var(--error-regular) !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.Button--ghostgray {
+            &:not(.Button--disabled) {
+                &:hover {
+                    border-color: var(--primary-hover);
+                    color: var(--primary-hover);
+                }
+
+                &:active {
+                    border-color: var(--primary-active);
+                    color: var(--primary-active);
+                }
+            }
+        }
+    }
+
+    .ming.Dropdown .Dropdown--border:hover,
+    .dropdownTrigger .Dropdown--border:hover,
+    .ming.Dropdown .Dropdown--border.active,
+    .dropdownTrigger .Dropdown--border.active {
+        border-color: var(--primary-regular) !important;
+    }
+
+    .viewContentCon {
+        .ming {
+            &.Input {
+                &:focus {
+                    border-color: var(--primary-regular) !important;
+                }
+            }
+        }
+    }
+
+    .hiddenMenu {
+        &.ant-menu {
+            .hiddenMenuItem {
+                &.ant-menu-item {
+
+                    &:hover,
+                    &:active {
+                        background: var(--primary-light-hover) !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .viewItemMoreOperate {
+        .ming.MenuItem {
+            &>.Item-content {
+                &:not(.disabled) {
+                    &:hover {
+                        background-color: var(--primary-light-hover) !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .viewTypeMenuWrap {
+        &.ant-menu {
+            .viewTypeItem {
+                &.ant-menu-item {
+                    &:hover {
+                        background-color: var(--primary-light-hover) !important;
+                    }
+
+                    &.current {
+                        background-color: var(--primary-light-active) !important;
+
+                        .ming.Icon.icon.icon-done {
+                            color: var(--primary-regular) !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .typeMenuWrap {
+        .viewTypeItem {
+            &:hover {
+                background: var(--primary-light-hover) !important;
+            }
+        }
+    }
+
+    .customView {
+        .addCustomView {
+            &:hover {
+                color: var(--primary-regular) !important;
+
+                .icon {
+                    color: var(--primary-regular) !important;
+                }
+            }
+        }
+    }
+
+    .emptyCon {
+        .addCustomView {
+            &:hover {
+                border-color: var(--primary-regular) !important;
+
+                .viewName {
+                    color: var(--primary-regular) !important;
+                }
+            }
+        }
+    }
+
+    .worksheetFilterOperateList.Menu .ming.Item .Item-content:not(.disabled):hover .icon,
+    .worksheetFilterColumnOptionList.Menu .ming.Item .Item-content:not(.disabled):hover .icon {
+        color: #9e9e9e !important;
+    }
+
+
+    .appPkgHeaderWrap {
+        &.theme {
+            background-color: var(--primary-regular) !important;
+        }
+
+        .emptyAppItemWrap {
+            .emptyAppItem {
+
+                &:hover,
+                &.active {
+                    background: var(--primary-active) !important;
+                }
+            }
+        }
+    }
+
+    .workSheetLeft {
+        .workSheetItem {
+            &:hover {
+                background-color: var(--primary-light-hover) !important;
+            }
+
+            &.active {
+                background-color: var(--primary-light-active) !important;
+
+                .name {
+                    color: var(--primary-regular) !important;
+                }
+            }
+        }
+
+        .workSheetLeft {
+            &:hover {
+                background-color: var(--primary-light-hover) !important;
+            }
+        }
+    }
+
+    .workSheetViewItem,
+    .workSheetSortableViewItem {
+        &:hover {
+            background-color: transparent !important;
+
+            a {
+                color: var(--primary-hover) !important;
+            }
+        }
+    }
+
+    .workSheetViewItem {
+        a {
+            color: var(--color-text-secondary) !important;
+        }
+
+        &.active {
+            .name {
+                color: var(--primary-regular) !important;
+            }
+
+            &:after {
+                background-color: var(--primary-regular) !important;
+            }
+        }
+    }
+
+    .ming {
+        &.Button--primary {
+            background-color: var(--primary-regular) !important;
+
+            &:hover {
+                background-color: var(--primary-hover) !important;
+            }
+
+            &:active {
+                background-color: var(--primary-active) !important;
+            }
+        }
+
+        &.Checkbox {
+            &.checked {
+                .Checkbox-box {
+                    background-color: var(--primary-regular) !important;
+                }
+            }
+
+            &.clearselected {
+                .Checkbox-box {
+                    background-color: var(--primary-regular) !important;
+                    border-color: var(--primary-regular) !important;
+                }
+            }
+        }
+
+        &.Radio {
+            &.checked {
+                .Radio-box {
+                    border-color: var(--primary-regular) !important;
+                }
+            }
+
+            .Radio-box-round {
+                background-color: var(--primary-regular) !important;
+            }
+        }
+
+        &.Switch--on {
+            background: var(--primary-regular) !important;
+        }
+    }
+
+    .customCascader .ant-select-selector,
+    .customAntSelect .ant-select-selector {
+        background-color: var(--color-bg-regular) !important;
+    }
+
+    .customCascader:not(.ant-select-open):not(.ant-select-disabled) .ant-select-selector:hover,
+    .customAntSelect:not(.ant-select-open):not(.ant-select-disabled) .ant-select-selector:hover {
+        background-color: var(--color-bg-regular) !important;
+    }
+
+    .customFieldsContainer {
+
+        .customFormItemControlCreate.customFormItemControl,
+        .customFormItemControl {
+
+            .customFormControlBox.active,
+            .RelateRecordDropdown .RelateRecordDropdown-selected:not(.readonly).active,
+            .customFormControlBox:focus,
+            .RelateRecordDropdown .RelateRecordDropdown-selected:not(.readonly):focus {
+                border-color: var(--primary-regular) !important;
+            }
+
+            .customCascader,
+            .customAntSelect {
+                &.ant-select-open {
+                    .ant-select-selector {
+                        border-color: var(--primary-regular) !important;
+                    }
+                }
+            }
+        }
+
+        .customFormItemControl {
+            .customFormControlBox {
+                &:not(.controlDisabled) {
+                    background: var(--color-bg-regular);
+
+                    &:hover {
+                        border-color: #f7f7f7;
+                        background: var(--color-bg-regular);
+                    }
+                }
+            }
+
+            .customFormTextarea {
+                border-color: var(--primary-regular) !important;
+            }
+
+            .customAntPicker.ant-picker-focused:not(.controlDisabled) {
+                border-color: var(--primary-regular) !important;
+            }
+
+            .customFormButton:not(.controlDisabled):hover {
+
+                &>.ming.Icon:not(.customFormButtoDel) {
+                    color: var(--primary-regular) !important;
+                }
+            }
+        }
+    }
+
+    .workSheetNewRecord {
+        .footerBox {
+            .saveAndContinueBtn {
+                &:hover {
+                    color: var(--primary-regular) !important;
+                    border-color: var(--primary-regular) !important;
+                }
+            }
+        }
+    }
+
+    .worksheetViewConfig {
+        .viewBtns {
+            .active {
+                color: var(--primary-regular) !important;
+
+                .icon {
+                    color: var(--primary-regular) !important;
+                }
+            }
+
+            .viewBtn {
+                &:hover {
+                    color: var(--primary-regular) !important;
+
+                    .icon {
+                        color: var(--primary-regular) !important;
+                    }
+                }
+            }
+        }
+
+        .sortConditions {
+
+            .icon-drag,
+            .operateBtn {
+                &:not(.disabled) {
+                    &:hover {
+                        color: var(--primary-regular);
+                    }
+                }
+            }
+        }
+    }
+
+    .noData {
+        .addFilterCondition {
+            span {
+                &.addIcon {
+                    background: var(--primary-regular) !important;
+
+                    &:hover {
+                        background: var(--primary-hover) !important;
+                    }
+
+                    &:active {
+                        background: var(--primary-active) !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .customBtnBox {
+        .addBtn {
+            color: var(--primary-regular);
+        }
+    }
+
+    .createCustomBtnCon {
+        .createBtnBox {
+            .nameInput:focus {
+                border-color: var(--primary-regular) !important;
+            }
+        }
+
+        .createActionCon {
+            .addBtn {
+                background: var(--primary-regular) !important;
+
+                &:hover {
+                    background: var(--primary-hover) !important;
+                }
+
+                &:active {
+                    background: var(--primary-active) !important;
+                }
+            }
+
+            .cacleBtn {
+                border-color: var(--primary-regular) !important;
+                color: var(--primary-regular) !important;
+
+                &:hover {
+                    border-color: var(--primary-hover) !important;
+                    color: var(--primary-hover) !important;
+                }
+
+                &:active {
+                    border-color: var(--primary-active) !important;
+                    color: var(--primary-active) !important;
+                }
+            }
+        }
+    }
+
+    .sheetViewTable {
+        .row-head {
+            background-color: var(--color-bg-regular) !important;
+        }
+
+        .baseColumnHead {
+            &.cell {
+                .dropIcon {
+                    background-color: var(--color-bg-regular) !important;
+                }
+            }
+        }
+
+        .cell {
+
+            &.highlight,
+            &.highlightFromProps {
+                background-color: var(--primary-light-active) !important;
+
+                .editIcon {
+                    background-color: transparent !important;
+                }
+            }
+
+            &.isNew {
+                &::before {
+                    background: var(--primary-regular);
+                }
+            }
+
+            .moreOperate {
+                &:hover {
+                    color: var(--primary-regular);
+                }
+            }
+        }
+
+        &:not(.classic) {
+            .cell {
+                &.hover:not(.isediting):not(.highlight):not(.highlightFromProps) {
+                    background-color: var(--primary-light-hover) !important;
+                }
+            }
+
+            .editIcon,
+            .OperateIcon,
+            .addChildBtn {
+                background: transparent;
+
+                &:hover {
+                    background: transparent;
+                }
+            }
+        }
+
+        .cellControlEdittingStatus {
+            box-shadow: inset 0 0 0 1px var(--primary-regular) !important;
+        }
+
+        .cell.focus:not(.control-10.isediting):not(.control-11.isediting) {
+            box-shadow: inset 0 0 0 1px var(--primary-regular) !important;
+        }
+
+        .rc-trigger-popup {
+            &>div {
+                box-shadow: inset 0 0 0 1px var(--primary-regular) !important;
+            }
+        }
+    }
+
+    .cellControlEdittingStatus {
+        box-shadow: inset 0 0 0 1px var(--primary-regular) !important;
+    }
+
+    .ck {
+        .ck-content {
+            &.ck-editor__editable {
+                background: var(--color-bg-regular) !important;
+
+                &.ck-focused {
+                    border-color: var(--primary-regular) !important;
+                }
+            }
+        }
+    }
+
+    .tab {
+        &:hover {
+            color: var(--primary-regular) !important;
+        }
+
+        &.active {
+            color: var(--primary-regular) !important;
+        }
+    }
+
+    .openAddress {
+        &:hover {
+            color: var(--primary-regular) !important;
+        }
+    }
+
+    .optionItem {
+        &:hover {
+            background: var(--primary-light-hover) !important;
+        }
+    }
+
+    .rc-trigger-popup {
+        .exportItem {
+            &:hover {
+                background: var(--primary-light-hover);
+                color: var(--color-text-secondary);
+
+                .Icon {
+                    color: var(--color-text-explanatory);
+                }
+            }
+        }
+    }
+
+    .selectUserBox,
+    .rc-trigger-popup {
+        .userItem {
+
+            &.focused,
+            &:hover {
+                background: var(--primary-light-hover) !important;
+            }
+        }
+    }
+
+    .worksheet-data-pick-select {
+        li {
+            &:hover {
+                background: var(--primary-light-hover);
+                color: var(--color-text-secondary);
+            }
+        }
+    }
+
+    .logBox {
+        .selectCon {
+            .selectLight {
+
+                &,
+                .icon {
+                    color: var(--primary-regular);
+                }
+            }
+        }
+
+        .selectTriggerChildAvatar {
+            .accountName {
+                &:hover {
+                    color: var(--primary-regular);
+                }
+            }
+        }
+
+        .selectTriggerChild {
+            &.hasHover {
+                &:hover {
+                    color: var(--primary-regular);
+
+                    .icon {
+                        color: var(--primary-regular) !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .boardListWrap {
+        .addBoardRecord {
+            &:hover {
+                color: var(--primary-hover);
+            }
+
+            &:active {
+                color: var(--primary-active);
+
+            }
+        }
+    }
+
+    .rc-trigger-popup {
+        &.filterTrigger {
+            &>div {
+                &>div {
+                    &>div:first-child {
+                        &>span {
+                            &:hover {
+                                color: var(--primary-regular);
+                            }
+
+                            &.active {
+                                color: var(--primary-regular);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .addFilterPopup {
+        &.inEmpty {
+            .worksheetFilterColumnOptionList.Menu {
+                .ming.MenuItem {
+                    .Item-content {
+                        &:hover {
+                            background-color: var(--primary-light-hover) !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .guidanceWrapper .skip:hover,
+    .guidanceWrapper .lastStep:hover {
+        color: var(--primary-regular) !important;
+    }
+
+    .guidanceCircle {
+        border-color: var(--primary-regular);
+    }
+
+    .guidanceInfo {
+        background-color: var(--primary-regular);
+    }
+
+    .settingContent .selectBox.selectStartOrEndCon .startCom .tag {
+        background: var(--primary-regular);
+    }
+
+    .ant-select:not(.ant-select-disabled):hover {
+        .ant-select-selector {
+            border-color: var(--primary-regular);
+        }
+    }
+
+    .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) {
+        .ant-select-selector {
+            border-color: var(--primary-regular);
+            box-shadow: 0 0 0 2px var(--primary-light-active);
+        }
+    }
+
+    .dropConOption {
+        .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+            background-color: var(--primary-light-hover) !important;
+            color: var(--color-text-regular) !important;
+
+            .icon {
+                color: var(--color-text-explanatory) !important;
+            }
+        }
+
+        .addControl {
+
+            &,
+            &.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+                color: var(--primary-regular) !important;
+
+                .icon {
+                    color: var(--primary-regular) !important;
+                }
+            }
+        }
+    }
+
+    .customItemForFastFilter .editIcon {
+        color: var(--primary-regular);
+    }
+
+    .RelateRecordDropdown-selected {
+        &.active {
+            border-color: var(--primary-regular);
+        }
+    }
+}

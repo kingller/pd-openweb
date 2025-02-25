@@ -15,7 +15,7 @@ const BtnForSure = styled.div`
     line-height: 36px;
     height: 36px;
     color: #fff;
-    background-color: #2196f3;
+    background-color: var(--primary-regular);
     border-radius: 4px;
     outline: none;
     cursor: pointer;
@@ -24,7 +24,7 @@ const BtnForSure = styled.div`
     box-sizing: border-box;
     display: inline-block;
     &.isUnAb {
-      background-color: #8fcaf9;
+      background-color: var(--primary-disabled);
       cursor: not-allowed;
     }
   }

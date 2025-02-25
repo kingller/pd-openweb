@@ -172,9 +172,9 @@ export const SelectOtherFieldWrap = styled(FlexCenter)`
   transition: all 0.25s;
   color: #bdbdbd;
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
     i {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   i {

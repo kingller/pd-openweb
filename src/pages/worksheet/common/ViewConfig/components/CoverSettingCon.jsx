@@ -36,10 +36,10 @@ const SettingCon = styled.div`
       font-size: 13px;
       border: 1px solid #ddd;
       &:hover {
-        border-color: #2196f3;
+        border-color: var(--primary-regular);
       }
       &:focus {
-        border-color: #2196f3;
+        border-color: var(--primary-regular);
       }
     }
   }

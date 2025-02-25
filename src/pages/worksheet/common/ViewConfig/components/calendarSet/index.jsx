@@ -34,9 +34,9 @@ const CalendarTypeChoose = styled.div`
       border: 1px solid #e0e0e0;
     }
     &.current {
-      background: #2196f3;
+      background: var(--primary-regular);
       color: #fff;
-      border: #2196f3;
+      border: var(--primary-regular);
     }
   }
 `;
@@ -65,16 +65,16 @@ const ShowChoose = styled.div`
         overflow: hidden;
       }
       &.checked {
-        background: #2196f3;
+        background: var(--primary-regular);
         color: #fff;
-        border-top: 1px solid #2196f3;
-        border-bottom: 1px solid #2196f3;
+        border-top: 1px solid var(--primary-regular);
+        border-bottom: 1px solid var(--primary-regular);
         z-index: 1;
         &:last-child {
-          border-right: 1px solid #2196f3;
+          border-right: 1px solid var(--primary-regular);
         }
         &:first-child {
-          border-left: 1px solid #2196f3;
+          border-left: 1px solid var(--primary-regular);
         }
       }
     }

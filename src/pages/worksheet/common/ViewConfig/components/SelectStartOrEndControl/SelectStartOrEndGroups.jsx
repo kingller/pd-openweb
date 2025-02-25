@@ -26,19 +26,19 @@ const WrapFragment = styled.div`
     border-radius: 3px;
     padding: 0 12px;
     &:focus {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
   .addMark {
     &:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
   .addCalendarcids {
     &:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
       i {
-        color: #2196f3 !important;
+        color: var(--primary-regular) !important;
       }
     }
   }
@@ -84,10 +84,17 @@ const Wrap = styled.div`
       vertical-align: middle;
     }
     &:hover {
-      background: #2196f3;
-      color: #fff !important;
+      background: var(--primary-light-hover);
+      color: var(--color-text-regular) !important;
       i {
-        color: #fff !important;
+        color: var(--color-text-explanatory) !important;
+      }
+    }
+    &.ThemeColor3 {
+      &:hover {
+        i {
+          color: var(--primary-hover) !important;
+        }
       }
     }
   }

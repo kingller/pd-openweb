@@ -53,7 +53,7 @@ const Tab = styled.div`
     left: 0px;
     right: 0px;
     height: 3px;
-    background-color: #2196f3;
+    background-color: var(--primary-regular);
     bottom: 0px;
   }
 `;

@@ -23,10 +23,10 @@ const Wrap = styled.div`
     }
     &:hover,
     &.has {
-      border: 1px solid #2196f3;
-      color: #2196f3;
+      border: 1px solid var(--primary-regular);
+      color: var(--primary-regular);
       i {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }

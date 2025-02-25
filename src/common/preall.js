@@ -7,6 +7,9 @@ import _ from 'lodash';
 import moment from 'moment';
 import accountSetting from 'src/api/accountSetting';
 import { resetPortalUrl } from 'src/pages/accountLogin/portalAccount/util.js';
+import { Theme } from 'pandora';
+
+import './common.less';
 
 /** 存储分发类入口 状态 和 分享id */
 const parseShareId = () => {
@@ -180,7 +183,11 @@ const wrapComponent = function (Comp, { allowNotLogin, requestParams } = {}) {
         document.title = _l('应用');
       }
 
-      return loading || window.isWaiting ? <LoadDiv size="big" className="pre" /> : <Comp {...this.props} />;
+      return (
+        <Theme>
+          {loading || window.isWaiting ? <LoadDiv size="big" className="pre" /> : <Comp {...this.props} />};
+        </Theme>
+      );
     }
   }
 

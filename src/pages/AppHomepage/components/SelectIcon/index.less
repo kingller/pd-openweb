@@ -230,12 +230,12 @@
         color: #666;
         cursor: pointer;
         &:hover {
-          background: #f5f5f5;
+          background: var(--primary-light-hover);
         }
       }
       li.current {
-        color: #2196f3 !important;
-        background: #e3f3ff !important;
+        color: var(--primary-regular) !important;
+        background: var(--primary-light-active) !important;
         font-weight: bold;
       }
     }
@@ -270,11 +270,11 @@
       display: inline-block;
       &.active {
         font-weight: 600;
-        border-bottom: 3px solid #2196f3;
+        border-bottom: 3px solid var(--primary-regular);
       }
       &:hover {
         cursor: pointer;
-        color: #40a9ff;
+        color: var(--primary-hover);
       }
     }
     .switchCon {

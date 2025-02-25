@@ -65,16 +65,16 @@ export const ShowChoose = styled.div`
         overflow: hidden;
       }
       &.checked {
-        background: #2196f3;
+        background: var(--primary-regular);
         color: #fff;
-        border-top: 1px solid #2196f3;
-        border-bottom: 1px solid #2196f3;
+        border-top: 1px solid var(--primary-regular);
+        border-bottom: 1px solid var(--primary-regular);
         z-index: 1;
         &:last-child {
-          border-right: 1px solid #2196f3;
+          border-right: 1px solid var(--primary-regular);
         }
         &:first-child {
-          border-left: 1px solid #2196f3;
+          border-left: 1px solid var(--primary-regular);
         }
       }
     }

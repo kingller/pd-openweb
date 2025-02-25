@@ -31,7 +31,7 @@ export const Button = styled.button`
   line-height: 36px;
   height: 36px;
   color: #fff;
-  background-color: ${props => props.bgColor || '#2196f3'};
+  background-color: ${props => props.bgColor || 'var(--primary-regular)'};
   border-radius: 4px;
   outline: none;
   cursor: pointer;

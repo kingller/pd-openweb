@@ -26,7 +26,7 @@ const Wrap = styled.div`
     &:hover {
       background: #f8f8f8;
       // background: #f5f5f5;
-      color: #2196f3;
+      color: var(--primary-regular);
       &.clearBtn {
         color: red;
       }

@@ -22,7 +22,7 @@ const Con = styled.div`
       border-color: #ccc !important;
     }
     &.ant-select-open {
-      border-color: #2196f3 !important;
+      border-color: var(--primary-regular) !important;
     }
     &.customAntSelect:not(.ant-select-open):not(.ant-select-disabled) .ant-select-selector {
       background-color: transparent !important;

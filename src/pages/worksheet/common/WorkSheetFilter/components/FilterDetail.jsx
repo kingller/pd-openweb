@@ -64,7 +64,7 @@ const AddButton = styled(VCenterIconText)`
   color: #757575;
   font-weight: bold;
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 
