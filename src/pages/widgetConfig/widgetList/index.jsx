@@ -46,9 +46,9 @@ const WidgetList = styled.div`
     border-radius: 4px;
     &:hover,
     &.active {
-      color: #2196f3;
+      color: var(--primary-regular);
       .widgetItem i {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     .widgetItem {
