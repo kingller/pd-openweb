@@ -26,11 +26,6 @@ const MenuItemWrap = styled(MenuItem)`
     cursor: not-allowed !important;
     opacity: 0.5;
   }
-  &:not(.disabled):hover {
-    .Icon {
-      color: #fff !important;
-    }
-  }
 `;
 
 const confirmClick = props => FunctionWrap(CustomButtonConfirm, props);
