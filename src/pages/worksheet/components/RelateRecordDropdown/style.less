@@ -59,7 +59,7 @@
       margin: 0 0 5px 6px;
       line-height: 24px;
       padding: 0 10px;
-      background-color: rgba(0, 100, 240, 0.08);
+      background-color: var(--primary-light-hover);
       color: #333;
       border-radius: 3px;
       .name {
@@ -131,7 +131,7 @@
       &:not(.active) .normalSelectedItem,
       .activeSelectedItem {
         line-height: 21px;
-        background-color: rgba(0, 100, 240, 0.08);
+        background-color: var(--primary-light-active);
         border-radius: 3px;
         padding: 0 10px;
         margin: 6px 0 0 6px;
@@ -262,7 +262,7 @@
   }
   &.hover,
   &:hover {
-    background-color: var(--primary-light-hover);
+    background-color: var(--primary-light-active);
   }
   &-control {
     display: inline-block;
