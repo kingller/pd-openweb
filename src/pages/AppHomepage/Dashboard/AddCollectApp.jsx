@@ -79,7 +79,7 @@ const Item = styled.div`
     color: #9d9d9d;
     cursor: pointer;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .ming.Checkbox {

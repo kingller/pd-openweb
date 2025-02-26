@@ -32,7 +32,7 @@ const UploadHeader = styled.div`
     }
     &:hover {
       i {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }

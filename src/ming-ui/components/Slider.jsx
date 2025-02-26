@@ -112,12 +112,12 @@ const Input = styled.input`
   background: #f7f7f7;
   ${({ showAsPercent }) => (showAsPercent ? 'padding-right: 28px;' : '')}
   &:active {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
   ${({ active }) =>
     active
       ? `
-  border-color: #2196f3;
+  border-color: var(--primary-regular);
   background: #fff;
   `
       : `
@@ -134,7 +134,7 @@ function getColor(config, value, showAsPercent) {
   if (config.type === 1) {
     return config.color;
   } else if (config.type === 2) {
-    let result = '#2196f3';
+    let result = 'var(--primary-regular)';
     const colors = config.colors
       .map(c => ({ value: Number(c.key * (showAsPercent ? 100 : 1)), color: c.value }))
       .filter(c => _.isNumber(c.value) && !_.isNaN(value))
@@ -146,7 +146,7 @@ function getColor(config, value, showAsPercent) {
     });
     return result;
   } else {
-    return '#2196f3';
+    return 'var(--primary-regular)';
   }
 }
 
@@ -198,7 +198,7 @@ export default function Slider(props) {
     className,
     style,
     readonly,
-    itemcolor = { type: 1, color: '#2196f3' },
+    itemcolor = { type: 1, color: 'var(--primary-regular)' },
     itemnames = [],
     valueTextStyle = {},
     numStyle = {},

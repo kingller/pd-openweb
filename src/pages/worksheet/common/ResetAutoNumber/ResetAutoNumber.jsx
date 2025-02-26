@@ -48,7 +48,7 @@ const ResetWrap = styled.div`
     font-size: 12px;
   }
   .reset {
-    color: #2196f3;
+    color: var(--primary-regular);
     cursor: pointer;
   }
   .footerBtn {

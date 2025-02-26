@@ -48,13 +48,13 @@ const renderState = data => {
   if (workItem) {
     if (type === 3 || type === 0)
       return (
-        <span className="bold" style={{ color: '#2196F3' }}>
+        <span className="bold" style={{ color: 'var(--primary-regular)' }}>
           {_l('等我填写...')}
         </span>
       );
     if (type === 4)
       return (
-        <span className="bold" style={{ color: '#2196F3' }}>
+        <span className="bold" style={{ color: 'var(--primary-regular)' }}>
           {_l('等我审批...')}
         </span>
       );

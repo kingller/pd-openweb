@@ -115,7 +115,7 @@ export default class DepDropDown extends Component {
               let text = nameArr.map((item, index) => {
                 if (item === keywords) {
                   return (
-                    <span key={item + index} style={{ color: '#2196f3' }}>
+                    <span key={item + index} style={{ color: 'var(--primary-regular)' }}>
                       {item}
                     </span>
                   );

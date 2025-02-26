@@ -446,7 +446,7 @@ class DepartmentTree extends React.Component {
           {_l('暂无部门，可 ')}
           <span
             className="Hand"
-            style={{ color: '#2196F3' }}
+            style={{ color: 'var(--primary-regular)' }}
             onClick={() => {
               this.props.updateShowExport(true);
               this.props.updateImportType('importDepartment');

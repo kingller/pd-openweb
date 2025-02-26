@@ -213,7 +213,7 @@ export default class CreateNodeDialog extends Component {
                 },
               ],
             },
-            { type: 1, name: _l('分支%03033'), iconColor: '#2196f3', iconName: 'icon-workflow_branch' },
+            { type: 1, name: _l('分支%03033'), iconColor: 'var(--primary-regular)', iconName: 'icon-workflow_branch' },
             {
               type: 7,
               name: _l('汇总'),
@@ -306,28 +306,28 @@ export default class CreateNodeDialog extends Component {
             },
             { type: 4, name: _l('审批'), iconColor: '#7E57C2', iconName: 'icon-workflow_ea' },
             { type: 3, name: _l('填写%03025'), iconColor: '#00BCD4', iconName: 'icon-workflow_write' },
-            { type: 5, name: _l('抄送%03026'), iconColor: '#2196f3', iconName: 'icon-workflow_notice' },
+            { type: 5, name: _l('抄送%03026'), iconColor: 'var(--primary-regular)', iconName: 'icon-workflow_notice' },
           ],
         },
         {
           id: 'notice',
           name: _l('通知%03027'),
           items: [
-            { type: 27, name: _l('发送站内通知%03028'), iconColor: '#2196f3', iconName: 'icon-hr_message_reminder' },
-            { type: 10, name: _l('发送短信%03029'), iconColor: '#2196f3', iconName: 'icon-workflow_sms' },
+            { type: 27, name: _l('发送站内通知%03028'), iconColor: 'var(--primary-regular)', iconName: 'icon-hr_message_reminder' },
+            { type: 10, name: _l('发送短信%03029'), iconColor: 'var(--primary-regular)', iconName: 'icon-workflow_sms' },
             {
               type: 11,
               name: _l('发送邮件%03030'),
               appType: 3,
               actionId: '202',
-              iconColor: '#2196f3',
+              iconColor: 'var(--primary-regular)',
               iconName: 'icon-workflow_email',
             },
             {
               type: 17,
               featureId: VersionProductType.interfacePush,
               name: _l('界面推送'),
-              iconColor: '#2196f3',
+              iconColor: 'var(--primary-regular)',
               iconName: 'icon-interface_push',
             },
             {
@@ -335,7 +335,7 @@ export default class CreateNodeDialog extends Component {
               name: _l('发送服务号信息%03031'),
               appType: 22,
               actionId: '203',
-              iconColor: '#2196f3',
+              iconColor: 'var(--primary-regular)',
               iconName: 'icon-wechat',
             },
           ],
@@ -552,7 +552,7 @@ export default class CreateNodeDialog extends Component {
             {
               type: 1000,
               name: _l('获取单条人员/部门/组织角色数据%03047'),
-              iconColor: '#2196f3',
+              iconColor: 'var(--primary-regular)',
               iconName: 'icon-person_search',
               isGroupList: true,
               secondList: [
@@ -620,7 +620,7 @@ export default class CreateNodeDialog extends Component {
             {
               type: 1001,
               name: _l('获取多条人员/部门/组织角色数据%03048'),
-              iconColor: '#2196f3',
+              iconColor: 'var(--primary-regular)',
               iconName: 'icon-group-members',
               isGroupList: true,
               secondList: [
@@ -743,7 +743,7 @@ export default class CreateNodeDialog extends Component {
             {
               type: 1000,
               name: _l('获取单条外部人员数据%03053'),
-              iconColor: '#2196f3',
+              iconColor: 'var(--primary-regular)',
               iconName: 'icon-external_users',
               typeText: _l('获取方式'),
               secondList: [
@@ -766,7 +766,7 @@ export default class CreateNodeDialog extends Component {
             {
               type: 1001,
               name: _l('获取多条外部人员数据%03054'),
-              iconColor: '#2196f3',
+              iconColor: 'var(--primary-regular)',
               iconName: 'icon-folder-public',
               typeText: _l('获取方式'),
               secondList: [
@@ -1207,7 +1207,7 @@ export default class CreateNodeDialog extends Component {
             type: 32,
             name: o.name,
             appId: `${o.id}_${o.source}`,
-            iconColor: o.iconColor || '#2196f3',
+            iconColor: o.iconColor || 'var(--primary-regular)',
             iconUrl: o.iconUrl,
             iconName: 'icon-workflow',
             isMyCreate: o.source === 0,
@@ -1372,7 +1372,7 @@ export default class CreateNodeDialog extends Component {
         <div className="createNodeDialog flexColumn h100">
           <div
             className="createNodeDialogHeader flexRow"
-            style={{ background: selectItem ? selectItem.iconColor : '#2196f3' }}
+            style={{ background: selectItem ? selectItem.iconColor : 'var(--primary-regular)' }}
           >
             {selectSecond ? (
               <div className="flex Font18">

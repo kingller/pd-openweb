@@ -16,7 +16,7 @@ const OptionQuoteWrap = styled.div`
     border-radius: 3px;
     &:hover {
       background-color: #f5f5f5;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     &.disabled {
       cursor: auto;

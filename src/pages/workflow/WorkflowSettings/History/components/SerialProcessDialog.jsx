@@ -133,7 +133,7 @@ export default ({ processId, onClose = () => {} }) => {
               <div className="w150 mLeft16 bold flexRow alignItemsCenter">
                 <i
                   className="icon-play-circle Font24 mRight6"
-                  style={{ color: item.createDate ? '#2196F3' : '#00BCD7' }}
+                  style={{ color: item.createDate ? 'var(--primary-regular)' : '#00BCD7' }}
                 />
                 {item.createDate ? _l('运行中') : _l('等待中')}
               </div>

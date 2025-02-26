@@ -27,11 +27,11 @@ const Con = styled.div`
   // border: 1px solid #dddddd;
   border-radius: 4px;
   .saveBtn {
-    background: #2196f3;
+    background: var(--primary-regular);
     color: #fff;
     height: 36px;
     line-height: 36px;
-    border: 1px solid #2196f3;
+    border: 1px solid var(--primary-regular);
     border-radius: 3px;
     padding: 0 36px;
   }
@@ -77,7 +77,7 @@ const WrapCon = styled.div`
     }
   }
   .addApp {
-    color: #2196f3;
+    color: var(--primary-regular);
     &:hover {
       color: #1764c0;
     }

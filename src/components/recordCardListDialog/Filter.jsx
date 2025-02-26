@@ -38,10 +38,10 @@ const Popup = styled.div`
 
 const Icon = styled.div`
   font-size: 18px;
-  color: ${({ active }) => (active ? '#2196f3' : '#9e9e9e')};
+  color: ${({ active }) => (active ? 'var(--primary-regular)' : '#9e9e9e')};
   cursor: pointer;
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 

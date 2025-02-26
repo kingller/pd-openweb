@@ -22,7 +22,7 @@ const Wrap = styled.div`
   }
   .setBtn {
     padding: 5px 20px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border-radius: 3px 3px 3px 3px;
     color: #fff !important;
   }
@@ -95,7 +95,7 @@ const WrapCon = styled.div`
     box-sizing: border-box;
     line-height: 36px;
     cursor: pointer;
-    background: #2196f3;
+    background: var(--primary-regular);
     color: #fff;
     &:not(.disable):hover {
       background-color: #1565c0;
@@ -112,8 +112,8 @@ const WrapCon = styled.div`
     line-height: 36px;
     cursor: pointer;
     background: #fff;
-    border: 1px solid #2196f3;
-    color: #2196f3;
+    border: 1px solid var(--primary-regular);
+    color: var(--primary-regular);
     margin-left: 16px;
     padding: 0 32px;
     width: auto;
@@ -127,7 +127,7 @@ const WrapDetail = styled.div`
     border: 1px solid #ddd;
     padding: 0 12px;
     &:focus {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
   .setCheckbox {
@@ -153,8 +153,8 @@ const CustomUrlSet = styled.div`
   background: #fff;
   border: 1px solid #ddd;
   &:hover {
-    border-color: #2196f3;
-    color: #2196f3;
+    border-color: var(--primary-regular);
+    color: var(--primary-regular);
   }
 `;
 

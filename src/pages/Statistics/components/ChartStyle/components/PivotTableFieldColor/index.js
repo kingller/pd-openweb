@@ -7,7 +7,7 @@ import DataBarColor from './DataBarColor';
 import RuleColor from '../Color/RuleColor';
 
 const AddLine = styled.div`
-  color: #2196F3;
+  color: var(--primary-regular);
   &:hover {
     color: #0484fb;
   }
@@ -27,7 +27,7 @@ const EntranceWrapper = styled.div`
       background-color: #f5f5f5;
     }
     .icon-closeelement-bg-circle:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
   &:hover {
@@ -55,7 +55,7 @@ const ColorRuleItem = styled.div`
     padding: 7px;
     display: none;
     &:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
       display: block;
     }
   }

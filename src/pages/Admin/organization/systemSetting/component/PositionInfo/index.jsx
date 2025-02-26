@@ -235,7 +235,7 @@ class PositionInfo extends Component {
                       {_l('暂无职位，可')}
                       <span
                         className="Hand"
-                        style={{ color: '#2196F3' }}
+                        style={{ color: 'var(--primary-regular)' }}
                         onClick={() => {
                           this.props.updateIsImportRole(true);
                         }}

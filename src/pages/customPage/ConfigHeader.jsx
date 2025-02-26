@@ -50,7 +50,7 @@ const ConfigHeader = styled(FlexCenter)`
     input {
       border: none;
       font-size: 17px;
-      border-bottom: 2px solid #2196f3;
+      border-bottom: 2px solid var(--primary-regular);
     }
   }
   .displayType {
@@ -72,16 +72,16 @@ const ConfigHeader = styled(FlexCenter)`
       color: #9e9e9e;
       &.highlight,
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
       &:hover {
-        border-color: #2196f3;
+        border-color: var(--primary-regular);
       }
     }
   }
   .pageSetting {
     &:hover *{
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
   .close {

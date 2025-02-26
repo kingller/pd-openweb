@@ -30,7 +30,7 @@ const ModalWrap = styled(Popup)`
   }
   .btnsWrap {
     .btnItem {
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
       height: 36px;
       border-radius: 18px;
       margin-right: 15px;

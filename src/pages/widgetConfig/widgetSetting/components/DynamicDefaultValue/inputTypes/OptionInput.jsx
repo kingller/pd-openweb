@@ -66,7 +66,7 @@ export const DefaultOptionsMenu = styled(DropdownContent)`
     }
     i {
       font-size: 18px;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .colorWrap {

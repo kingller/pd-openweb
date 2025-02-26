@@ -991,4 +991,30 @@ body {
             border-color: var(--primary-regular);
         }
     }
+    .ant-picker:hover {
+        border-color: var(--primary-regular);
+    }
+
+    .ant-picker-focused {
+        border-color: var(--primary-regular);
+        box-shadow: 0 0 0 2px var(--primary-light-hover);
+    }
+
+    .ant-picker-range .ant-picker-active-bar {
+        background: var(--primary-regular);
+    }
+
+    .ant-picker-cell-in-view.ant-picker-cell-in-range::before {
+        background: var(--primary-light-hover);
+    }
+
+    .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover::before,
+    .ant-picker-cell-in-view.ant-picker-cell-range-start.ant-picker-cell-range-hover::before,
+    .ant-picker-cell-in-view.ant-picker-cell-range-end.ant-picker-cell-range-hover::before,
+    .ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single).ant-picker-cell-range-hover-start::before,
+    .ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single).ant-picker-cell-range-hover-end::before,
+    .ant-picker-panel> :not(.ant-picker-date-panel) .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-start::before,
+    .ant-picker-panel> :not(.ant-picker-date-panel) .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-end::before {
+        background: var(--primary-light-active);
+    }
 }

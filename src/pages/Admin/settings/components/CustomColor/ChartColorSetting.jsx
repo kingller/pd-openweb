@@ -15,7 +15,7 @@ const ChartColorSettingBox = styled.div(
   flex-direction: column;
   position: relative;
   &:hover {
-    border: 1px solid #2196F3;
+    border: 1px solid var(--primary-regular);
     .chartWrap,
     .titleWrap {
       opacity: 1;
@@ -32,7 +32,7 @@ const ChartColorSettingBox = styled.div(
     &:hover {
       & + .ChartColorSetting_checkbox {
         .Checkbox-box {
-          border: 1px solid #2196F3;
+          border: 1px solid var(--primary-regular);
         }
       }
     }
@@ -60,7 +60,7 @@ const ChartColorSettingBox = styled.div(
       i {
         color: #9E9E9E;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

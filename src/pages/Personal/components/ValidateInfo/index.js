@@ -37,7 +37,7 @@ const StepLine = styled.div`
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    background-color: ${({ step }) => (step === 1 ? ' #ececec' : '#1e88e5')};
+    background-color: ${({ step }) => (step === 1 ? ' #ececec' : 'var(--primary-regular)')};
     position: relative;
     .dot {
       width: 12px;
@@ -45,16 +45,16 @@ const StepLine = styled.div`
       border-radius: 50%;
       position: absolute;
       top: -4px;
-      border: ${({ step }) => (step === 1 ? '2px solid #ececec' : '2px solid #1e88e5')};
-      background-color: ${({ step }) => (step === 1 ? ' #ececec' : '#1e88e5')};
+      border: ${({ step }) => (step === 1 ? '2px solid #ececec' : '2px solid var(--primary-regular)')};
+      background-color: ${({ step }) => (step === 1 ? ' #ececec' : 'var(--primary-regular)')};
     }
     &:first-child {
       margin-left: 8px;
-      background-color: #1e88e5;
+      background-color: var(--primary-regular);
       .dot {
         left: 15px;
-        border: 2px solid #1e88e5;
-        background-color: #1e88e5;
+        border: 2px solid var(--primary-regular);
+        background-color: var(--primary-regular);
       }
     }
     &:nth-child(2) {

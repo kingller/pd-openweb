@@ -25,7 +25,7 @@ const InputCon = styled(Input)`
     border-color: #ccc !important;
   }
   &:focus {
-    border-color: #2196f3 !important;
+    border-color: var(--primary-regular) !important;
   }
   &::placeholder {
     color: #bdbdbd;
@@ -41,7 +41,7 @@ const RangeInputCon = styled.div`
     border-color: #ccc !important;
   }
   &:focus {
-    border-color: #2196f3 !important;
+    border-color: var(--primary-regular) !important;
   }
   &::placeholder {
     color: #bdbdbd;

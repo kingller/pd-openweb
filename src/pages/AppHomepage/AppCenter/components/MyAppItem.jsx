@@ -206,7 +206,7 @@ export default class MyAppItem extends Component {
       myPermissions = [],
     } = this.props;
     const isShowSelectIcon = selectIconVisible || newAppItemId === id;
-    const iconColor = this.props.iconColor || '#2196f3';
+    const iconColor = this.props.iconColor || 'var(--primary-regular)';
     const navColor = this.props.navColor || iconColor;
     const black = '#1b2025' === navColor;
     const light = [lightColor, '#ffffff', '#f5f6f7'].includes(navColor);

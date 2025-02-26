@@ -28,7 +28,7 @@ const Con = styled.div`
     border-top: 1px solid #f5f5f5;
     background-color: #fff;
     .edit {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

@@ -47,7 +47,7 @@ const Con = styled.div`
       margin-top: 24px;
       height: 36px;
       opacity: 1;
-      background: #2196f3;
+      background: var(--primary-regular);
       border-radius: 3px;
       font-size: 13px;
       font-weight: 700;
@@ -69,7 +69,7 @@ const Con = styled.div`
       a {
         color: #757575;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

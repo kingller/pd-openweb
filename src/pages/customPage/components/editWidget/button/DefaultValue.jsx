@@ -18,7 +18,7 @@ const AddButton = styled.div`
   border: 1px solid #EAEAEA;
   border-radius: 15px;
   background-color: #FFFFFF;
-  color: #2196F3;
+  color: var(--primary-regular);
   transition: all 0.3s;
   &:hover {
     color: #1079cc;
@@ -91,7 +91,7 @@ const DefaultValueInputWrap = styled.div`
     }
     .ant-input:focus,
     .ant-input-focused {
-      border-color: #2196f3 !important;
+      border-color: var(--primary-regular) !important;
       box-shadow: none !important;
     }
     .selectOtherFieldContainer {

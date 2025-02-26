@@ -15,7 +15,7 @@ const MenuBox = styled.div`
   background: white;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.13), 0 2px 6px rgba(0, 0, 0, 0.1);
   .icon-new_word {
-    color: #2196f3 !important;
+    color: var(--primary-regular) !important;
   }
   .icon-new_excel {
     color: #4caf50 !important;

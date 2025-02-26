@@ -199,7 +199,7 @@ export default class MobileCityPicker extends Component {
                         <div
                           className="mobileCityPickerListItem valignWrapper"
                           style={{
-                            color: select.length && select[select.length - 1].id === item.id ? '#2196f3' : '#000',
+                            color: select.length && select[select.length - 1].id === item.id ? 'var(--primary-regular)' : '#000',
                           }}
                         >
                           {showConfirmBtn ? (

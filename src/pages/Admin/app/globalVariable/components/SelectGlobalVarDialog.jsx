@@ -35,8 +35,8 @@ const SelectVarDialog = styled(Dialog)`
           margin-left: 32px;
         }
         &.active {
-          border-bottom: 3px solid #2196f3;
-          color: #2196f3;
+          border-bottom: 3px solid var(--primary-regular);
+          color: var(--primary-regular);
         }
       }
     }

@@ -34,7 +34,7 @@ const Department = styled.div`
     background-color: #d6ecfe;
     .icon,
     div {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
     .icon:hover {
       background-color: #f5f5f5 !important;

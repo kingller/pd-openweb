@@ -8,7 +8,7 @@ const ApplyBtn = styled.div`
   padding: 0 32px;
   height: 36px;
   border-radius: 18px;
-  background: #2196f3;
+  background: var(--primary-regular);
   color: #fff;
   cursor: pointer;
   &:hover {

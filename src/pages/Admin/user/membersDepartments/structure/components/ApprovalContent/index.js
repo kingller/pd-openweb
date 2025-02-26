@@ -15,7 +15,7 @@ const TabWrap = styled.div`
     padding: 10px 0;
     margin-right: 30px;
     &.active {
-      border-bottom: 2px solid #2196f3;
+      border-bottom: 2px solid var(--primary-regular);
     }
   }
 `;

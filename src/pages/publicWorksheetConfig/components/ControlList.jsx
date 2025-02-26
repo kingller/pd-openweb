@@ -13,7 +13,7 @@ const Wrapper = styled.div`
     font-size: 18px;
     cursor: pointer;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .sectionLiCon::before {

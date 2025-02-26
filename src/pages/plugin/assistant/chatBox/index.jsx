@@ -94,7 +94,7 @@ const Empty = styled.div`
       &.canSend {
         cursor: pointer;
         &:hover {
-          border-color: #2196f3;
+          border-color: var(--primary-regular);
         }
       }
     }
@@ -129,8 +129,8 @@ const FooterWrapper = styled.div`
       &.canStop {
         cursor: pointer;
         &:hover {
-          border-color: #2196f3;
-          color: #2196f3;
+          border-color: var(--primary-regular);
+          color: var(--primary-regular);
         }
       }
     }
@@ -154,7 +154,7 @@ const FooterWrapper = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #2196f3;
+      background: var(--primary-regular);
       font-size: 26px;
       color: #fff;
     }
@@ -177,7 +177,7 @@ const FooterWrapper = styled.div`
         &:hover {
           background: #f5f5f5;
           .icon-airplane {
-            color: #2196f3;
+            color: var(--primary-regular);
           }
         }
       }
@@ -481,7 +481,7 @@ export default function ChatBox(props) {
       return (
         <div
           className={cx('avatarWrapper', { hasBorder: !iconUrl, smallSize: size === 'small' })}
-          style={{ backgroundColor: iconUrl ? iconColor || '#2196f3' : '' }}
+          style={{ backgroundColor: iconUrl ? iconColor || 'var(--primary-regular)' : '' }}
         >
           {iconUrl ? (
             <SvgIcon url={iconUrl} fill={'#fff'} size={size === 'small' ? 24 : 32} />

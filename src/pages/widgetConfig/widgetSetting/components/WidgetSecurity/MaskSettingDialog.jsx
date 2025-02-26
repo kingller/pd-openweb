@@ -84,7 +84,7 @@ const SelectItem = styled.div`
     margin-left: 11px;
     cursor: pointer;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       background: #fafafa;
     }
   }
@@ -97,7 +97,7 @@ const SelectItem = styled.div`
       color: #bdbdbd;
     }
     &:focus {
-      border-color: #2196f3 !important;
+      border-color: var(--primary-regular) !important;
     }
     &.err {
       border-color: #ff0000;

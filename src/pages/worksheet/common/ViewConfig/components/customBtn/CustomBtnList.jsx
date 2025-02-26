@@ -46,7 +46,7 @@ class CustomBtnList extends React.Component {
                           className="mRight12 svgIconForBtn"
                           addClassName='TxtMiddle'
                           url={iconUrl}
-                          fill={!color ? '#2196f3' : color === 'transparent' ? '#333' : color}
+                          fill={!color ? 'var(--primary-regular)' : color === 'transparent' ? '#333' : color}
                           size={18}
                         />
                       ) : (

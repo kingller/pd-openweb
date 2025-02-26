@@ -69,13 +69,13 @@ const AccountWrap = styled.div`
     .btnSendVerifyCode {
       width: 130px;
       height: 36px;
-      background: #2196f3;
+      background: var(--primary-regular);
       opacity: 1;
       border-radius: 3px;
       border: 0;
       color: #fff;
       &.btnEnabled {
-        background-color: #2196f3;
+        background-color: var(--primary-regular);
         cursor: pointer;
         -webkit-transition: background-color 0.5s;
         transition: background-color 0.5s;

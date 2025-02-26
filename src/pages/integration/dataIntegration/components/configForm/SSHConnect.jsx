@@ -38,12 +38,12 @@ const CommonSelect = styled(Select)`
     transition: 0;
     box-shadow: none !important;
     &:hover {
-      border-color: #1e88e5 !important;
+      border-color: var(--primary-regular) !important;
     }
   }
   &.ant-select-focused {
     .ant-select-selector {
-      border-color: #1e88e5 !important;
+      border-color: var(--primary-regular) !important;
     }
   }
   &.ant-select-disabled {
@@ -66,7 +66,7 @@ const Wrapper = styled.div`
       cursor: pointer;
       color: rgba(0, 0, 0, 0.85);
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     .ant-select-item-empty {
@@ -85,7 +85,7 @@ const Wrapper = styled.div`
       cursor: pointer;
 
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     &.isHide {
@@ -134,7 +134,7 @@ const DialogWrapper = styled.div`
   }
 
   .copyButton {
-    color: #2196f3;
+    color: var(--primary-regular);
     cursor: pointer;
     margin-right: 8px;
     &.isHide {

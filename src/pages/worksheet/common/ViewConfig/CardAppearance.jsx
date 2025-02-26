@@ -61,7 +61,7 @@ const SwitchStyle = styled.div`
 const SelectValue = styled(DisplayControlOption)`
   &：hover {
     .icon {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

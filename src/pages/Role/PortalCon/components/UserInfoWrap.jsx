@@ -45,17 +45,17 @@ const Wrap = styled.div(
       box-sizing: border-box;
       &.saveBtn {
         color: #fff;
-        background: #2196f3;
+        background: var(--primary-regular);
         &:hover {
-          background: #1e88e5;
+          background: var(--primary-regular);
         }
       }
       &.cancelBtn {
         color: #9e9e9e;
         border: 1px solid #dddddd;
         &:hover {
-          color: #2196f3;
-          border: 1px solid #2196f3;
+          color: var(--primary-regular);
+          border: 1px solid var(--primary-regular);
         }
       }
     }

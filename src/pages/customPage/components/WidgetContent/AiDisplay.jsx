@@ -29,7 +29,7 @@ const AiDisplay = props => {
       const Con = widget.value ? (
         <div
           className="suspensionAi flexRow alignItemsCenter justifyContentCenter pointer"
-          style={{ backgroundColor: iconColor || '#2196f3' }}
+          style={{ backgroundColor: iconColor || 'var(--primary-regular)' }}
           onClick={() => {
             if (editable) return;
             AssistantChatBox({ assistantId: suspensionAi.id, name: suspensionAi.name });
@@ -41,7 +41,7 @@ const AiDisplay = props => {
       ) : (
         <div
           className="suspensionAi flexRow alignItemsCenter justifyContentCenter pointer"
-          style={{ backgroundColor: '#2196f3' }}
+          style={{ backgroundColor: 'var(--primary-regular)' }}
           onClick={() => {
             alert(_l('助手已关闭或删除'), 3);
           }}

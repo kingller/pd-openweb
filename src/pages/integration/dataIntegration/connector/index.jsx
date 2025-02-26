@@ -101,7 +101,7 @@ const FormCard = styled.div`
 
     &.ant-select-focused {
       .ant-select-selector {
-        border-color: #2196f3 !important;
+        border-color: var(--primary-regular) !important;
       }
     }
   }
@@ -112,7 +112,7 @@ const FormCard = styled.div`
     margin-left: 16px;
     min-width: 180px;
     max-width: 180px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border-radius: 8px !important;
 
     &.disabled {

@@ -21,7 +21,7 @@ const EditDialogBox = styled(Dialog)`
     line-height: 18px;
     border-radius: 3px;
     &:focus {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
   .mRight90 {
@@ -50,7 +50,7 @@ const DialogBox = styled(Dialog)`
         right: 0;
         content: '';
         height: 3px;
-        background: #2196f3;
+        background: var(--primary-regular);
       }
     }
     .codeSnippetSearch {
@@ -96,7 +96,7 @@ const DialogBox = styled(Dialog)`
         background: #fff;
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
         border-radius: 7px;
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     li {
@@ -107,11 +107,11 @@ const DialogBox = styled(Dialog)`
       cursor: pointer;
       &.active {
         background: rgba(33, 150, 243, 0.08);
-        color: #2196f3;
+        color: var(--primary-regular);
         &:after {
           width: 3px;
           height: 18px;
-          background: #2196f3;
+          background: var(--primary-regular);
           border-radius: 4px;
           position: absolute;
           content: '';
@@ -122,7 +122,7 @@ const DialogBox = styled(Dialog)`
       }
       &:hover {
         background: rgba(33, 150, 243, 0.08);
-        color: #2196f3;
+        color: var(--primary-regular);
         .codeSnippetOperator {
           display: flex;
         }
@@ -139,7 +139,7 @@ const DialogBox = styled(Dialog)`
         display: none;
         &:hover {
           background: #fff;
-          color: #2196f3;
+          color: var(--primary-regular);
         }
         &.active {
           display: flex;

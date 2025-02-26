@@ -20,7 +20,7 @@ const IconInputCon = styled.div`
   border: 1px solid #ccc;
   border-radius: 4px;
   &.focus {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
   input {
     flex: 1;

@@ -49,7 +49,7 @@ const IncomeWrap = styled.div`
   }
   .dateTxt:hover {
     .icon {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
 `;

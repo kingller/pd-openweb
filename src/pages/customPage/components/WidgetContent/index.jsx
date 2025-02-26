@@ -100,7 +100,7 @@ const LayoutContent = styled.div`
         color: #bdbdbd;
       }
       &:focus {
-        border-bottom: 2px solid #2196f3;
+        border-bottom: 2px solid var(--primary-regular);
       }
     }
   }

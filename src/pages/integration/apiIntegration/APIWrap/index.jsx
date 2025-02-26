@@ -51,8 +51,8 @@ const Wrap = styled.div`
         color: #757575;
       }
       &.isCur {
-        color: #2196f3;
-        border-bottom: 3px solid #2196f3;
+        color: var(--primary-regular);
+        border-bottom: 3px solid var(--primary-regular);
       }
     }
   }
@@ -132,8 +132,8 @@ const Wrap = styled.div`
         padding: 0 30px;
         border: 1px solid #ebebeb;
         &:hover {
-          color: #2196f3;
-          border: 1px solid #2196f3;
+          color: var(--primary-regular);
+          border: 1px solid var(--primary-regular);
         }
       }
     }
@@ -148,9 +148,9 @@ const Wrap = styled.div`
       height: 38px;
       border-radius: 3px;
       line-height: 38px;
-      color: #2196f3;
+      color: var(--primary-regular);
       padding: 0 30px;
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
       &:hover {
         color: #1764c0;
         border: 1px solid #1764c0;
@@ -163,7 +163,7 @@ const Wrap = styled.div`
   .icon-close {
     color: #9e9e9e;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

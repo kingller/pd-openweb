@@ -138,7 +138,7 @@ class CalculateControl extends Component {
         {(isNumber ? calculateControlNormTypes : textControlNormTypes).map(item => (
           <Menu.Item
             key={item.value}
-            style={{ color: norm.value === item.value ? '#2196f3' : null }}
+            style={{ color: norm.value === item.value ? 'var(--primary-regular)' : null }}
             onClick={() => {
               const newFormulaStr = this.state.formulaStr.replace(
                 new RegExp(`${controlId}-${norm.value || '\\d'}`),
@@ -270,7 +270,7 @@ class CalculateControl extends Component {
               }
             }}
           >
-            <div className="flexRow valignWrapper pointer" style={{ color: '#2196F3' }}>
+            <div className="flexRow valignWrapper pointer" style={{ color: 'var(--primary-regular)' }}>
               <Icon className="Font20" icon="add" />
               <span className="Font13">{_l('选择字段')}</span>
             </div>

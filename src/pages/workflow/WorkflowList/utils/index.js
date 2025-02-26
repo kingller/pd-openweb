@@ -82,12 +82,12 @@ export const START_APP_TYPE = {
   },
   5: {
     iconName: 'hr_surplus',
-    iconColor: '#2196f3',
+    iconColor: 'var(--primary-regular)',
     text: _l('时间'),
   },
   6: {
     iconName: 'hr_time',
-    iconColor: '#2196f3',
+    iconColor: 'var(--primary-regular)',
     text: _l('时间'),
   },
   7: {

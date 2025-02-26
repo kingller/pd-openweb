@@ -66,7 +66,7 @@ export default class HistoryChart extends PureComponent {
       seriesField: 'category',
       appendPadding: [20, 0],
       smooth: true,
-      color: ['#F51744', '#2196F3', '#61DDAA'],
+      color: ['#F51744', 'var(--primary-regular)', '#61DDAA'],
       xAxis: {
         label: {
           style: {
@@ -162,7 +162,7 @@ export default class HistoryChart extends PureComponent {
         start: 23 / 24,
         end: 1,
         foregroundStyle: {
-          fill: '#2196F3',
+          fill: 'var(--primary-regular)',
           opacity: 0.11,
         },
         TrendCfg: {

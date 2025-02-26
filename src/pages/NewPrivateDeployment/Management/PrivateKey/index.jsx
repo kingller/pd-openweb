@@ -41,7 +41,7 @@ const Wrap = styled.div`
   .btnWrapper {
     margin-top: 20px;
     .detailed {
-      color: #2196F3;
+      color: var(--primary-regular);
       font-size: 14px;
       margin-left: 20px;
       cursor: pointer;
@@ -86,7 +86,7 @@ const Wrap = styled.div`
       }
     }
     .associated {
-      color: #2196F3;
+      color: var(--primary-regular);
     }
     .serverId {
       width: 200px;
@@ -118,12 +118,12 @@ const Wrap = styled.div`
       }
     }
     .applyBtn {
-      color: #2196F3;
+      color: var(--primary-regular);
       font-size: 13px;
       padding: 8px 15px;
       border-radius: 3px;
       text-decoration: none;
-      border: 1px solid #2196F3;
+      border: 1px solid var(--primary-regular);
     }
   }
   .licenseCode {

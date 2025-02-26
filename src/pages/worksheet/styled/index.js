@@ -39,7 +39,7 @@ export const Button = styled.button`
 `;
 
 export const RevertButton = styled(Button)`
-  color: ${props => props.color || '#2196f3'};
+  color: ${props => props.color || 'var(--primary-regular)'};
   border: 1px solid currentColor;
   background: ${props => props.bgColor || 'transparent'};
   &:hover {

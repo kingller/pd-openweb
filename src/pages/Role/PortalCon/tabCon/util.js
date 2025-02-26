@@ -21,7 +21,7 @@ export const COLORS = [
   '#FF9800',
   '#4CAF50',
   '#00BCD4',
-  '#2196F3',
+  'var(--primary-regular)',
   '#9C26AF',
   '#3F51B5',
   '#455A64', //

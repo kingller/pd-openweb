@@ -19,12 +19,12 @@ const PopupWrap = styled.ul`
     padding: 14px 0;
     text-align: center;
     .icon {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     &.isCur {
       background: rgba(33, 150, 243, 0.08);
-      color: #2196f3;
-      border: 1px solid #2196f3;
+      color: var(--primary-regular);
+      border: 1px solid var(--primary-regular);
     }
     .toolTipCon {
       border-radius: 6px;

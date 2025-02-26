@@ -44,7 +44,7 @@ const Wrap = styled.div`
     .pass {
       &.isAct {
         background: #f3faff;
-        color: #2196f3;
+        color: var(--primary-regular);
         &:hover {
           background: #ebf6fe;
         }
@@ -61,18 +61,18 @@ const Wrap = styled.div`
     }
     .setList {
       height: 32px;
-      color: #2196f3;
+      color: var(--primary-regular);
       vertical-align: middle;
       line-height: 32px;
       padding: 0 12px;
       background: #f5f5f5;
       border-radius: 3px;
       &:hover {
-        color: #1e88e5;
+        color: var(--primary-regular);
       }
       &.isOpen {
         background: #ffffff;
-        border: 1px solid #2196f3;
+        border: 1px solid var(--primary-regular);
       }
     }
   }

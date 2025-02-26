@@ -28,7 +28,7 @@ const TimingSettingListWrapper = styled.div`
       &:hover {
         background: #f7f7f7;
         .tableName {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

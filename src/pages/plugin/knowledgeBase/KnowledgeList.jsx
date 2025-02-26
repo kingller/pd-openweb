@@ -16,7 +16,7 @@ const ListItemWrapper = styled.div`
   &:hover {
     background: rgba(247, 247, 247, 1);
     .titleText {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
     .uploadBtn {
       background: rgba(247, 247, 247, 1);
@@ -37,7 +37,7 @@ const ListItemWrapper = styled.div`
     background: #fff;
     font-size: 12px;
     font-weight: bold;
-    color: #2196f3;
+    color: var(--primary-regular);
     margin-right: 8px;
     border-radius: 20px;
     height: fit-content;
@@ -60,7 +60,7 @@ const ListItemWrapper = styled.div`
     cursor: pointer;
 
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       background: #fff !important;
     }
   }
@@ -71,7 +71,7 @@ const ListItemWrapper = styled.div`
       color: #bfbfbf;
       height: 8px;
       &.selected {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     &:hover {

@@ -59,7 +59,7 @@ const ControlsWrap = styled.div`
   .addRelate {
     margin-top: 6px;
     width: 280px;
-    color: #2196f3;
+    color: var(--primary-regular);
     font-weight: bold;
     line-height: 36px;
     cursor: pointer;

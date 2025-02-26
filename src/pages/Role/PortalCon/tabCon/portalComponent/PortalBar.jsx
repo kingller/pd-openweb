@@ -21,7 +21,7 @@ const Wrap = styled.div`
   .actIcon {
     color: #9e9e9e;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .searchTels {
@@ -56,7 +56,7 @@ const Wrap = styled.div`
         padding-right: 10px;
         position: relative;
         &:hover {
-          border: 1px solid #2196f3 !important;
+          border: 1px solid var(--primary-regular) !important;
         }
         input {
           flex: 1;

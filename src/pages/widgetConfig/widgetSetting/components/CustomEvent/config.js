@@ -82,7 +82,7 @@ export const EVENT_DETAIL = [
   { color: '#00c345', bgColor: '#DBF0DC' },
   { color: '#ff9300', bgColor: '#FFEBCD' },
   { color: '#f52222', bgColor: 'rgba(245, 34, 34, 0.6)' },
-  { color: '#2196F3', bgColor: 'rgba(33, 150, 243, 0.6)' },
+  { color: 'var(--primary-regular)', bgColor: 'rgba(33, 150, 243, 0.6)' },
 ];
 
 // 更多操纵
@@ -97,7 +97,7 @@ export const ALERT_TYPE_OPTIONS = [
   { text: _l('成功'), value: '1', icon: <CheckCircleFilled style={{ color: '#00C345' }} /> },
   { text: _l('失败'), value: '2', icon: <CloseCircleFilled style={{ color: '#F52222' }} /> },
   { text: _l('警告'), value: '3', icon: <ExclamationCircleFilled style={{ color: '#FF9A00' }} /> },
-  { text: _l('通知'), value: '4', icon: <InfoCircleFilled style={{ color: '#2196F3' }} /> },
+  { text: _l('通知'), value: '4', icon: <InfoCircleFilled style={{ color: 'var(--primary-regular)' }} /> },
 ];
 
 const SUPPORT_VALUE_CHANGE_WIDGET = [

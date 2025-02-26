@@ -33,7 +33,7 @@ const ConfigWrap = styled.div`
       cursor: pointer;
       transition: color 0.25s;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }

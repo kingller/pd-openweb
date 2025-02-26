@@ -29,7 +29,7 @@ const TaskListBox = styled.div`
           height: 8px;
 
           &.selected {
-            color: #2196f3;
+            color: var(--primary-regular);
           }
         }
       }
@@ -44,7 +44,7 @@ const TaskListBox = styled.div`
           }
         }
         .titleText {
-          color: #2196f3 !important;
+          color: var(--primary-regular) !important;
         }
         .optionIcon {
           background: rgba(247, 247, 247, 1);
@@ -110,7 +110,7 @@ const TaskListBox = styled.div`
     background: #fff;
 
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       background: #fff !important;
     }
   }
@@ -256,7 +256,7 @@ const FilterItem = styled.div`
 
       &.isActive {
         font-weight: 600;
-        color: #2196f3;
+        color: var(--primary-regular);
       }
       &:hover {
         border-color: #ccc;
@@ -285,7 +285,7 @@ const FilterItem = styled.div`
       cursor: pointer;
 
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
         background: #f5f5f5;
       }
     }
@@ -306,8 +306,8 @@ const SelectedWrapper = styled.div`
     border-radius: 3px;
     cursor: pointer;
     &:hover {
-      border-color: #2196f3;
-      color: #2196f3;
+      border-color: var(--primary-regular);
+      color: var(--primary-regular);
     }
   }
 `;

@@ -25,7 +25,7 @@ const CreateRecordWrap = styled.div`
     font-size: 16px;
     color: #9e9e9e;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

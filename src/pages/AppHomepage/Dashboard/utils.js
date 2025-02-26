@@ -17,7 +17,7 @@ export const getGreetingText = () => {
 };
 
 export const getAppOrItemColor = (appItem, isItem) => {
-  const iconColor = appItem.iconColor || '#2196f3';
+  const iconColor = appItem.iconColor || 'var(--primary-regular)';
   const navColor = appItem.navColor || iconColor;
   const black = '#1b2025' === navColor;
   const light = [appItem.lightColor, '#ffffff', '#f5f6f7'].includes(navColor);
@@ -32,7 +32,7 @@ export const getAppOrItemColor = (appItem, isItem) => {
 };
 
 export const themeColors = [
-  '#2196F3',
+  'var(--primary-regular)',
   '#2F54EB',
   '#732ED1',
   '#1EBCD5',
@@ -48,14 +48,14 @@ export const getDashboardColor = color => {
   if (!color || (!_.includes(themeColors, color) && !color.startsWith('#'))) {
     return {
       bgColor: '#f7f8fc',
-      themeColor: '#2196F3',
-      activeColor: getRgbaByColor('#2196f3', '0.1'),
-      hoverColor: getRgbaByColor('#2196f3', '0.16'),
+      themeColor: 'var(--primary-regular)',
+      activeColor: getRgbaByColor('var(--primary-regular)', '0.1'),
+      hoverColor: getRgbaByColor('var(--primary-regular)', '0.16'),
     };
   }
 
   return {
-    bgColor: color !== '#2196F3' ? (color === '#d4b106' ? '#f9f7d7' : generate(color)[0]) : '#f7f8fc',
+    bgColor: color !== 'var(--primary-regular)' ? (color === '#d4b106' ? '#f9f7d7' : generate(color)[0]) : '#f7f8fc',
     themeColor: color,
     activeColor: getRgbaByColor(color, '0.1'),
     hoverColor: getRgbaByColor(color, '0.16'),

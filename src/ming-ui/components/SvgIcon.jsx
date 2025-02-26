@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactSVG } from 'react-svg';
 
-export default ({ url = '', size = 24, fill = '#2196f3', className, addClassName = '' }) => {
+export default ({ url = '', size = 24, fill = 'var(--primary-regular)', className, addClassName = '' }) => {
   return (
     <ReactSVG
       className={className}

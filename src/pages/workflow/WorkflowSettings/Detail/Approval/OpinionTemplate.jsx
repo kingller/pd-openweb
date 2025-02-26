@@ -31,7 +31,7 @@ const Btn = styled.div`
   cursor: pointer;
   color: #757575;
   &:hover {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
 `;
 

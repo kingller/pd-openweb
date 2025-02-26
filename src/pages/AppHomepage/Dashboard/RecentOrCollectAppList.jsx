@@ -91,7 +91,7 @@ const AppItem = styled.div`
     .icon-star-hollow {
       color: #9e9e9e;
       &:hover {
-        color: #1e88e5;
+        color: var(--primary-regular);
       }
     }
   }

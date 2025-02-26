@@ -33,16 +33,16 @@ const DialogWrap = styled(Dialog)`
       font-weight: 600;
       margin-right: 16px;
       &:hover {
-        border: 1px solid #2196f3;
-        color: #2196f3;
+        border: 1px solid var(--primary-regular);
+        color: var(--primary-regular);
       }
     }
     .okPay {
       height: 44px;
       line-height: 44px;
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
       &:hover {
-        background-color: #1e88e5;
+        background-color: var(--primary-regular);
       }
       &.w120 {
         width: 120px !important;
@@ -128,7 +128,7 @@ const DialogWrap = styled(Dialog)`
     .mobileOkPay {
       height: 44px;
       line-height: 44px;
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
       border-radius: 22px;
       font-size: 15px;
     }

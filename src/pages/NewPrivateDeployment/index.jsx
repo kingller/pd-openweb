@@ -42,8 +42,8 @@ const Wrap = styled.div`
     padding: 2px 15px;
     border-radius: 3px;
     &.ant-btn-primary {
-      background-color: #2196f3;
-      border-color: #2196f3;
+      background-color: var(--primary-regular);
+      border-color: var(--primary-regular);
     }
     &.ant-btn-background-ghost {
       background: transparent !important;
@@ -56,7 +56,7 @@ const Wrap = styled.div`
     &.ant-select:not(.ant-select-disabled):hover .ant-select-selector,
     &.ant-select-focused:not(.ant-select-disabled).ant-select-single:not(.ant-select-customize-input)
       .ant-select-selector {
-      border-color: #2196f3 !important;
+      border-color: var(--primary-regular) !important;
     }
     .ant-select-selector {
       border-radius: 4px !important;

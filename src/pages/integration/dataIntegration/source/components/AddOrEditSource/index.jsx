@@ -62,9 +62,9 @@ const HeaderWrapper = styled.div`
           font-weight: 600;
         }
         &.isCur {
-          border-bottom: 3px solid #2196f3;
+          border-bottom: 3px solid var(--primary-regular);
           a {
-            color: #2196f3;
+            color: var(--primary-regular);
           }
         }
       }

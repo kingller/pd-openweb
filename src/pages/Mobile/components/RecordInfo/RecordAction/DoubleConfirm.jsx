@@ -54,10 +54,10 @@ const ConfirmDialogWrap = styled(Popup)`
       border: 1px solid #ddd;
     }
     .ming.Button--primary {
-      background: #2196f3;
+      background: var(--primary-regular);
     }
     .ming.Button--primary:hover {
-      background: #2196f3;
+      background: var(--primary-regular);
     }
   }
 `;
@@ -81,7 +81,7 @@ const SectionName = styled.div`
     right: 0;
     top: 0;
     font-weight: 400;
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 
@@ -126,10 +126,10 @@ const RemarkModeModal = styled(Popup)`
     border: 1px solid #ddd;
   }
   .ming.Button--primary {
-    background: #2196f3;
+    background: var(--primary-regular);
   }
   .ming.Button--primary:hover {
-    background: #2196f3;
+    background: var(--primary-regular);
   }
 `;
 

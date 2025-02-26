@@ -140,7 +140,7 @@ export const HomePageWrap = styled.div`
       font-size: 12px;
       cursor: pointer;
       .Hover_21:hover {
-        color: #2196f3 !important;
+        color: var(--primary-regular) !important;
       }
     }
     .limitUser {
@@ -258,7 +258,7 @@ export const HomePageWrap = styled.div`
       align-items: center;
       i {
         font-size: 24px;
-        color: #2196f3;
+        color: var(--primary-regular);
       }
       span {
         color: #757575;
@@ -333,7 +333,7 @@ export const HomePageWrap = styled.div`
       margin: 0 12px;
       span {
         font-size: 16px;
-        color: #2196f3;
+        color: var(--primary-regular);
         margin: 0 4px;
       }
     }
@@ -343,7 +343,7 @@ export const HomePageWrap = styled.div`
       color: #757575;
     }
     .upgrade {
-      color: #2196f3;
+      color: var(--primary-regular);
       margin-left: 6px;
     }
     .delayTrial {
@@ -356,7 +356,7 @@ export const HomePageWrap = styled.div`
       span {
         margin-left: 4px;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }
@@ -480,7 +480,7 @@ export const FreeTrialWrap = styled.div`
     font-size: 18px;
     margin-top: 20px;
     span {
-      color: #2196f3;
+      color: var(--primary-regular);
       font-size: 24px;
       margin: 0 6px;
     }
@@ -490,7 +490,7 @@ export const FreeTrialWrap = styled.div`
     margin: 12px 0;
   }
   .remainTime {
-    color: #2196f3;
+    color: var(--primary-regular);
     margin-left: 6px;
   }
   .inviteRules {
@@ -500,7 +500,7 @@ export const FreeTrialWrap = styled.div`
     li {
       min-width: 80px;
       .achieveDays {
-        color: #2196f3;
+        color: var(--primary-regular);
         font-size: 14px;
         span {
           margin-right: 4px;
@@ -517,9 +517,9 @@ export const FreeTrialWrap = styled.div`
       }
     }
     .activeSymbolWrap {
-      background: #2196f3 !important;
+      background: var(--primary-regular) !important;
       .iconWrap {
-        background: #2196f3 !important;
+        background: var(--primary-regular) !important;
       }
     }
     .symbolWrap {

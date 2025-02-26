@@ -64,9 +64,9 @@ const Wrap = styled.div`
   .defaultColor {
     position: relative;
     &.active {
-      border-color: #2196F3;
+      border-color: var(--primary-regular);
       &::after {
-        background-color: #2196F3;
+        background-color: var(--primary-regular);
       }
     }
     &::after {
@@ -124,7 +124,7 @@ const Wrap = styled.div`
       justify-content: center;
     }
     .active {
-      color: #2196F3 !important;
+      color: var(--primary-regular) !important;
       border-radius: 3px;
       font-weight: bold;
       background-color: #fff;
@@ -132,7 +132,7 @@ const Wrap = styled.div`
   }
   .pageSelect {
     &.ant-select:not(.ant-select-disabled):hover .ant-select-selector, &.ant-select-focused:not(.ant-select-disabled).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
-      border-color: #2196F3 !important;
+      border-color: var(--primary-regular) !important;
     }
     .ant-select-selector {
       border-radius: 4px !important;

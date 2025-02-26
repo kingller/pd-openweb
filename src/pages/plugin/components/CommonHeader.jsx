@@ -23,7 +23,7 @@ const HeaderWrapper = styled.div`
 const AddBtn = styled.div`
   padding: 8px 24px;
   min-width: 92px;
-  background: #2196f3;
+  background: var(--primary-regular);
   border-radius: 18px;
   color: #fff;
   display: inline-block;

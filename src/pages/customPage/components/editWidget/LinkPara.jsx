@@ -40,7 +40,7 @@ const LinkParaWrap = styled.div`
       &.active,
       &:hover {
         i {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
       i {
@@ -59,7 +59,7 @@ const LinkParaWrap = styled.div`
   .add {
     margin-top: 16px;
     font-weight: bold;
-    color: #2196f3;
+    color: var(--primary-regular);
     &:hover {
       color: #1b83d6;
     }

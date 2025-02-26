@@ -26,7 +26,7 @@ const SetInitialPassword = styled.div`
       width: 320px;
       height: 36px;
       margin: 0 24px 0 28px;
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
     .passwordError {
       border: 1px solid #ff4d4f;

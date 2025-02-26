@@ -23,7 +23,7 @@ const TASK_STATUS_TEXT = {
 
 const COLORS = {
   gray: '#9e9e9e',
-  blue: '#2196f3',
+  blue: 'var(--primary-regular)',
   green: '#30af00',
   red: '#ff0000',
   yellow: '#ffa414',

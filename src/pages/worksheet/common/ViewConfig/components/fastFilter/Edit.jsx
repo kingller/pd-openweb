@@ -89,7 +89,7 @@ const Wrap = styled.div`
       .icon-close {
         color: #9d9d9d !important
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }
@@ -108,7 +108,7 @@ const Wrap = styled.div`
       }
       .active {
         .inputBox {
-          border: 1px solid #2196f3;
+          border: 1px solid var(--primary-regular);
         }
       }
       .inputBox {
@@ -252,7 +252,7 @@ const Wrap = styled.div`
       border-color: #bbb;
     }
     &:focus {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
 `;

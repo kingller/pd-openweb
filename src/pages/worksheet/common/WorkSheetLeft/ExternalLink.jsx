@@ -45,7 +45,7 @@ const TagTextareaWrap = styled.div`
     align-items: center;
     justify-content: center;
     &:hover .icon-workflow_other {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
 `;

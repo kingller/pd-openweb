@@ -24,7 +24,7 @@ const Wrap = styled.div(
   .toRole {
     color: #5a5a5a;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   padding: 16px 10px 0 10px;
@@ -76,8 +76,8 @@ const Wrap = styled.div(
       line-height: 32px;
       display: inline-block;
       &:hover {
-        border: 1px solid #2196f3;
-        color: #2196f3;
+        border: 1px solid var(--primary-regular);
+        color: var(--primary-regular);
       }
     }
     .addUser {
@@ -87,7 +87,7 @@ const Wrap = styled.div(
       line-height: 32px;
       border-radius: 3px;
       color: #fff;
-      background: #2196f3;
+      background: var(--primary-regular);
       i::before {
         line-height: 32px;
         color: #fff;
@@ -106,9 +106,9 @@ const Wrap = styled.div(
         cursor: pointer;
         height: 32px;
         display: inline-block;
-        background: #2196f3;
+        background: var(--primary-regular);
         &:hover {
-          background: #1e88e5;
+          background: var(--primary-regular);
         }
       }
     }
@@ -121,7 +121,7 @@ const Wrap = styled.div(
       line-height: 32px;
       text-align: center;
       background: #f3faff;
-      color: #2196f3;
+      color: var(--primary-regular);
       &:hover {
         background: #ebf6fe;
       }
@@ -135,7 +135,7 @@ const Wrap = styled.div(
     }
   }
   .isCurmemberType {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   .topActDrop .Dropdown--input {
     display: flex;

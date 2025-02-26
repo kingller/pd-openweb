@@ -27,7 +27,7 @@ const Box = styled.div`
     align-items: center;
   }
   .noData .icon {
-    color: #2196f3 !important;
+    color: var(--primary-regular) !important;
   }
   .list .listItem {
     width: 100%;
@@ -152,7 +152,7 @@ const MoreOperateMenu = styled.ul`
     padding: 0 24px;
     cursor: pointer;
     &:hover {
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
       color: #fff;
     }
   }

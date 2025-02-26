@@ -129,7 +129,7 @@ export const APPROVAL_SYS = [
 export const PRINT_TYPE_STYLE = {
   [PRINT_TYPE.WORD_PRINT]: {
     icon: 'new_word',
-    background: '#2196f3 0% 0% no-repeat padding-box',
+    background: 'var(--primary-regular) 0% 0% no-repeat padding-box',
     text: _l('Word 模板'),
     fileIcon: 'fileIcon-word',
   }, // word模版打印

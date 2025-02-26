@@ -33,10 +33,10 @@ const Wrap = styled.div`
       margin-top: 14px;
       &.hs {
         background: #e3f2fd;
-        color: #2196f3;
+        color: var(--primary-regular);
       }
       &.cur {
-        background: #2196f3;
+        background: var(--primary-regular);
         color: #fff;
       }
     }
@@ -61,7 +61,7 @@ const Wrap = styled.div`
     height: 36px;
     line-height: 36px;
     border-radius: 3px 3px 3px 3px;
-    background: #2196f3;
+    background: var(--primary-regular);
     color: #fff;
     &.canClear {
       background: #ffffff;
@@ -82,7 +82,7 @@ const Wrap = styled.div`
       border-color: #bbb;
     }
     &:focus {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
   .tagInputarea .tagInputareaIuput:not(.active) {

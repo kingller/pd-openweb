@@ -61,7 +61,7 @@ const Drag = styled.div(
   cursor: ew-resize;
   border-left: 1px solid #e0e0e0;
   &:hover{
-    border-left: 1px solid #2196f3;
+    border-left: 1px solid var(--primary-regular);
   }
 `,
 );

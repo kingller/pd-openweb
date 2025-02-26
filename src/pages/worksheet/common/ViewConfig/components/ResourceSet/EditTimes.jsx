@@ -20,7 +20,7 @@ const Wrap = styled.div`
     padding: 0 16px;
     background: #f8f8f8;
     border-radius: 3px;
-    color: #2196f3;
+    color: var(--primary-regular);
     &:hover {
       background: #f5f5f5;
     }

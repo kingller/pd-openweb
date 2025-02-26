@@ -218,6 +218,7 @@ class WorkSheet extends Component {
       _.get(this.props, 'appPkg.iconColor') !== _.get(nextProps, 'appPkg.iconColor') ||
       (!this.appThemeColorStyle && _.get(nextProps, 'appPkg.iconColor'))
     ) {
+      console.log('changeAppThemeColor', getThemeColorFromCookie())
       this.changeAppThemeColor(getThemeColorFromCookie() || _.get(nextProps, 'appPkg.iconColor'));
     }
   }
@@ -237,6 +238,7 @@ class WorkSheet extends Component {
     if (themeColor) {
       this.removeAppThemeColor();
       const style = document.createElement('style');
+      console.log('themeColor', themeColor)
       style.innerHTML = `:root { --app-primary-color: ${themeColor}; --app-primary-hover-color: ${new TinyColor(
         themeColor,
       )

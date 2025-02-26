@@ -43,9 +43,9 @@ const GunterTypeChoose = styled.div`
       border-radius: 0 3px 3px 0;
     }
     &.current {
-      background: #2196f3;
+      background: var(--primary-regular);
       color: #fff;
-      border: #2196f3;
+      border: var(--primary-regular);
     }
   }
 `;

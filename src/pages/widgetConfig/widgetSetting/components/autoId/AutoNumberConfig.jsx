@@ -46,7 +46,7 @@ const NumberConfigWrap = styled.div`
     font-size: 13px;
   }
   .clickable {
-    color: #2196f3;
+    color: var(--primary-regular);
     cursor: pointer;
   }
   .footerBtn {

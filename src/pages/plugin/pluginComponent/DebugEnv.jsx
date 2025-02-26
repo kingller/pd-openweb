@@ -30,7 +30,7 @@ const Wrapper = styled.div`
         width: 220px;
       }
       .confirmBtn {
-        background: #2196f3;
+        background: var(--primary-regular);
         :hover {
           background: #1565c0;
         }
@@ -42,9 +42,9 @@ const Wrapper = styled.div`
         &.isValidView {
           cursor: pointer;
           &:hover {
-            color: #2196f3;
+            color: var(--primary-regular);
             i {
-              color: #2196f3 !important;
+              color: var(--primary-regular) !important;
             }
           }
         }

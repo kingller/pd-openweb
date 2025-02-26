@@ -6,9 +6,9 @@ import { Icon, LoadDiv } from 'ming-ui';
 const TestButton = styled.div`
   display: inline-block;
   vertical-align: middle;
-  border: 1px solid #2196f3;
+  border: 1px solid var(--primary-regular);
   border-radius: 3px;
-  color: #2196f3;
+  color: var(--primary-regular);
   background-color: #fff;
   font-size: 14px;
   line-height: 18px;
@@ -19,7 +19,7 @@ const TestButton = styled.div`
   &.lightHover {
     &.default {
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
         background: #f4f8fb;
       }
     }
@@ -28,7 +28,7 @@ const TestButton = styled.div`
   &.default {
     &:hover {
       color: #fff;
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
     }
   }
 

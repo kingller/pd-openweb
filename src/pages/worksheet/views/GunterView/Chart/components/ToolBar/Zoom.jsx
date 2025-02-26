@@ -15,7 +15,7 @@ const IconWrap = styled(Icon)`
     cursor: inherit;
   }
   &.hoverColor:hover:not(.disable) {
-    color: #2196f3 !important;
+    color: var(--primary-regular) !important;
   }
 `;
 

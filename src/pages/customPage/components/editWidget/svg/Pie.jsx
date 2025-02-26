@@ -8,7 +8,7 @@ export default props => (
         fill="#ffa340"
       />
       <path data-name="\u8DEF\u5F84 60024" d="M77.534 38.769A38.77 38.77 0 0038.765 0v.15a38.767 38.767 0 0138.769 38.619z" fill="#448aff" />
-      <path data-name="\u8DEF\u5F84 60025" d="M59.938 38.769h17.6A38.767 38.767 0 0038.773.15v17.593a21.173 21.173 0 0121.165 21.026z" fill="#2196f3" />
+      <path data-name="\u8DEF\u5F84 60025" d="M59.938 38.769h17.6A38.767 38.767 0 0038.773.15v17.593a21.173 21.173 0 0121.165 21.026z" fill="var(--primary-regular)" />
       <path data-name="\u8DEF\u5F84 60026" d="M77.536 38.839v-.07c-.002.024 0 .048 0 .07z" fill="#3f51b5" />
       <path
         data-name="\u8DEF\u5F84 60027"

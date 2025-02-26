@@ -126,9 +126,9 @@ const ListWrapper = styled.div`
       align-items: center;
       cursor: pointer;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
         i {
-          color: #2196f3 !important;
+          color: var(--primary-regular) !important;
         }
       }
     }

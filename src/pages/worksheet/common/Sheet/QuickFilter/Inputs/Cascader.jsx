@@ -14,7 +14,7 @@ const Con = styled.div`
   line-height: 32px;
   border-radius: 4px;
   overflow: hidden;
-  border: 1px solid ${({ active }) => (active ? '#2196f3' : '#ddd')} !important;
+  border: 1px solid ${({ active }) => (active ? 'var(--primary-regular)' : '#ddd')} !important;
   .clearIcon {
     display: none;
   }

@@ -73,9 +73,9 @@ const HeaderWrap = styled.div`
       color: #757575;
     }
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       .trashIcon {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
@@ -100,10 +100,10 @@ const CreateBtn = styled.div`
 const DropdownBox = styled.div`
   &.active {
     .Dropdown--border {
-      border-color: #2196f3 !important;
+      border-color: var(--primary-regular) !important;
       background: #e3f2fd;
       .value {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     &:hover {
@@ -122,7 +122,7 @@ const DropdownBox = styled.div`
     right: 6px;
     color: #757575;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;
@@ -134,7 +134,7 @@ const ArrowUp = styled.span`
   cursor: pointer;
   &:hover,
   &.active {
-    border-color: transparent transparent #2196f3 transparent;
+    border-color: transparent transparent var(--primary-regular) transparent;
   }
 `;
 
@@ -146,7 +146,7 @@ const ArrowDown = styled.span`
   margin-top: 2px;
   &:hover,
   &.active {
-    border-color: #2196f3 transparent transparent transparent;
+    border-color: var(--primary-regular) transparent transparent transparent;
   }
 `;
 

@@ -70,7 +70,7 @@ export default function CreateFirstApp(props) {
     {
       type: 'create',
       icon: 'addapplication2',
-      iconColor: '#2196f3',
+      iconColor: 'var(--primary-regular)',
       title: _l('创建空白应用'),
       desc: _l('从头开始创造您自己的应用'),
       key: 'addAppIcon',

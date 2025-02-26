@@ -67,7 +67,7 @@ const mathods = [
   {
     type: 'consultant',
     icon: 'icon-history_edu',
-    iconColor: '#2196F3',
+    iconColor: 'var(--primary-regular)',
     title: _l('联系顾问购买'),
     description: _l('适合具备自主搭建应用能力的客户'),
   },

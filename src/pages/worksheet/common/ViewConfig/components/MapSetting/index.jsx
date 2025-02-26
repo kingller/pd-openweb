@@ -28,12 +28,12 @@ const Wrap = styled.div`
       border-radius: 0 3px 3px 0;
     }
     &.current {
-      background: #2196f3;
+      background: var(--primary-regular);
       color: #fff !important;
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;
@@ -74,7 +74,7 @@ const DisplayControlOption = styled(FlexCenter)`
 const SelectValue = styled(DisplayControlOption)`
   &：hover {
     .icon {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

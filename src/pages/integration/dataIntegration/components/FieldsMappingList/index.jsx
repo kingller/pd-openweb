@@ -41,7 +41,7 @@ const Wrapper = styled.div`
       width: 20px;
       height: 20px;
       transform: rotate(-90deg);
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     .numberTips {
       width: 20px;
@@ -68,7 +68,7 @@ const Wrapper = styled.div`
         display: block;
         i {
           &:hover {
-            color: #2196f3;
+            color: var(--primary-regular);
           }
         }
       }
@@ -128,9 +128,9 @@ const Wrapper = styled.div`
         margin-left: 8px;
       }
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
         i {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

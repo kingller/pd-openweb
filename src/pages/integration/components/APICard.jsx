@@ -30,7 +30,7 @@ const Wrap = styled.div`
     .icon {
       color: #9e9e9e;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     .del {
@@ -47,7 +47,7 @@ const Wrap = styled.div`
   &:hover {
     border: 1px solid #e8e8e8;
     .name {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     .optionCon {
       opacity: 1;

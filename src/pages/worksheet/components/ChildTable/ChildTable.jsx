@@ -99,7 +99,7 @@ const BatchAddOfAddRowComp = styled.div`
   padding: 0 8px;
   background: #fff;
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 

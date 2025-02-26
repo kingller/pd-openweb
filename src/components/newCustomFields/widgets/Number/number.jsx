@@ -35,7 +35,7 @@ const MobileAction = styled.div`
   margin-left: ${props => (props.type === 'add' ? 6 : 0)}px;
   border: 1px solid #e0e0e0;
   .icon {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 

@@ -121,7 +121,7 @@ export const RelateInfo = styled.div`
     margin: 0 4px;
   }
   .name {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 export const InfoWrap = styled.div`
@@ -152,11 +152,11 @@ export const EditInfo = styled(InfoWrap)`
     .clearBtn {
       visibility: visible;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     .edit {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   &.borderError {
@@ -183,7 +183,7 @@ export const DropdownPlaceholder = styled.div`
   cursor: pointer;
   &.active,
   &:hover {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
     &.disabled {
       border-color: #ddd;
     }
@@ -235,11 +235,11 @@ export const SelectFieldsWrap = styled.div`
   }
   .clearValue {
     line-height: 36px;
-    color: #2196f3;
+    color: var(--primary-regular);
     padding-left: 12px;
     cursor: pointer;
     &:hover {
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
       color: #fff;
     }
   }
@@ -300,7 +300,7 @@ export const SelectFieldsWrap = styled.div`
       overflow: hidden;
       text-overflow: ellipsis;
       &:hover {
-        background-color: #2196f3;
+        background-color: var(--primary-regular);
         color: #fff;
         i {
           color: #fff;
@@ -419,7 +419,7 @@ export const OptionWrap = styled.div`
     color: #333;
     padding: 0 4px;
   }
-  background-color: ${props => props.color || '#2196f3'};
+  background-color: ${props => props.color || 'var(--primary-regular)'};
 `;
 
 export const EditModelWrap = styled.div`
@@ -514,7 +514,7 @@ export const IntroMenu = styled.div`
     padding: 0 16px;
     cursor: pointer;
     &:hover {
-      background: #2196f3;
+      background: var(--primary-regular);
       color: #fff;
       i {
         color: #fff;
@@ -560,7 +560,7 @@ export const WidgetIntroWrap = styled.div`
   }
   .iconWrap {
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 
@@ -589,7 +589,7 @@ export const WidgetIntroWrap = styled.div`
       &.active {
         background: #f5f5f5;
         i {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }
@@ -633,7 +633,7 @@ export const DropdownContent = styled.div`
       color: #bdbdbd;
     }
     &:not(disabled):hover {
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
       color: #ffffff;
       i {
         color: #ffffff;
@@ -738,7 +738,7 @@ export const RelateDetail = styled.div`
     flex: 1;
     &.needLink {
       cursor: pointer;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;
@@ -763,9 +763,9 @@ export const AnimationWrap = styled.div`
       margin-left: 0;
     }
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       i {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     i {
@@ -773,9 +773,9 @@ export const AnimationWrap = styled.div`
     }
     &.active {
       background: #ffffff;
-      color: #2196f3;
+      color: var(--primary-regular);
       i {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     &.disabled {
@@ -816,7 +816,7 @@ export const SheetViewWrap = styled.div`
     color: #989898;
     &:hover {
       background: #f5f5f5;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;
@@ -847,7 +847,7 @@ export const BothRelateInfo = styled.div`
     margin: 0 4px;
   }
   .sourceName {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 
@@ -884,11 +884,11 @@ export const DisplayMode = styled.div`
 
     &.active {
       div {
-        border: 2px solid #2196f3 !important;
+        border: 2px solid var(--primary-regular) !important;
       }
       .text,
       i {
-        color: #2196f3 !important;
+        color: var(--primary-regular) !important;
       }
     }
     &:hover {

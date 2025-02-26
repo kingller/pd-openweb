@@ -55,7 +55,7 @@ const AddWrap = styled(FlexCenter)`
   color: #9d9d9d;
   &:hover {
     background-color: rgba(3, 3, 3, 0.1);
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 

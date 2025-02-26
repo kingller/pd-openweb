@@ -64,9 +64,9 @@ const FilterTitleItemCon = styled(VerticalMiddle)`
   }
   &.active {
     background: #e5f3fe;
-    color: #2196f3;
+    color: var(--primary-regular);
     .filterIcon {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   &:hover:not(.active):not(.isDragging) {

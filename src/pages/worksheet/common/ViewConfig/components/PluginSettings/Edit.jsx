@@ -108,7 +108,7 @@ const Wrap = styled.div`
       border-color: #bbb;
     }
     &:focus {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
   .cover {

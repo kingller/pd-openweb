@@ -75,7 +75,7 @@ const HeaderWrapper = styled.div`
 
         &.isActive {
           .stepIcon {
-            background: #2196f3;
+            background: var(--primary-regular);
             color: #fff;
           }
           span {
@@ -85,13 +85,13 @@ const HeaderWrapper = styled.div`
         &.isComplete {
           .stepIcon {
             background-color: #ecf6fe;
-            color: #2196f3;
+            color: var(--primary-regular);
           }
           span {
             color: #9e9e9e;
           }
           .connectLine {
-            background-color: #2196f3;
+            background-color: var(--primary-regular);
           }
         }
       }
@@ -110,9 +110,9 @@ const HeaderWrapper = styled.div`
     }
     .lastStepButton {
       margin-right: 16px;
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
       background: #fff;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

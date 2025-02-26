@@ -97,7 +97,7 @@ export const DropdownOverlay = styled.div`
         color: #bdbdbd;
       }
       &:not(disabled):hover {
-        background-color: #2196f3;
+        background-color: var(--primary-regular);
         color: #ffffff;
         i {
           color: #ffffff;

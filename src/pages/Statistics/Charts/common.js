@@ -195,7 +195,7 @@ export const getAuxiliaryLineConfig = (auxiliaryLines = [], data, { yaxisList, c
     const getStyle = () => {
       if (item.type === 'tendencyLine' && controlId) {
         const index = _.findIndex(yaxisList, { controlId: item.controlId });
-        const color = colors[index] || '#2196F3';
+        const color = colors[index] || 'var(--primary-regular)';
         return {
           stroke: color,
           ...getLineStyle(item.style)

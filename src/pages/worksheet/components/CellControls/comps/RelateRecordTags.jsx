@@ -79,7 +79,7 @@ const Tag = styled.div`
     padding-right: 24px;
   }
   &.allowOpenRecord:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
     background-color: rgba(33, 150, 243, 0.16);
     cursor: pointer;
   }

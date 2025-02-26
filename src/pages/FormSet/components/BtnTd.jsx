@@ -91,7 +91,7 @@ export default function BtnTd(props) {
     return _l('未分配视图');
   };
   const color = !it.color
-    ? '#2196f3'
+    ? 'var(--primary-regular)'
     : it.color === 'transparent' && !it.icon
     ? '#9e9e9e'
     : it.color === 'transparent'

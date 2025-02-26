@@ -16,7 +16,7 @@ const ClickAwayable = createDecoratedComponent(withClickAway);
 const Box = styled.span`
   color: ${props => (props.isBranch ? '#757575' : 'rgba(255, 255, 255, 0.8)')};
   &:hover {
-    color: ${props => (props.isBranch ? '#2196f3' : '#fff')};
+    color: ${props => (props.isBranch ? 'var(--primary-regular)' : '#fff')};
   }
 `;
 

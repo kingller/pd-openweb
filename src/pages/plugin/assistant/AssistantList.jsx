@@ -136,7 +136,7 @@ function AssistantList(props) {
               <div className="flexRow alignItemsCenter">
                 <div
                   className={cx('iconWrapper', { hasBorder: !item.iconUrl })}
-                  style={{ backgroundColor: item.iconUrl ? item.iconColor || '#2196f3' : '' }}
+                  style={{ backgroundColor: item.iconUrl ? item.iconColor || 'var(--primary-regular)' : '' }}
                 >
                   {item.iconUrl ? (
                     <SvgIcon url={item.iconUrl} fill={'#fff'} size={24} />

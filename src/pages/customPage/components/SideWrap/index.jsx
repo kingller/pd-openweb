@@ -29,7 +29,7 @@ const SideWrap = styled.div`
       .icon-close {
         color: #9e9e9e;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

@@ -529,7 +529,7 @@ export const fillRecordsTimeBlockColor = (grouping, colorControl) => {
 
 export const fillRecordTimeBlockColor = (record, colorControl = {}) => {
   const { controlId, options } = colorControl;
-  const defaultColor = '#2196F3';
+  const defaultColor = 'var(--primary-regular)';
   if (record[controlId] && colorControl.enumDefault2 === 1) {
     const value = JSON.parse(record[controlId]);
     const colorId = _.isArray(value) ? value[0] : null;

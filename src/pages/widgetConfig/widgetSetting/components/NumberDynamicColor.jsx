@@ -36,7 +36,7 @@ const DynamicColorWrap = styled.div`
   }
 `;
 
-const defaultColor = '#2196f3';
+const defaultColor = 'var(--primary-regular)';
 
 export default function NumberDynamicColor(props) {
   const { colors = [], max, handleChange, onClose } = props;

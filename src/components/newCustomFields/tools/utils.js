@@ -270,7 +270,7 @@ export function formatControlToServer(
       options.forEach((item, i) => {
         if ((item || '').indexOf('add_') > -1) {
           options[i] = JSON.stringify({
-            color: '#2196f3',
+            color: 'var(--primary-regular)',
             value: item.split('add_')[1],
           });
         }

@@ -16,12 +16,12 @@ const Box = styled.div`
   }
   &:hover {
     .iconCon {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
     .Dropdown--input {
       .txt,
       .icon-arrow-down-border {
-        color: #2196f3 !important;
+        color: var(--primary-regular) !important;
       }
     }
   }

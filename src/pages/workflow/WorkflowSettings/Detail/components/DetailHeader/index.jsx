@@ -61,7 +61,7 @@ export default function DetailHeader({
   return (
     <div
       className={cx('workflowDetailHeader flexRow', bg)}
-      style={appType === APP_TYPE.PLUGIN ? { background: app.iconColor || '#2196f3' } : {}}
+      style={appType === APP_TYPE.PLUGIN ? { background: app.iconColor || 'var(--primary-regular)' } : {}}
     >
       {removeNodeName ? (
         <div className="flex" />

@@ -115,7 +115,7 @@ const WrapTableCon = styled.div`
       .addCoin {
         display: block;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
       .totalNum {

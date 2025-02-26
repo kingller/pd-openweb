@@ -15,10 +15,10 @@ const UploadWrap = styled.div`
   }
   &.active,
   &:hover {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
     background: #f8fcff;
     .icon {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;
@@ -62,17 +62,17 @@ const UploadListWrap = styled.div`
       border-radius: 3px;
     }
     .uploadBtn {
-      border: 1px solid #2196f3;
-      color: #2196f3;
+      border: 1px solid var(--primary-regular);
+      color: var(--primary-regular);
       margin-right: 20px;
       &:hover {
-        background: #2196f3;
-        border-color: #2196f3;
+        background: var(--primary-regular);
+        border-color: var(--primary-regular);
         color: #fff;
       }
     }
     .submitBtn {
-      background: #2196f3;
+      background: var(--primary-regular);
       color: #fff;
       &:hover {
         background: #1565c0;
@@ -178,7 +178,7 @@ export default class UploadFile extends Component {
                     <Progress
                       style={{ width: 196, marginLeft: '36px' }}
                       trailColor="#eaeaea"
-                      strokeColor="#2196f3"
+                      strokeColor="var(--primary-regular)"
                       strokeWidth={4}
                       percent={Math.floor((file.loaded / (file.size || 0)) * 100)}
                     />

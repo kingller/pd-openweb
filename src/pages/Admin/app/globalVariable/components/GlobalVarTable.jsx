@@ -58,7 +58,7 @@ const Wrapper = styled.div`
       position: absolute;
       top: 12px;
       right: 20px;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
 
     &:hover {
@@ -87,7 +87,7 @@ const Wrapper = styled.div`
         &:hover {
           .icon-arrow-right-tip,
           .icon-arrow-down {
-            color: #2196f3;
+            color: var(--primary-regular);
           }
         }
       }
@@ -113,7 +113,7 @@ const Wrapper = styled.div`
         margin-left: 8px;
         cursor: pointer;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

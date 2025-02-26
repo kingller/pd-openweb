@@ -12,7 +12,7 @@ const KeywordInput = styled.textarea`
   border-radius: 3px;
   resize: none;
   &:focus {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
   &::placeholder {
     color: #bdbdbd;

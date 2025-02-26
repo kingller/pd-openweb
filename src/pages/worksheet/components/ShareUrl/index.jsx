@@ -22,7 +22,7 @@ const Url = styled(TextBlock)`
   }
   .icon-refresh {
     &:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
 `;
@@ -36,7 +36,7 @@ const Icon = styled(TextBlock)`
   text-align: center;
   margin-left: 6px;
   :hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   ${({ theme }) =>
     theme === 'light' &&
@@ -44,7 +44,7 @@ const Icon = styled(TextBlock)`
     background: #fff;
     border: 1px solid #ddd;
     :hover {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   `}
 `;
@@ -55,7 +55,7 @@ const InputIcon = styled.span`
   font-size: 14px;
   margin-left: 6px;
   :hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 
@@ -69,7 +69,7 @@ const TextIcon = styled(TextBlock)`
   font-weight: 500;
   margin-left: 6px;
   :hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   ${({ theme }) =>
     theme === 'light' &&
@@ -77,7 +77,7 @@ const TextIcon = styled(TextBlock)`
     background: #fff;
     border: 1px solid #ddd;
     :hover {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   `}
 `;
@@ -338,14 +338,14 @@ export default class ShareUrl extends React.Component {
             {allowSendToChat && !md.global.SysSettings.forbidSuites.includes('6') && (
               <Tooltip popupPlacement="bottom" text={<span>{_l('发消息')}</span>}>
                 <Icon
-                  style={chatVisible ? { borderColor: '#2196f3' } : {}}
+                  style={chatVisible ? { borderColor: 'var(--primary-regular)' } : {}}
                   theme={theme}
                   onClick={() => {
                     this.setState({ chatVisible: !chatVisible });
                   }}
                 >
                   <i
-                    style={chatVisible ? { color: '#2196f3' } : { color: '#F79104' }}
+                    style={chatVisible ? { color: 'var(--primary-regular)' } : { color: '#F79104' }}
                     className={`icon-${chatVisible ? 'arrow-up-border' : 'replyto'}`}
                   ></i>
                 </Icon>

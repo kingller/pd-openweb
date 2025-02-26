@@ -1,7 +1,7 @@
 // @containerWidth: 360px;
 @containerWidth: 720px;
 @transitionTime: 0.25s;
-@blue: #2196f3;
+@blue: var(--primary-regular);
 
 .worksheetViewConfig {
   width: @containerWidth;
@@ -143,7 +143,7 @@
     .setCrad {
       cursor: pointer;
       font-size: 13px;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
 
     .showControlsColumnCheckItem .switchIcon {
@@ -194,7 +194,7 @@
     .icon-drag {
       color: #9e9e9e;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     .operateBtn {
@@ -205,7 +205,7 @@
       line-height: 36px;
 
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
 
       &.disabled {
@@ -546,7 +546,7 @@
     margin: 0 4px;
     line-height: 36px;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     &.disabled {
       color: #ddd !important;

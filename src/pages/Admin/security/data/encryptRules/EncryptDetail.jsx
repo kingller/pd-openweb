@@ -32,9 +32,9 @@ const TabWrap = styled.div`
     padding-bottom: 12px;
   }
   .active {
-    color: #2196f3;
+    color: var(--primary-regular);
     font-weight: 600;
-    border-bottom: 2px solid #2196f3;
+    border-bottom: 2px solid var(--primary-regular);
   }
 `;
 

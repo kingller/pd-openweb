@@ -11,7 +11,7 @@ const Wrap = styled.div`
     border-color: #DDDDDD;
     &:hover:not(:disabled),
     &:focus {
-      border-color: #2196F3;
+      border-color: var(--primary-regular);
     }
   }
   .footer {

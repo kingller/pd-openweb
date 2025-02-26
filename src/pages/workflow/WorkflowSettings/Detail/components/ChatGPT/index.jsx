@@ -49,7 +49,7 @@ const Footer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #2196f3;
+    background: var(--primary-regular);
     font-size: 26px;
     color: #fff;
   }
@@ -67,13 +67,13 @@ const Footer = styled.div`
     font-size: 20px;
     &.active {
       .icon-airplane {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     &:hover {
       background: #f5f5f5;
       .icon-airplane {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     .icon-airplane {
@@ -96,8 +96,8 @@ const Footer = styled.div`
     padding: 0 16px;
     color: #757575;
     &:hover {
-      border-color: #2196f3;
-      color: #2196f3;
+      border-color: var(--primary-regular);
+      color: var(--primary-regular);
     }
   }
 `;

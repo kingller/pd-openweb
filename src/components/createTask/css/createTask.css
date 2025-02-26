@@ -500,5 +500,5 @@
 }
 
 #folderStageBox .Dropdown--border:hover {
-  border-color: #1e88e5;
+  border-color: var(--primary-regular);
 }

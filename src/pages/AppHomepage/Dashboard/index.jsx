@@ -244,7 +244,7 @@ export default function Dashboard(props) {
     dashboardColor.themeColor &&
       $('.appCenterHeader').css(
         'background',
-        dashboardColor.themeColor === '#2196F3' ? '#fff' : dashboardColor.bgColor,
+        dashboardColor.themeColor === 'var(--primary-regular)' ? '#fff' : dashboardColor.bgColor,
       );
 
     return () => {

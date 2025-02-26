@@ -32,7 +32,7 @@ const Box = styled.div`
     border-bottom: 1px dashed #757575;
     margin: 0 3px;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

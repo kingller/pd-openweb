@@ -39,7 +39,7 @@ const Wrap = styled.div`
       border: 1px solid #bdbdbd;
     }
     &:focus {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
   .urlH,
@@ -78,7 +78,7 @@ const Wrap = styled.div`
     background: #f8f8f8;
     border-radius: 6px;
     a {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     &.WX {
       a {
@@ -94,7 +94,7 @@ const Wrap = styled.div`
     padding: 0 16px;
     line-height: 36px;
     .editFlow {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .rangePicker {
@@ -106,7 +106,7 @@ const Wrap = styled.div`
   .cardSelect {
     font-size: 12px !important;
     .ant-select-selection-item-remove:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
 `;

@@ -488,7 +488,7 @@ class EditFlow extends Component {
               <SvgIcon url={flowInfo.iconName} fill="#fff" size={22} />
             </span>
           ) : (
-            <i className="workflowAvatar icon-workflow" style={{ background: flowInfo.iconColor || '#2196f3' }} />
+            <i className="workflowAvatar icon-workflow" style={{ background: flowInfo.iconColor || 'var(--primary-regular)' }} />
           )
         }
         nodeName={flowInfo.name}

@@ -224,7 +224,7 @@ class Widgets extends Component {
 
     checkIds.forEach(item => {
       if ((item || '').toString().indexOf('add_') > -1) {
-        sources.push({ key: item, color: '#2196F3', value: item.split('add_')[1] });
+        sources.push({ key: item, color: 'var(--primary-regular)', value: item.split('add_')[1] });
       } else {
         sources.push(options.find(o => o.key === item && !o.isDeleted));
       }
@@ -266,7 +266,7 @@ class Widgets extends Component {
 
     checkIds.forEach(item => {
       if ((item || '').toString().indexOf('add_') > -1) {
-        noDelOptions.push({ key: item, color: '#2196F3', value: item.split('add_')[1] });
+        noDelOptions.push({ key: item, color: 'var(--primary-regular)', value: item.split('add_')[1] });
       }
     });
 
@@ -361,7 +361,7 @@ class Widgets extends Component {
     const { enumDefault2, options } = this.props;
     const { isFocus } = this.state;
     const { checkIds } = getCheckAndOther(this.props.value);
-    const currentItem = options.find(o => o.key === value) || { color: '#2196f3' };
+    const currentItem = options.find(o => o.key === value) || { color: 'var(--primary-regular)' };
     const label = (value || '').toString().indexOf('add_') > -1 ? value.split('add_')[1] : currentItem.value;
 
     return (

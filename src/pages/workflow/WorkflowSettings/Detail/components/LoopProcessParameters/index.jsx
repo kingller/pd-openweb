@@ -28,7 +28,7 @@ const List = styled.div`
     line-height: 36px;
     font-size: 13px;
     &:focus {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
   .fieldDelBtn {

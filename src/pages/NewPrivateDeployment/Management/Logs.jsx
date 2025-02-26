@@ -27,7 +27,7 @@ const Header = styled.div`
   }
   .input {
     &.ant-input-affix-wrapper:hover, &:hover {
-      border-color: #2196F3 !important;
+      border-color: var(--primary-regular) !important;
     }
     &.ant-input-affix-wrapper, &.ant-input-affix-wrapper-focused, & {
       border-radius: 2px !important;

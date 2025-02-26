@@ -51,9 +51,9 @@ const TrusteeAddButton = styled.div`
     color: #757575;
   }
   &:hover {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
     .addOrTransferIcon {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

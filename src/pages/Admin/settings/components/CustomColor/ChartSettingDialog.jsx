@@ -83,14 +83,14 @@ const CustomChartContentWrap = styled.div`
         cursor: pointer;
         color: #bdbdbd;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }
     .addColorWrap:hover {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
       .icon {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
@@ -131,7 +131,7 @@ const CustomColorsWrap = styled.div`
         }
       }
       &.selected {
-        border: 1px solid #2196f3;
+        border: 1px solid var(--primary-regular);
       }
       &.disabled {
         cursor: not-allowed;

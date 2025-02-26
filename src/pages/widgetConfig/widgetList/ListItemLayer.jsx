@@ -22,7 +22,7 @@ const ItemLayer = styled.div`
     padding-right: 4px;
     background: #fff;
     border-radius: 3px;
-    border: 1px solid #2196f3;
+    border: 1px solid var(--primary-regular);
     box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.05);
     opacity: 0;
     &.isDragging {
@@ -31,7 +31,7 @@ const ItemLayer = styled.div`
     .content {
       display: flex;
       align-items: center;
-      color: #2196f3;
+      color: var(--primary-regular);
       span {
         margin-left: 6px;
       }

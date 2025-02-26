@@ -18,7 +18,7 @@ const Wrap = styled.div`
     .ck .ck-content {
       border: 1px solid #dddddd !important;
       &:hover {
-        border: 1px solid #2196f3 !important;
+        border: 1px solid var(--primary-regular) !important;
       }
     }
   }

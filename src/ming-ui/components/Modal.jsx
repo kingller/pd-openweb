@@ -21,7 +21,7 @@ const ModalButton = styled.div`
   text-align: center;
   color: #9e9e9e;
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 

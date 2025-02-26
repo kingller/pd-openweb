@@ -20,10 +20,10 @@ const Con = styled.div`
   display: flex;
   align-items: center;
   height: 32px;
-  border: 1px solid ${({ active }) => (active ? '#2196f3' : '#ddd')} !important;
+  border: 1px solid ${({ active }) => (active ? 'var(--primary-regular)' : '#ddd')} !important;
   border-radius: 4px 0 0 4px;
   &:hover {
-    border-color: #2196f3 !important;
+    border-color: var(--primary-regular) !important;
     .icon-cancel {
       display: inline-block;
     }

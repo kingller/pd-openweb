@@ -27,7 +27,7 @@ const DialogWrap = styled(Dialog)`
     .Icon {
       color: #757575 !important;
       &:hover {
-        color: #2196f3 !important;
+        color: var(--primary-regular) !important;
       }
     }
   }

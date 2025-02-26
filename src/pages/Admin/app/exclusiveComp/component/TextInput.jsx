@@ -20,7 +20,7 @@ const FormGroup = styled.div`
       border-color: #bbb;
     }
     &:focus {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
     &.error {
       border-color: #f00 !important;

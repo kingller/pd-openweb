@@ -155,12 +155,12 @@ const SloganInput = styled(Input)`
     transition: none !important;
     padding: 6px 12px !important;
     &:hover {
-      border-color: #1e88e5 !important;
+      border-color: var(--primary-regular) !important;
     }
   }
   &.ant-input-affix-wrapper-focused {
     box-shadow: none !important;
-    border-color: #1e88e5 !important;
+    border-color: var(--primary-regular) !important;
   }
 `;
 
@@ -185,7 +185,7 @@ const SortItem = styled.div`
   padding: 0 12px;
   cursor: pointer;
   &:hover {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
 `;
 
@@ -242,7 +242,7 @@ export default function DashboardSetting(props) {
 
   const currentColor = _.isEmpty(currentTheme)
     ? !color || !_.includes(themeColors, color)
-      ? '#2196F3'
+      ? 'var(--primary-regular)'
       : color
     : currentTheme.themeKey;
 

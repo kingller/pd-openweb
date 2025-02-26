@@ -51,8 +51,8 @@ const ConfigWrapper = styled.div`
         border-bottom: 2px solid rgba(0, 0, 0, 0);
         cursor: pointer;
         &.isCur {
-          color: #2196f3;
-          border-bottom: 2px solid #2196f3;
+          color: var(--primary-regular);
+          border-bottom: 2px solid var(--primary-regular);
         }
       }
     }
@@ -78,7 +78,7 @@ const ConfigWrapper = styled.div`
     font-size: 24px;
     cursor: pointer;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 
@@ -128,7 +128,7 @@ const ConfigWrapper = styled.div`
         padding: 0 16px;
         border-radius: 36px;
         background: #e3f2fd;
-        color: #2196f3;
+        color: var(--primary-regular);
         cursor: pointer;
         i {
           margin-right: 6px;
@@ -168,14 +168,14 @@ const ConfigWrapper = styled.div`
         color: #757575;
         border: 1px solid #ebebeb;
         &:hover {
-          color: #2196f3;
-          border: 1px solid #2196f3;
+          color: var(--primary-regular);
+          border: 1px solid var(--primary-regular);
         }
       }
       &.save {
         color: #fff;
-        background: #2196f3;
-        border: 1px solid #2196f3;
+        background: var(--primary-regular);
+        border: 1px solid var(--primary-regular);
         &:hover {
           background: #1764c0;
           border: 1px solid #1764c0;

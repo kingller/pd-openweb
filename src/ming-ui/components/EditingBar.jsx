@@ -124,7 +124,7 @@ export default function EditingBar(props) {
           onClick={e => e.stopPropagation()}
           className="editingBar"
         >
-          <Con style={{ background: isBlack ? '#333' : '#2196f3' }}>
+          <Con style={{ background: isBlack ? '#333' : 'var(--primary-regular)' }}>
             <span className="flex bold">{title}</span>
             {loading && <Loading className="icon icon-loading_button" />}
             {!loading && cancelText && (

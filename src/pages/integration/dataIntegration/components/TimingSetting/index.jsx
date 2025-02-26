@@ -60,10 +60,10 @@ const SettingWrapper = styled.div`
       transition: unset;
       box-shadow: none;
       &:hover {
-        border-color: #2196f3;
+        border-color: var(--primary-regular);
       }
       &.ant-picker-focused {
-        border-color: #2196f3;
+        border-color: var(--primary-regular);
       }
     }
   }

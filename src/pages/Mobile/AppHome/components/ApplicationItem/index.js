@@ -62,7 +62,7 @@ export default function ApplicationItem(props) {
     projectId,
     icon,
     iconUrl,
-    iconColor = '#2196f3',
+    iconColor = 'var(--primary-regular)',
     navColor,
     lightColor,
     appStatus,

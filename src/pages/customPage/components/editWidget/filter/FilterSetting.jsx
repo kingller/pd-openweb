@@ -34,7 +34,7 @@ const RadioWrap = styled.div`
     font-size: 13px;
     cursor: pointer;
     &.active {
-      color: #2196f3;
+      color: var(--primary-regular);
       font-weight: bold;
       border-radius: 3px;
       background-color: #fff;
@@ -60,7 +60,7 @@ const TimeInputWrap = styled.div`
   transition: all 0.3s;
   &:hover,
   &.active {
-    border-color: #40a9ff;
+    border-color: var(--primary-regular);
   }
   &:hover {
     .moreTime {

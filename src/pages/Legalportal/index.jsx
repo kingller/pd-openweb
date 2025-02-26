@@ -82,16 +82,16 @@ const Wrap = styled.div`
         color: #333333;
         padding-left: 12px;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
         &.isCur {
           position: relative;
-          color: #2196f3;
+          color: var(--primary-regular);
           &::before {
             content: ' ';
             width: 5px;
             height: 15px;
-            background: #2196f3;
+            background: var(--primary-regular);
             border-radius: 0px 0px 0px 0px;
             display: block;
             position: absolute;

@@ -13,7 +13,7 @@ const PrivateDeploymentProjectPopup = styled.div`
     cursor: pointer;
   }
   .projectItmeActive {
-    color: #2196F3;
+    color: var(--primary-regular);
   }
   .projectWrapper {
     overflow-y: auto;
@@ -26,11 +26,11 @@ const PrivateDeploymentProjectPopup = styled.div`
     margin-top: 24px;
   }
   .Button--link:hover {
-    color: #2196F3;
+    color: var(--primary-regular);
   }
   .Button--primary {
     margin-left: 10px;
-    background-color: #2196F3;
+    background-color: var(--primary-regular);
   }
 `;
 

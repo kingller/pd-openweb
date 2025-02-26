@@ -59,9 +59,9 @@ const Wrapper = styled.div`
           font-size: 16px;
         }
         &.isCur {
-          border-bottom: 4px solid #2196f3;
+          border-bottom: 4px solid var(--primary-regular);
           a {
-            color: #2196f3;
+            color: var(--primary-regular);
           }
         }
       }
@@ -90,7 +90,7 @@ const Wrapper = styled.div`
       }
       .headerBtn {
         padding: 8px 24px;
-        background: #2196f3;
+        background: var(--primary-regular);
         border-radius: 18px;
         color: #fff;
         display: inline-block;
@@ -126,7 +126,7 @@ const PluginListBox = styled.div`
     &:hover {
       background: rgba(247, 247, 247, 1);
       .name {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
       .operateIcon {
         background: rgba(247, 247, 247, 1);
@@ -166,7 +166,7 @@ const PluginListBox = styled.div`
       background: #fff;
 
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
         background: #fff !important;
       }
     }

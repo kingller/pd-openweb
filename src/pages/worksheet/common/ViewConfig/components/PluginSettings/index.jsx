@@ -75,7 +75,7 @@ const WrapPopup = styled.div`
     padding: 0 16px;
     font-weight: 400;
     &:hover {
-      background: #2196f3;
+      background: var(--primary-regular);
       color: #fff;
     }
   }

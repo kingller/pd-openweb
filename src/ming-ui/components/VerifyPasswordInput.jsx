@@ -11,7 +11,7 @@ const Password = styled(Input.Password)`
   border: 1px solid #ccc !important;
   margin-bottom: 10px;
   &.ant-input-affix-wrapper-focused {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
 `;
 

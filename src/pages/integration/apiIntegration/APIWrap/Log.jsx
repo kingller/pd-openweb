@@ -25,7 +25,7 @@ const Wrap = styled.div`
     border: 1px solid #e8e8e8;
     border-radius: 20px;
     padding: 0 48px;
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   .noData {
     text-align: center;
@@ -62,9 +62,9 @@ const Wrap = styled.div`
       td,
       th {
         .fromTxt {
-          color: #2196f3 !important;
+          color: var(--primary-regular) !important;
           a {
-            color: #2196f3 !important;
+            color: var(--primary-regular) !important;
           }
         }
       }
@@ -107,7 +107,7 @@ const Wrap = styled.div`
       opacity: 0;
     }
     &:hover {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
     &.hs {
       &:hover {
@@ -134,7 +134,7 @@ const Wrap = styled.div`
     border: 1px solid #ddd;
     border-radius: 3px;
     &:hover {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
   .dropSearchType,

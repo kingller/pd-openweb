@@ -438,7 +438,7 @@ function SheetHeader(props) {
             {/* 显示创建按钮 */}
             {canNewRecord && (
               <span
-                style={{ backgroundColor: appPkg.iconColor || '#2196f3' }}
+                style={{ backgroundColor: appPkg.iconColor || 'var(--primary-regular)' }}
                 className="addRow"
                 onClick={openNewRecord}
               >

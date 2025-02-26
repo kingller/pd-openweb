@@ -37,9 +37,9 @@ const Wrap = styled.div`
     &.cur {
       background: #e3f2fe;
       a {
-        color: #2196f3;
+        color: var(--primary-regular);
         i {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
       &:hover {

@@ -112,7 +112,7 @@ const RecordItemWrap = styled.div`
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
       background-color: #fff;
       i {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }

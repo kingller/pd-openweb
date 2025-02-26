@@ -10,7 +10,7 @@ const DialogCom = styled(Dialog)`
   .checkAdminDialog {
     .Button--primary {
       background: #f5f5f5;
-      color: #2196f3;
+      color: var(--primary-regular);
       &:hover {
         background: #f5f5f5;
       }

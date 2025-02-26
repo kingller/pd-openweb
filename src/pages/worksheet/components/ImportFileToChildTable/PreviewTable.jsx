@@ -273,7 +273,7 @@ function PreviewTable(props) {
             style={Object.assign(
               {},
               style,
-              index === activeIndex ? { boxShadow: 'inset 0px 0px 0px 1px #2196f3' } : {},
+              index === activeIndex ? { boxShadow: 'inset 0px 0px 0px 1px var(--primary-regular)' } : {},
             )}
             className={cx('cell', {
               active: index === activeIndex,

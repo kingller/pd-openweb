@@ -325,7 +325,7 @@ export const DynamicInputStyle = styled(FlexCenter)`
     background-color: #fafafa;
     border: 1px solid #d8d8d8;
     .edit {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     .delete {
       display: block;
@@ -401,7 +401,7 @@ export const SearchWorksheetWrap = styled.div`
     }
   }
   .addFilterIcon span {
-    color: #2196f3;
+    color: var(--primary-regular);
     display: inline-block;
     padding: 8px;
     font-weight: bold;
@@ -417,7 +417,7 @@ export const SearchWorksheetWrap = styled.div`
       .addFilterCondition {
         i,
         span {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
         display: inline-block;
         padding: 8px;
@@ -568,7 +568,7 @@ export const WorksheetListWrap = styled.div`
       line-height: 32px;
       &:hover {
         color: #fff !important;
-        background-color: #1e88e5 !important;
+        background-color: var(--primary-regular) !important;
       }
     }
   }

@@ -61,7 +61,7 @@ function getVisibleControls(data) {
 
 function getThemeBgColor(themeIndex, themeBgColor) {
   if (!themeBgColor) {
-    return !themes[themeIndex] ? '#2196f3' : (themes[themeIndex] || {}).main;
+    return !themes[themeIndex] ? 'var(--primary-regular)' : (themes[themeIndex] || {}).main;
   } else {
     return themeBgColor;
   }

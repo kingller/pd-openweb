@@ -59,7 +59,7 @@ const OperationWrap = styled.div`
       vertical-align: middle;
     }
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       background-color: #edf7fe;
     }
     &.delWidget {

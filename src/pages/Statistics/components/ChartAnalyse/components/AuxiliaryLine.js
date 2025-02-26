@@ -10,7 +10,7 @@ import WidgetColor from 'src/pages/widgetConfig/widgetSetting/components/WidgetC
 import _ from 'lodash';
 
 const AddLine = styled.div`
-  color: #2196F3;
+  color: var(--primary-regular);
   &:hover {
     color: #0484fb;
   }
@@ -369,7 +369,7 @@ export default class AuxiliaryLine extends Component {
     const { isPile, isPerPile, isAccumulate } = displaySetup;
     const defaultConfig = {
       controlId: (yaxisList[0] || {}).controlId,
-      color: '#2196F3',
+      color: 'var(--primary-regular)',
       style: 1,
       showName: false,
       value: undefined,

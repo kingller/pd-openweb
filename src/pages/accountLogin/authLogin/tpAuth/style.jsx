@@ -12,7 +12,7 @@ export const Wrap = styled.div`
 
   .tpLoginContent {
     a {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     a:hover {
       text-decoration: none;
@@ -40,7 +40,7 @@ export const Wrap = styled.div`
       width: 100%;
     }
     .btnEnabled {
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
       cursor: pointer;
       -webkit-transition: background-color 0.5s;
       transition: background-color 0.5s;

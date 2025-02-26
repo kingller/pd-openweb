@@ -70,7 +70,7 @@ export default class MobileCheckbox extends Component {
 
     selectChecked.forEach(item => {
       if ((item || '').indexOf('add_') > -1) {
-        source.push({ key: item, color: '#2196F3', value: item.split('add_')[1] });
+        source.push({ key: item, color: 'var(--primary-regular)', value: item.split('add_')[1] });
       }
     });
 

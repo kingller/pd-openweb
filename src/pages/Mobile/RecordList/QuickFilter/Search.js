@@ -85,7 +85,7 @@ class Search extends Component {
             {textFilters.map((item, index) => (
               <div
                 key={item.control.controlId}
-                style={{ color: index === filterIndex ? '#2196F3' : null }}
+                style={{ color: index === filterIndex ? 'var(--primary-regular)' : null }}
                 className="pTop5 pBottom5 Font14 ellipsis"
                 onClick={() => {
                   this.setState({

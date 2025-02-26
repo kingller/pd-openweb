@@ -94,7 +94,7 @@ const Wrap = styled.div`
         }
         .icon-reply1 {
           &:hover {
-            color: #2196f3;
+            color: var(--primary-regular);
           }
         }
         .icon-delete1 {

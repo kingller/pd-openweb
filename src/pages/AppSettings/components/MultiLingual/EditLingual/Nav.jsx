@@ -19,10 +19,10 @@ const Wrap = styled.div`
     padding: 8px 6px;
     &.active {
       svg {
-        fill: #2196f3 !important;
+        fill: var(--primary-regular) !important;
       }
       font-weight: bold;
-      color: #2196f3;
+      color: var(--primary-regular);
       background-color: #ecf7fe;
     }
   }
@@ -53,13 +53,13 @@ const Wrap = styled.div`
     }
     .ant-tree-node-content-wrapper.ant-tree-node-selected {
       .icon {
-        color: #2196f3 !important;
+        color: var(--primary-regular) !important;
       }
       svg {
-        fill: #2196f3 !important;
+        fill: var(--primary-regular) !important;
       }
       font-weight: bold;
-      color: #2196f3;
+      color: var(--primary-regular);
       background-color: #ecf7fe;
     }
     .ant-tree-title {

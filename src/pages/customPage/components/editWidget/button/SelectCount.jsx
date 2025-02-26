@@ -30,7 +30,7 @@ const SelectCountWrap = styled.div`
       justify-content: center;
       align-items: center;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     .add {
@@ -66,7 +66,7 @@ const CountList = styled.ul`
     width: 100%;
     &.active,
     &:hover {
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
       color: #fff;
     }
   }

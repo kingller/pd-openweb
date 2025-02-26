@@ -34,7 +34,7 @@ export const Wrap = styled.div`
         position: absolute;
         left: 0;
         top: 0;
-        background: #2196f3;
+        background: var(--primary-regular);
         animation-name: fadeMove;
         animation-duration: 1s;
         animation-timing-function: ease-in-out;
@@ -68,7 +68,7 @@ export const Wrap = styled.div`
             display: block;
             width: 8px;
             height: 3px;
-            background: #2196f3;
+            background: var(--primary-regular);
             margin-top: 12px;
           }
         }

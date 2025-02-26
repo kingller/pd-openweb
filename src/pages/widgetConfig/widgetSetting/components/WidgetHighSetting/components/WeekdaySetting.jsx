@@ -29,7 +29,7 @@ const WeekdayWrap = styled.ul`
       &.active {
         background-color: #e6f4ff;
         .icon-done {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

@@ -32,10 +32,10 @@ const GlobalSearchSideCon = styled.ul`
   .sideItem.current {
     background: #f2faff;
     font-weight: 600;
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   .sideItem.current span {
-    border-left: 2px solid #2196f3;
+    border-left: 2px solid var(--primary-regular);
   }
   .sideTooltip {
     width: 352px;

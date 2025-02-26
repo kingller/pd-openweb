@@ -30,7 +30,7 @@ const Wrap = styled.div`
       }
       &:hover {
         .name a {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

@@ -36,7 +36,7 @@ const Wrap = styled.div`
   }
   .loginConsole {
     height: 32px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border-radius: 3px;
     line-height: 32px;
     color: #fff;
@@ -44,7 +44,7 @@ const Wrap = styled.div`
     float: right;
     padding: 0 15px;
     &:hover {
-      background: #1e88e5;
+      background: var(--primary-regular);
     }
   }
   .registerLine,

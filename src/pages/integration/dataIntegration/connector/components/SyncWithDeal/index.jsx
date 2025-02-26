@@ -15,7 +15,7 @@ const SyncWithDealWrapper = styled.div`
   .arrowIcon {
     margin: 32px 0;
     text-align: center;
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 
   .sheetNameInput {
@@ -32,7 +32,7 @@ const SyncWithDealWrapper = styled.div`
         background: #f2f2f2;
       }
       :focus {
-        border-color: #2196f3 !important;
+        border-color: var(--primary-regular) !important;
         background: #fff;
       }
     }

@@ -8,7 +8,7 @@ import styled from 'styled-components';
 const Btn = styled.div`
   &:hover {
     .Gray_bd {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
 `;

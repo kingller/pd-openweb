@@ -52,7 +52,7 @@ export default function BasicsSetting(props) {
         <span>{_l('名称宽度')}</span>
         <Slider
           className="flex mLeft12 nameSlider"
-          itemcolor="#2196F3"
+          itemcolor="var(--primary-regular)"
           showInput={false}
           min={50}
           max={150}

@@ -197,7 +197,7 @@ export default class ImportApp extends React.Component {
                 <Progress
                   style={{ width: 250 }}
                   trailColor="#eaeaea"
-                  strokeColor="#2196f3"
+                  strokeColor="var(--primary-regular)"
                   strokeWidth={8}
                   percent={Math.floor((file.loaded / (file.size || 0)) * 100)}
                 />

@@ -63,14 +63,14 @@ const Footer = styled.div`
     color: #9e9e9e;
   }
   .cancelBtn:hover {
-    color: #1e88e5;
+    color: var(--primary-regular);
   }
   .disabledConfirmBtn {
     color: #fff;
     background: #bdbdbd;
   }
   .confirmBtn {
-    background: #2196f3;
+    background: var(--primary-regular);
     cursor: pointer;
   }
   .confirmBtn:hover {

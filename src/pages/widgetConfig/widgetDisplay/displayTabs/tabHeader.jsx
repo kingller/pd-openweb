@@ -49,7 +49,7 @@ const DragItemWrap = styled.div`
     border-bottom-color: #cccccc;
   }
   &.isActive {
-    border-bottom-color: #2196f3;
+    border-bottom-color: var(--primary-regular);
   }
 
   .insertPointer {
@@ -57,7 +57,7 @@ const DragItemWrap = styled.div`
     top: 0;
     height: 100%;
     width: 4px;
-    background: #2196f3;
+    background: var(--primary-regular);
     &.left {
       left: -2px;
     }

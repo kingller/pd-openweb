@@ -36,7 +36,7 @@ const Con = styled.span`
       top: 0;
       bottom: 0;
       width: 2px;
-      background: #2196f3;
+      background: var(--primary-regular);
     }
   }
   &.hover {
@@ -62,7 +62,7 @@ const OpenRecordBtn = styled(FlexCenter)`
   font-size: 16px;
   width: 24px;
   height: 24px;
-  color: #2196f3;
+  color: var(--primary-regular);
   border-radius: 4px;
   &:hover {
     background: rgba(0, 0, 0, 0.05);

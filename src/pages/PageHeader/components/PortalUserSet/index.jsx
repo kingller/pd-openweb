@@ -174,7 +174,7 @@ export default class PortalUserSet extends Component {
   render() {
     const {
       name,
-      iconColor = '#2196f3',
+      iconColor = 'var(--primary-regular)',
       showUserInfo,
       showUserInfoDialog,
       currentData,

@@ -458,7 +458,7 @@ export default class ChartStyle extends Component {
                 topLeftText: _l('左上象限'),
                 bottomLeftBgColor: '#4CAF50',
                 bottomLeftText: _l('左下象限'),
-                bottomRightBgColor: '#2196F3',
+                bottomRightBgColor: 'var(--primary-regular)',
                 bottomRightText: _l('右下象限'),
                 textColor: '#9e9e9e'
               }

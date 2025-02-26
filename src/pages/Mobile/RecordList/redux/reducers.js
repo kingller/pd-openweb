@@ -107,7 +107,7 @@ export const isCharge = (state = false, action) => {
   }
 };
 
-export const appColor = (state = '#2196F3', action) => {
+export const appColor = (state = 'var(--primary-regular)', action) => {
   switch (action.type) {
     case 'MOBILE_APP_COLOR':
       return action.value;

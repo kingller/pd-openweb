@@ -10,7 +10,7 @@ export const OPTION_COLORS_LIST = [
   '#DEC2FA',
   '#CCD2F1',
   '#D3D3D3',
-  '#2196F3',
+  'var(--primary-regular)',
   '#08C9C9',
   '#00C345',
   '#FAD714',

@@ -17,12 +17,12 @@ const GroupingItem = styled.div`
   height: 32px;
   padding: 0 20px 0 12px;
   .addCoin {
-    color: #2196f3;
+    color: var(--primary-regular);
     display: none;
     transform: translateX(5px);
   }
   &.addRecord:hover {
-    color: #2196f3 !important;
+    color: var(--primary-regular) !important;
   }
   &.allowAdd:hover {
     .addCoin {

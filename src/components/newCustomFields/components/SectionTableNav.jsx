@@ -111,7 +111,7 @@ export function renderTabs(props) {
     return (
       iconUrl && (
         <IconCon isFixedRight={isFixedRight}>
-          <SvgIcon url={iconUrl} fill={isFixedActive ? '#2196f3' : '#6e6e6e'} size={20} />
+          <SvgIcon url={iconUrl} fill={isFixedActive ? 'var(--primary-regular)' : '#6e6e6e'} size={20} />
         </IconCon>
       )
     );

@@ -69,7 +69,7 @@ const WidgetInfo = styled.div`
     border-radius: 3px;
     background-color: #fff;
     &:hover {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
 
     .name {
@@ -82,7 +82,7 @@ const ControlsWrap = styled.div`
   margin-top: 8px;
   display: flex;
   line-height: 36px;
-  color: #2196f3;
+  color: var(--primary-regular);
   position: relative;
   &:hover {
     color: #1565c0;

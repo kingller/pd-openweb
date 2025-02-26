@@ -14,7 +14,7 @@ const Wrap = styled.div`
     opacity: 0;
     &:hover {
       .Icon {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }

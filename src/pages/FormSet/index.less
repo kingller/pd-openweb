@@ -77,7 +77,7 @@
           border-radius: 4px;
           padding: 0 12px;
           &:focus {
-            border: 1px solid #2196f3;
+            border: 1px solid var(--primary-regular);
           }
           &::placeholder {
             color: #9e9e9e;
@@ -94,7 +94,7 @@
           .addCondition {
             display: inline-block;
             margin-top: 14px;
-            color: #2196f3;
+            color: var(--primary-regular);
             cursor: pointer;
             font-weight: bold;
             &:hover {
@@ -274,7 +274,7 @@
               &:hover {
                 background: rgba(245, 245, 245, 1);
                 .hoverColor {
-                  color: #2196f3 !important;
+                  color: var(--primary-regular) !important;
                 }
               }
             }
@@ -334,7 +334,7 @@
             margin-top: 12px;
             font-size: 13px;
             letter-spacing: 0;
-            color: #2196f3;
+            color: var(--primary-regular);
             height: 36px;
             line-height: 36px;
             display: inline-block;
@@ -390,7 +390,7 @@
           height: 36px;
           line-height: 36px;
           display: inline-block;
-          background: #2196f3;
+          background: var(--primary-regular);
           border-radius: 32px;
           letter-spacing: 0;
           color: #ffffff;
@@ -398,7 +398,7 @@
           font-weight: bold;
           cursor: pointer;
           &:hover {
-            background: #1e88e5;
+            background: var(--primary-regular);
           }
         }
         .columnRuleTabs {
@@ -414,11 +414,11 @@
             font-weight: 600;
             cursor: pointer;
             &.active {
-              color: #2196f3;
-              border-bottom-color: #2196f3 !important;
+              color: var(--primary-regular);
+              border-bottom-color: var(--primary-regular) !important;
             }
             &:hover {
-              color: #2196f3;
+              color: var(--primary-regular);
             }
           }
         }
@@ -463,9 +463,9 @@
             }
           }
           .saveBtn {
-            background: #2196f3;
+            background: var(--primary-regular);
             &:hover {
-              background: #1e88e5;
+              background: var(--primary-regular);
             }
           }
         }
@@ -561,7 +561,7 @@
     }
   }
   &.active {
-    box-shadow: inset 0 0 0 2px #2196f3;
+    box-shadow: inset 0 0 0 2px var(--primary-regular);
     .ruleItemOptions {
       visibility: visible;
     }
@@ -604,14 +604,14 @@
   .ruleNameInput {
     height: 100%;
     border: none;
-    color: #2196f3;
+    color: var(--primary-regular);
     font-weight: bold;
     border-bottom: 1px solid transparent;
     &:hover {
       border-bottom: 1px dashed #bdbdbd;
     }
     &:focus {
-      border-bottom: 1px solid #2196f3 !important;
+      border-bottom: 1px solid var(--primary-regular) !important;
     }
   }
   .ruleItemTextRow {
@@ -744,12 +744,12 @@
   .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
     font-weight: normal !important;
     color: #fff !important;
-    background-color: #2196f3 !important;
+    background-color: var(--primary-regular) !important;
   }
   &.ant-select:not(.ant-select-disabled):hover .ant-select-selector,
   &.ant-select-focused:not(.ant-select-disabled).ant-select-single:not(.ant-select-customize-input)
     .ant-select-selector {
-    border-color: #2196f3 !important;
+    border-color: var(--primary-regular) !important;
   }
 }
 .addConditionTrigger {

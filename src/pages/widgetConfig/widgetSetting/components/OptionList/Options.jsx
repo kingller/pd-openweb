@@ -42,14 +42,14 @@ const HandleOption = styled.div`
     color: #757575;
     cursor: pointer;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 
   .addOptions {
     display: flex;
     align-items: center;
-    color: #2196f3;
+    color: var(--primary-regular);
     cursor: pointer;
     &:hover {
       color: #2b65c4;
@@ -101,7 +101,7 @@ const DragItem = styled.div`
     flex: 1;
     align-items: center;
     border-bottom: 1px solid #f0f0f0;
-    border-color: ${props => (props.isFocus ? '#2196f3' : '#f0f0f0')};
+    border-color: ${props => (props.isFocus ? 'var(--primary-regular)' : '#f0f0f0')};
   }
 
   .checkWrap {

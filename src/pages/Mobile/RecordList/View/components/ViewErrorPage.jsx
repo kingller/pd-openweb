@@ -26,9 +26,9 @@ const ViewErrorPageContainer = styled.div`
     height: 40px;
     line-height: 40px;
     text-align: center;
-    border :1px solid #2196F3;
+    border :1px solid var(--primary-regular);
     margin-top: 30px;
-    color: #2196F3;
+    color: var(--primary-regular);
   }
 `;
 

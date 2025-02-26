@@ -38,13 +38,13 @@ export default ({ type, appType, actionId, isPlugin, isFirst, isLast }) => {
 
   // 插件输入参数异化
   if (isPlugin && isFirst) {
-    bgColor = '#2196f3';
+    bgColor = 'var(--primary-regular)';
   }
 
   // 插件输出参数异化
   if (isPlugin && isLast) {
     icon = 'output';
-    bgColor = '#2196f3';
+    bgColor = 'var(--primary-regular)';
   }
 
   return (

@@ -12,7 +12,7 @@ import _ from 'lodash';
 import Deadline from '../Deadline';
 
 const Button = styled.span`
-  border: 1px solid #2196f3;
+  border: 1px solid var(--primary-regular);
   padding: 0 16px;
   height: 28px;
   line-height: 28px;

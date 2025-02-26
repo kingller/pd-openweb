@@ -70,7 +70,7 @@ export default function Btn(props) {
     const COLORS = getThemeColors(projectId);
     const lastButton = buttonList[buttonList.length - 1] || {};
     const colorIndex = COLORS.indexOf(lastButton.color);
-    const defaultColor = '#2196f3';
+    const defaultColor = 'var(--primary-regular)';
     const color = colorIndex === -1 ? defaultColor : COLORS[colorIndex + 1] || COLORS[0];
     const { btnType } = btnSetting.config || {};
     const data = { name: _l('我是按钮'), color, id: uuidv4() };

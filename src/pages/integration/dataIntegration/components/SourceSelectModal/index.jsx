@@ -50,9 +50,9 @@ const TabList = styled.div`
         font-size: 15px;
       }
       &.isCur {
-        border-bottom: 4px solid #2196f3;
+        border-bottom: 4px solid var(--primary-regular);
         a {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

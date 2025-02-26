@@ -12,7 +12,7 @@ const ArrangeBtn = styled.div`
   font-weight: bold;
   color: #9e9e9e;
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   &.disabled {
     cursor: not-allowed;

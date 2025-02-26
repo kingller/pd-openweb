@@ -9,12 +9,12 @@ const ChangeSheetLayout = styled.span`
   left: 12px;
   cursor: pointer;
   font-size: 15px;
-  color: #2196f3;
+  color: var(--primary-regular);
   .icon {
     font-size: 16px;
     color: #9e9e9e;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

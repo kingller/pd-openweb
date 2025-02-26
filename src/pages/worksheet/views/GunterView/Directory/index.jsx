@@ -12,7 +12,7 @@ const More = styled.div`
   height: 32px;
   padding: 0 15px;
   .ant-dropdown-trigger:hover {
-    color: #2196f3 !important;
+    color: var(--primary-regular) !important;
   }
 `;
 
@@ -26,7 +26,7 @@ export const MenuOverlayWrapper = styled(Menu)`
       color: #fff !important;
     }
     color: #fff;
-    background-color: #2196f3
+    background-color: var(--primary-regular)
   }
 `;
 

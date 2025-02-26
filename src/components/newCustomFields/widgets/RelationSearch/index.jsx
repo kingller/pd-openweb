@@ -56,7 +56,7 @@ const RecordTextAdd = styled(FlexCenter)`
   background: #f7f6f8;
   color: #9d9d9d;
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 

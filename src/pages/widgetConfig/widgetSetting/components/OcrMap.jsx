@@ -24,7 +24,7 @@ const ConfigRelation = styled.div`
       margin: 0;
     }
     .mapIcon {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     .Dropdown,
     .ming.Menu {

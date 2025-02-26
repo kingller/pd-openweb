@@ -52,7 +52,7 @@ export const LoadingButton = styled.div`
   height: 29px;
   line-height: 29px;
   padding: 0 12px;
-  color: #2196f3;
+  color: var(--primary-regular);
   border-radius: 3px;
   font-size: 13px;
   .loading {
@@ -84,10 +84,10 @@ const OperateCon = styled.div``;
 
 const RelateScanQRCodeWrap = styled(RelateScanQRCode)`
   &.lineWrap {
-    color: #2196f3;
+    color: var(--primary-regular);
     width: 100%;
     .scanIcon {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
       margin-right: 5px;
     }
     .scanButton {

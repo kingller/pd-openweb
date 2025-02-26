@@ -15,8 +15,8 @@ export const BtnWrap = styled.div`
   padding: 0 10px;
   border: 1px solid #DDDDDD;
   &.active {
-    color: #2196F3;
-    border-color: #2196F3;
+    color: var(--primary-regular);
+    border-color: var(--primary-regular);
   }
   &.copy {
     padding: 0 20px;
@@ -24,10 +24,10 @@ export const BtnWrap = styled.div`
   }
   &.copy, &.qrCode, &.code {
     &:hover {
-      color: #2196F3;
-      border-color: #2196F3;
+      color: var(--primary-regular);
+      border-color: var(--primary-regular);
       .icon {
-        color: #2196F3 !important;
+        color: var(--primary-regular) !important;
       }
     }
   }

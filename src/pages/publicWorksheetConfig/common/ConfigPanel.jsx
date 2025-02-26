@@ -24,7 +24,7 @@ const BackBtn = styled.span`
   width: 74px;
   text-align: center;
   line-height: 32px;
-  color: #2196f3;
+  color: var(--primary-regular);
   background: #e3f2ff;
   border-radius: 32px;
   &:hover {
@@ -69,7 +69,7 @@ const PayButton = styled.div`
   line-height: 36px;
   margin-left: 10px;
   border-radius: 3px;
-  color: #2196f3;
+  color: var(--primary-regular);
   background: #e3f2ff;
   font-weight: 700;
   cursor: pointer;

@@ -474,7 +474,7 @@ export const DEFAULT_DATA = {
     enumDefault2: 1,
     enumDefault: 0,
     advancedSetting: {
-      theme: '#2196F3',
+      theme: 'var(--primary-regular)',
       color: '#333333',
     },
   },

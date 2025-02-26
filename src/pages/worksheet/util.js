@@ -684,7 +684,7 @@ export function updateOptionsOfControl(control, value, realValue) {
         index: control.options.length + i + 1,
         isDeleted: false,
         key: parsedRealValue[i],
-        color: '#2196f3',
+        color: 'var(--primary-regular)',
         value: v && (v.match(/add_(.*)/) || '')[1],
       }))
       .filter(v => v.value);
@@ -693,7 +693,7 @@ export function updateOptionsOfControl(control, value, realValue) {
       index: control.options.length + 1,
       isDeleted: false,
       key: _.last(JSON.parse(realValue)),
-      color: '#2196f3',
+      color: 'var(--primary-regular)',
       value: value && (value.match(/"add_(.*)"]/) || '')[1],
     };
   }
@@ -1637,8 +1637,8 @@ export const getButtonColor = mainColor => {
         'transparent',
         '#60292A',
         '#60292AFF',
-        '#2196F3',
-        '#2196F3FF',
+        'var(--primary-regular)',
+        'var(--primary-regular)FF',
         '#00BCD4',
         '#00BCD4FF',
         '#4CAF50',
@@ -1667,7 +1667,7 @@ export const getButtonColor = mainColor => {
     borderColor = browserIsMobile() ? '#eee': '#ccc';
   }
   return {
-    backgroundColor: mainColor || '#2196f3',
+    backgroundColor: mainColor || 'var(--primary-regular)',
     border: `1px solid ${borderColor}`,
     color: fontColor,
   };

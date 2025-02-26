@@ -37,7 +37,7 @@ const Wrapper = styled.div`
       font-weight: 500;
     }
     &:hover {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
 `;

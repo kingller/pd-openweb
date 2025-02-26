@@ -4813,7 +4813,7 @@ $.extend(DayGrid.prototype, {
         return 'background:#FF9800';
       if (skinCss.indexOf('#90CAF9') >= 0)
         //蓝色
-        return 'background:#1E88E5';
+        return 'background:var(--primary-regular)';
       if (skinCss.indexOf('#A5D6A7') >= 0)
         //绿色
         return 'background:#4CAF50';

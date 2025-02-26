@@ -158,7 +158,7 @@ const PivotTableContent = styled.div`
   .ant-table-tbody tr:not(tr.sum-content) .contentValue {
     cursor: pointer;
     &:hover {
-      color: ${props => props.pivotTableStyle.lineTextColor || '#2196f3'} !important;
+      color: ${props => props.pivotTableStyle.lineTextColor || 'var(--primary-regular)'} !important;
       background-color: ${props => props.pivotTableStyle.lineBgColor || '#E3F2FD'} !important;
     }
   }

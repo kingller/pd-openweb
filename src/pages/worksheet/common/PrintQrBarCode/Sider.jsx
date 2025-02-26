@@ -99,8 +99,8 @@ const ConfigItem = styled.div(
     display: flex;
   }
   .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
-    border-color: #2196f3 !important;
-    color: #2196f3 !important;
+    border-color: var(--primary-regular) !important;
+    color: var(--primary-regular) !important;
   }
   .ant-radio-button-wrapper {
     font-size: 13px;
@@ -131,7 +131,7 @@ const SetAsTitle = styled.i`
   color: #9e9e9e;
   cursor: pointer;
   &.on {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 
@@ -590,7 +590,7 @@ export default function Sider(props) {
           <div className="flex"></div>
           <Switch
             size="small"
-            primaryColor="#2196f3"
+            primaryColor="var(--primary-regular)"
             checked={showBarValue}
             onClick={() => onUpdate({ showBarValue: !showBarValue })}
           />
@@ -619,7 +619,7 @@ export default function Sider(props) {
         <div className="flex"></div>
         <Switch
           size="small"
-          primaryColor="#2196f3"
+          primaryColor="var(--primary-regular)"
           checked={showControlName}
           onClick={() => onUpdate({ showControlName: !showControlName })}
         />

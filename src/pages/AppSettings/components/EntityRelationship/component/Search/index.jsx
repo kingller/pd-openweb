@@ -33,7 +33,7 @@ const Wrap = styled.div`
       padding: 0 17px;
       &:hover,
       &.current {
-        background: #2196f3;
+        background: var(--primary-regular);
         color: #fff !important;
       }
     }

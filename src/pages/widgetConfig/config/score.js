@@ -4,11 +4,11 @@ const COLOR_FED156 = '#FED156';
 const COLOR_FF9300 = '#FF9300';
 const COLOR_F52222 = '#F52222';
 const COLOR_EB2F96 = '#EB2F96';
-const COLOR_2196F3 = '#2196F3';
+const COLOR_2196F3 = 'var(--primary-regular)';
 const COLOR_00C345 = '#00C345';
 
 export const SCORE_COLORS_LIST = [
-  '#2196F3',
+  'var(--primary-regular)',
   '#08C9C9',
   '#00C345',
   '#FAD714',

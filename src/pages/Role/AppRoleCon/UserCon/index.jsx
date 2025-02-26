@@ -33,7 +33,7 @@ const Wrap = styled.div`
   .isMyRole {
     width: 4px;
     height: 4px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border-radius: 50%;
     position: absolute;
     left: 10px;
@@ -79,7 +79,7 @@ const Wrap = styled.div`
   .iconBG {
     width: 32px;
     height: 32px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border-radius: 20px;
   }
   .memberInfo {
@@ -88,7 +88,7 @@ const Wrap = styled.div`
     }
     .memberTag {
       font-size: 12px;
-      color: #2196f3;
+      color: var(--primary-regular);
       padding: 2px 6px;
       border-radius: 12px;
       background: #f3faff;
@@ -97,7 +97,7 @@ const Wrap = styled.div`
     }
     .ownerTag {
       color: #fff;
-      background: #2196f3;
+      background: var(--primary-regular);
       font-weight: bold;
       padding: 2px 6px;
       font-size: 12px;

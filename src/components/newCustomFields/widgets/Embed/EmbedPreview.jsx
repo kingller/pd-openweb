@@ -15,7 +15,7 @@ const Wrap = styled.div`
     .icon-search,
     .icon-task-later {
       &:hover {
-        color: #2196f3 !important;
+        color: var(--primary-regular) !important;
       }
     }
   }

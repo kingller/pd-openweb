@@ -37,7 +37,7 @@ const Clear = styled.span`
   margin-top: 2px;
   font-weight: 600;
   cursor: pointer;
-  color: #2196f3;
+  color: var(--primary-regular);
 `;
 
 const Title = styled.div`
@@ -51,7 +51,7 @@ const Operate = styled.span`
   .icon-worksheet_filter,
   .inputCon > .icon-search {
     &:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
 `;
@@ -62,7 +62,7 @@ const Close = styled.span`
   font-size: 22px;
   color: #9e9e9e;
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 

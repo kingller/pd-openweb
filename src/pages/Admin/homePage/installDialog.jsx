@@ -76,7 +76,7 @@ const InstallDialog = styled.div`
   }
   .selectUser {
     span {
-      color: #2196f3;
+      color: var(--primary-regular);
       margin-left: 4px;
       cursor: pointer;
     }

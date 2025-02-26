@@ -54,9 +54,9 @@ const Wrap = styled.div`
           font-size: 16px;
         }
         &.isCur {
-          border-bottom: 4px solid #2196f3;
+          border-bottom: 4px solid var(--primary-regular);
           a {
-            color: #2196f3;
+            color: var(--primary-regular);
           }
         }
       }
@@ -70,7 +70,7 @@ const WrapListHeader = styled.div`
   padding: 32px 32px 0 32px;
   .addConnect {
     padding: 8px 24px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border-radius: 21px;
     color: #fff;
     display: inline-block;

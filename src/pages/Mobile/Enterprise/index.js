@@ -43,10 +43,10 @@ const EmptyProject = styled.div`
     }
   }
   .ThemeColor3 {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   .ThemeBGColor3 {
-    background-color: #2196f3;
+    background-color: var(--primary-regular);
   }
 `;
 

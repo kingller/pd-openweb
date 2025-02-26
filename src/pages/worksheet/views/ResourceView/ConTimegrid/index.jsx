@@ -26,7 +26,7 @@ const Wrap = styled.div`
       color: #9e9e9e;
     }
     &:hover {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
       .icon {
         color: #2195f3;
       }
@@ -53,7 +53,7 @@ const Wrap = styled.div`
       height: 28px;
       line-height: 28px;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
         background: #f5f5f5;
         border-radius: 3px 3px 3px 3px;
       }
@@ -70,7 +70,7 @@ const Wrap = styled.div`
         margin: 0 auto;
       }
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
         background: #f5f5f5;
         border-radius: 3px 3px 3px 3px;
       }

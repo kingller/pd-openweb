@@ -30,10 +30,10 @@ const Wrap = styled.div`
     font-weight: 400;
     color: #000;
     &.active {
-      color: #2196F3;
-      background-color: #2196f31f !important;
+      color: var(--primary-regular);
+      background-color: var(--primary-regular)1f !important;
       .icon {
-        color: #2196F3 !important;
+        color: var(--primary-regular) !important;
       }
     }
     &:hover {

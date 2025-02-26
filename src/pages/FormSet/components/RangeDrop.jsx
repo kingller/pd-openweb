@@ -13,7 +13,7 @@ const HeaderRange = styled.div`
     float: right;
   }
   .ming.icon-close:hover {
-    color: #2196f3 !important;
+    color: var(--primary-regular) !important;
   }
 `;
 const RangeBox = styled.div`

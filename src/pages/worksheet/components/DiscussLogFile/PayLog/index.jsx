@@ -43,7 +43,7 @@ const Wrap = styled.div`
     color: #f44336;
   }
   .wait {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   .war {
     color: #ff9d00;

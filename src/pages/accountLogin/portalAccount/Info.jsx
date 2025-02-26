@@ -71,7 +71,7 @@ const Wrap = styled.div`
     }
   }
   .send {
-    background: #2196f3;
+    background: var(--primary-regular);
     height: 40px;
     border-radius: 4px;
     line-height: 40px;

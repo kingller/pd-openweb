@@ -9,7 +9,7 @@ const CreatedBy = styled.div`
     font-weight: bold;
     font-style: italic;
     &:hover {
-      color: #40a9ff;
+      color: var(--primary-regular);
     }
   }
 `;

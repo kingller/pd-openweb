@@ -48,7 +48,7 @@ const LeftListWrapper = styled.div`
           margin-right: 10px;
           color: #bdbdbd;
           &:hover {
-            color: #2196f3;
+            color: var(--primary-regular);
           }
           &.isActive {
             display: block;
@@ -66,9 +66,9 @@ const LeftListWrapper = styled.div`
       &.isCur {
         background: #edf7fe;
         .listItem {
-          border-left: 3px solid #2196f3;
+          border-left: 3px solid var(--primary-regular);
           span {
-            color: #2196f3;
+            color: var(--primary-regular);
             font-weight: 600;
           }
         }
@@ -85,7 +85,7 @@ const AddDataObjButton = styled.div`
   padding-left: 12px;
   border: 0;
   border-radius: 4px;
-  color: #2196f3;
+  color: var(--primary-regular);
   cursor: pointer;
 `;
 

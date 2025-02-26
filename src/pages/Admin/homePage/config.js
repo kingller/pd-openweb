@@ -22,7 +22,7 @@ export const QUICK_ENTRY_CONFIG = [
   },
   {
     icon: 'settings',
-    color: '#2196f3',
+    color: 'var(--primary-regular)',
     title: _l('设置组织管理员'),
     explain: _l('拥有后台操作的权限'),
     action: 'settingAdmin',
@@ -36,7 +36,7 @@ export const QUICK_ENTRY_CONFIG = [
   },
   // {
   //   icon: 'laptop_mac',
-  //   color: '#2196f3',
+  //   color: 'var(--primary-regular)',
   //   title: _l('客户端安装'),
   //   explain: _l('为成员安装客户端'),
   //   action: 'installDesktop',

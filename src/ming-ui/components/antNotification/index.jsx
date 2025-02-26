@@ -11,7 +11,7 @@ const DefaultBtn = styled.div`
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  color: #2196f3;
+  color: var(--primary-regular);
   text-align: center;
   cursor: pointer;
   &:hover {

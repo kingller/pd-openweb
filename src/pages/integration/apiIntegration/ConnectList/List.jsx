@@ -30,7 +30,7 @@ const Wrap = styled.div`
   }
   .addConnect {
     padding: 8px 24px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border-radius: 21px;
     color: #fff;
     display: inline-block;
@@ -101,7 +101,7 @@ const MoreOperate = styled.span`
   font-size: 18px;
   &:hover {
     // background-color: rgba(0, 0, 0, 0.03);
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 const MenuWrap = styled(Menu)`

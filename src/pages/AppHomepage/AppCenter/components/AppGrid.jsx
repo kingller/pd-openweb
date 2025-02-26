@@ -125,9 +125,9 @@ const GroupTabClickPopup = styled.div`
   border-radius: 3px;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.24);
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
     i {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
 `;

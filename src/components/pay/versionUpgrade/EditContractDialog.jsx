@@ -48,7 +48,7 @@ const FormGroup = styled.div`
       }
       &:focus {
         background-color: #fff;
-        border: 1px solid #2196f3;
+        border: 1px solid var(--primary-regular);
       }
     }
   }

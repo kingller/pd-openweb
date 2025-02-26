@@ -87,7 +87,7 @@ const TestHeader = styled.div`
     background: #4c7d9e;
   }
   &.BGBlue {
-    background: #2196f3;
+    background: var(--primary-regular);
   }
   &.BGSkyBlue {
     background: #00bcd4;
@@ -408,7 +408,7 @@ class Header extends Component {
             <Fragment>
               <TestHeader
                 className={isPlugin ? '' : flowInfo.child ? 'BGBlueAsh' : getStartNodeColor(appType, triggerId)}
-                style={isPlugin ? { background: flowInfo.iconColor || '#2196f3' } : {}}
+                style={isPlugin ? { background: flowInfo.iconColor || 'var(--primary-regular)' } : {}}
               >
                 {isPlugin && flowInfo.iconName ? (
                   <SvgIcon url={flowInfo.iconName} fill="#fff" size={24} />

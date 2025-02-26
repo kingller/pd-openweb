@@ -31,7 +31,7 @@ const TABS_ITEM = styled.div`
       right: 0;
       content: '';
       height: 0;
-      border-bottom: 3px solid #2196f3;
+      border-bottom: 3px solid var(--primary-regular);
     }
   }
 `;
@@ -50,7 +50,7 @@ const SortableItemBox = styled.div`
     }
   }
   .icon-new_word {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   .icon-new_excel {
     color: #4caf50;

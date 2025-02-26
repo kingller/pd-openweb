@@ -38,7 +38,7 @@ const MoreOperateMenu = styled.ul`
       color: #333 !important;
     }
     &:hover {
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
       color: #fff;
       a {
         color: #fff;

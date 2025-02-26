@@ -43,12 +43,12 @@ const SortContent = styled.div`
         border-right: 1px solid #e0e0e0;
       }
       &.active {
-        color: #1e88e5;
-        border-color: #1e88e5;
+        color: var(--primary-regular);
+        border-color: var(--primary-regular);
         background-color: #fff;
       }
       &.active + .item {
-        border-left-color: #1e88e5;
+        border-left-color: var(--primary-regular);
       }
     }
   }
@@ -67,7 +67,7 @@ const CustomSortIconWrapper = styled.div`
   &:hover {
     span,
     .icon {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
 `;

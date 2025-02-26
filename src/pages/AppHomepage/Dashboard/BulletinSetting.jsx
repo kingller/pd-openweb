@@ -108,7 +108,7 @@ const BulletinDialog = styled(Dialog)`
       width: 100%;
       margin: 8px 0 20px;
       &:hover {
-        border-color: #1e88e5 !important;
+        border-color: var(--primary-regular) !important;
       }
     }
     .saveBtn {
@@ -156,7 +156,7 @@ const ItemWrapper = styled.div`
       }
     }
     &.isActive {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
       .delIcon {
         display: block;
       }
@@ -171,12 +171,12 @@ const TitleInput = styled(AntdInput)`
     border-radius: 3px !important;
     padding: 6px 12px !important;
     &:hover {
-      border-color: #1e88e5 !important;
+      border-color: var(--primary-regular) !important;
     }
   }
   &.ant-input-affix-wrapper-focused {
     box-shadow: none !important;
-    border-color: #1e88e5 !important;
+    border-color: var(--primary-regular) !important;
   }
 `;
 

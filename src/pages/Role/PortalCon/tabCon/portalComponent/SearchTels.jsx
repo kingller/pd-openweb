@@ -12,7 +12,7 @@ const Wrap = styled.div`
     width: 432px;
     height: 360px;
     background: #ffffff;
-    border: 1px solid #2196f3;
+    border: 1px solid var(--primary-regular);
     border-radius: 5px;
   }
 `;

@@ -26,8 +26,8 @@ const Con = styled.div`
       cursor: pointer;
     }
     &:hover {
-      color: #2196f3;
-      border-color: #2196f3;
+      color: var(--primary-regular);
+      border-color: var(--primary-regular);
     }
   }
   &.disabled {
@@ -64,7 +64,7 @@ const DropdownIcon = styled.div`
   }
   &:hover {
     .icon {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

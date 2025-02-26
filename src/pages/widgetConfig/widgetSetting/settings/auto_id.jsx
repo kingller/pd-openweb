@@ -104,7 +104,7 @@ const RuleInfo = styled.li`
 
 const RuleList = styled.ul`
   .addRule {
-    color: #2196f3;
+    color: var(--primary-regular);
     margin: 12px 0 0 20px;
     cursor: pointer;
     i {

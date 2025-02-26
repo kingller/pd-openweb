@@ -202,7 +202,7 @@ export const customFormData = (databaseType, dbRoleType, isCreateConnector, form
           value: 'ServiceName',
           index: 1,
           isDeleted: false,
-          color: '#2196F3',
+          color: 'var(--primary-regular)',
           score: 0,
         },
         {
@@ -312,7 +312,7 @@ export const customFormData = (databaseType, dbRoleType, isCreateConnector, form
           value: _l('账号密码'),
           index: 2,
           isDeleted: false,
-          color: '#2196F3',
+          color: 'var(--primary-regular)',
           score: 0,
         },
       ],
@@ -363,7 +363,7 @@ export const customFormData = (databaseType, dbRoleType, isCreateConnector, form
                 value: 'PLAIN',
                 index: 1,
                 isDeleted: false,
-                color: '#2196F3',
+                color: 'var(--primary-regular)',
                 score: 0,
               },
               // {

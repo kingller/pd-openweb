@@ -20,7 +20,7 @@ const Wrap = styled.div`
     border-bottom: 1px solid #f0f0f0;
     &:hover {
       .langName {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
       background-color: #f5f5f5;
     }
@@ -29,7 +29,7 @@ const Wrap = styled.div`
     width: 50px;
   }
   .icon-more_horiz:hover {
-    color: #2196f3 !important;
+    color: var(--primary-regular) !important;
   }
 `;
 

@@ -17,7 +17,7 @@ const Wrapper = styled.div`
     background-color: #fff;
 
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       background-color: #f5f5f5;
     }
   }

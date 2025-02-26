@@ -35,7 +35,7 @@ const Wrap = styled.div`
       color: #757575;
     }
     &:hover {
-      background: #2196f3;
+      background: var(--primary-regular);
       color: #fff;
       .Icon {
         color: #fff;

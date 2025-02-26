@@ -140,7 +140,7 @@ export const Header = styled.div`
       .back {
         color: #757575;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }
@@ -158,7 +158,7 @@ export const Header = styled.div`
     input {
       border: none;
       font-size: 17px;
-      border-bottom: 2px solid #2196f3;
+      border-bottom: 2px solid var(--primary-regular);
     }
   }
   .ming.Button--secondary {
@@ -181,7 +181,7 @@ export const Header = styled.div`
     &.Hand {
       cursor: pointer;
       &:hover {
-        border: 1px solid #2196f3;
+        border: 1px solid var(--primary-regular);
       }
     }
   }
@@ -194,9 +194,9 @@ export const Header = styled.div`
     border-radius: 3px;
     text-align: center;
     font-weight: 600;
-    background: #2196f3;
+    background: var(--primary-regular);
     &:hover {
-      background: #1e88e5;
+      background: var(--primary-regular);
     }
   }
   .disable,
@@ -275,8 +275,8 @@ export const WrapPreview = styled.div`
       border-radius: 3px;
       border: 1px solid #bfbfbf;
       &:hover {
-        color: #2196f3;
-        border: 1px solid #2196f3;
+        color: var(--primary-regular);
+        border: 1px solid var(--primary-regular);
       }
       &.refreshBtn:hover {
         color: #ffa340;
@@ -295,7 +295,7 @@ export const WrapPreview = styled.div`
   .searchInputComp.default .icon-search {
     font-size: 20px;
     &:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
   .previewHeader {
@@ -373,7 +373,7 @@ export const WrapS = styled(Menu)`
     }
   }
   .ming.Item.ThemeColor3 .Item-content:not(.disabled):hover {
-    color: #1e88e5 !important;
+    color: var(--primary-regular) !important;
   }
   .Red.ming.MenuItem .Item-content:not(.disabled):hover {
     color: red !important;

@@ -125,7 +125,7 @@ const Wrap = styled.div`
               background-color: #f7f7f7;
               opacity: 1;
               i {
-                color: #2196f3;
+                color: var(--primary-regular);
               }
             }
             &.show {

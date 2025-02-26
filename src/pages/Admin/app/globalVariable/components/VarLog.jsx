@@ -87,12 +87,12 @@ const LogDrawer = styled(Drawer)`
         color: #9e9e9e;
       }
       .selectLight {
-        color: #2196f3;
+        color: var(--primary-regular);
         .icon {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
         .selectConText {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

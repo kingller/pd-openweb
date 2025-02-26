@@ -46,7 +46,7 @@ const SelectedFilter = styled(FlexCenter)`
   font-size: 13px;
   line-height: 29px;
   vertical-align: middle;
-  color: #1e88e5;
+  color: var(--primary-regular);
   background-color: #e3f2fd;
   padding: 0 10px;
   .text {

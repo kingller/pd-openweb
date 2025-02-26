@@ -39,11 +39,11 @@ const SwitchTab = styled.div`
     text-align: center;
     display: inline-block;
     &.active {
-      color: #2196f3;
+      color: var(--primary-regular);
       background: #ffffff;
     }
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

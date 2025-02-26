@@ -81,7 +81,7 @@ const ListItem = styled.div`
     font-size: 12px;
     color: #fff;
     &.blue {
-      background: #2196f3;
+      background: var(--primary-regular);
     }
     &.black {
       background: #333;

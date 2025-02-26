@@ -22,7 +22,7 @@ const ItemTitle = styled.ul`
       border: none;
       padding-left: 0;
       height: 28px;
-      border-bottom: 2px solid #2196f3;
+      border-bottom: 2px solid var(--primary-regular);
       background-color: transparent;
       font-size: 14px;
       border-radius: 0;

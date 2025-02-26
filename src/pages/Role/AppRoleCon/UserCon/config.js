@@ -13,7 +13,7 @@ export const getIcon = data => {
 };
 
 export const getColor = data => {
-  return [0, 1].includes(data.memberType) ? '#2196f3' : [3].includes(data.memberType) ? '#ffad00' : '#eaeaea';
+  return [0, 1].includes(data.memberType) ? 'var(--primary-regular)' : [3].includes(data.memberType) ? '#ffad00' : '#eaeaea';
 };
 
 export const getTxtColor = data => {

@@ -34,7 +34,7 @@ const ActionOpWrap = styled.ul`
     padding: 0 24px;
     cursor: pointer;
     &:hover {
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
       color: #fff;
     }
   }

@@ -46,7 +46,7 @@ const ConfigWrap = styled.div`
       cursor: pointer;
       transition: color 0.25s;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
@@ -93,14 +93,14 @@ const FormatInfo = styled.div`
       color: #9e9e9e;
       margin-right: 10px;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     .deleteBtn:hover {
       color: #f44336;
     }
     .filterIcon.active {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .textVerifyFilterValue {
@@ -123,7 +123,7 @@ const AddVerify = styled.div`
   height: 21px;
   color: #9e9e9e;
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   &.disable i {
     cursor: not-allowed;

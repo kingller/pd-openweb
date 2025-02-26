@@ -46,7 +46,7 @@ const Wrap = styled.div`
     border-radius: 3px;
     width: 100%;
     &:focus {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
   textarea {
@@ -56,7 +56,7 @@ const Wrap = styled.div`
   .btn {
     margin-top: 32px;
     padding: 8px 32px;
-    background: #2196f3;
+    background: var(--primary-regular);
     color: #fff;
     line-height: 1em;
     border-radius: 3px;

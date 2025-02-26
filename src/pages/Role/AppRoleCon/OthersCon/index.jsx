@@ -45,7 +45,7 @@ const Des = styled.div`
     border: 1px solid #dddddd;
     background: #fff;
     &.c {
-      background: #2196f3;
+      background: var(--primary-regular);
       border: 0;
       color: #fff;
     }
@@ -73,7 +73,7 @@ const ExplainCon = styled.div`
   }
   .explain-button {
     padding: 15px 22px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border: none;
     color: #ffffff;
     font-size: 14px;

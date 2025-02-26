@@ -31,7 +31,7 @@ const Wrap = styled.div`
     display: block;
     color: #757575
     &:hover{
-      color: #1e88e5;
+      color: var(--primary-regular);
     }
   }
   .title {
@@ -50,8 +50,8 @@ const Wrap = styled.div`
       line-height: 54px;
       &.isCur,&:hover {
         font-weight: 600;
-        color: #2196f3;
-        border-bottom: 3px solid #2196f3;
+        color: var(--primary-regular);
+        border-bottom: 3px solid var(--primary-regular);
       }
     }
   }
@@ -60,14 +60,14 @@ const Wrap = styled.div`
     padding: 0 22px;
     line-height: 36px;
     margin-right: 16px;
-    border: 1px solid #2196f3;
-    color: #2196f3;
+    border: 1px solid var(--primary-regular);
+    color: var(--primary-regular);
     cursor: pointer;
     border-radius: 3px;
     text-align: center;
     font-weight: 600;
     &:hover{
-      background: #2196F3;
+      background: var(--primary-regular);
       color:#fff;
     }
   }

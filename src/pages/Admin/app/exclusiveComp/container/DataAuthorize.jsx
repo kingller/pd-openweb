@@ -20,7 +20,7 @@ const ContentWrap = styled.div`
   padding: 20px 40px 20px 45px;
   .addUser {
     line-height: 36px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border-radius: 3px;
     color: #fff;
     padding: 0 12px;
@@ -71,7 +71,7 @@ const ListWrap = styled.div`
     }
     &.isSort {
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
@@ -112,7 +112,7 @@ const ListWrap = styled.div`
 //     display: none;
 //   }
 //   &:hover {
-//     color: #2196f3;
+//     color: var(--primary-regular);
 //   }
 //   &:hover,
 //   &.isCue {

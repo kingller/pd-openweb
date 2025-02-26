@@ -32,7 +32,7 @@ export default class ValueAxis extends Component {
           <Menu.SubMenu popupClassName="chartMenu" title={_l('计算')} popupOffset={[0, -15]}>
             {normTypes.filter(n => ![5, 6].includes(n.value)).map(item => (
               <Menu.Item
-                style={{ width: 120, color: item.value === valueAxis.normType ? '#1e88e5' : null }}
+                style={{ width: 120, color: item.value === valueAxis.normType ? 'var(--primary-regular)' : null }}
                 key={item.value}
                 onClick={() => {
                   this.props.changeValueAxis({ normType: item.value });
@@ -56,7 +56,7 @@ export default class ValueAxis extends Component {
               }
             ].map(item => (
               <Menu.Item
-                style={{ width: 120, color: item.value === valueAxis.normType ? '#1e88e5' : null }}
+                style={{ width: 120, color: item.value === valueAxis.normType ? 'var(--primary-regular)' : null }}
                 key={item.value}
                 onClick={() => {
                   this.props.changeValueAxis({ normType: item.value });

@@ -28,7 +28,7 @@ const Wrap = styled.div`
   .toRole {
     color: #5a5a5a;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .wrapTr:not(.checkBoxTr):not(.optionWrapTr) {
@@ -46,13 +46,13 @@ const Wrap = styled.div`
     padding: 0 !important;
   }
   .isCurmemberType {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   .isMyRoleW {
     padding: 0px 7px;
     line-height: 18px;
     height: 18px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border-radius: 9px 9px 9px 9px;
     color: #fff;
     .tag {
@@ -80,13 +80,13 @@ const WrapBar = styled.div`
     line-height: 34px;
     display: inline-block;
     &:hover {
-      border: 1px solid #2196f3;
-      color: #2196f3;
+      border: 1px solid var(--primary-regular);
+      color: var(--primary-regular);
     }
   }
   .addUser {
     line-height: 36px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border-radius: 3px;
     color: #fff;
     padding: 0 12px;

@@ -18,8 +18,8 @@ const FeedbackDialog = styled(Dialog)`
     .ming.Button--link {
       height: 34px;
       line-height: 34px;
-      border: 1px solid #2196f3;
-      color: #2196f3;
+      border: 1px solid var(--primary-regular);
+      color: var(--primary-regular);
     }
   }
 `;

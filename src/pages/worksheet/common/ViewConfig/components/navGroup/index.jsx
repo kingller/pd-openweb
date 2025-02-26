@@ -128,7 +128,7 @@ const Wrap = styled.div`
       span.addIcon {
         position: relative;
         background: #f8f8f8;
-        color: #2196f3;
+        color: var(--primary-regular);
         border-radius: 3px;
         display: block;
         padding: 12px 0;
@@ -145,7 +145,7 @@ const Wrap = styled.div`
       }
       &.active {
         .inputBox {
-          border: 1px solid #2196f3;
+          border: 1px solid var(--primary-regular);
         }
       }
     }
@@ -208,7 +208,7 @@ const Wrap = styled.div`
       }
       span.addIcon {
         position: relative;
-        background: #2196f3;
+        background: var(--primary-regular);
         border-radius: 3px;
         color: #fff;
         display: inline-block;

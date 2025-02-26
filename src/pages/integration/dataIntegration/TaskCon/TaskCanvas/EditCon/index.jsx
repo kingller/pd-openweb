@@ -102,17 +102,17 @@ const WrapR = styled.div`
     .icon {
       color: #9e9e9e;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
   .editControl {
     padding: 6px 16px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border-radius: 4px;
     color: #ffffff;
     font-weight: 400;
-    border: 1px solid #2196f3;
+    border: 1px solid var(--primary-regular);
     .icon,
     .icon:hover {
       color: #fff;
@@ -131,11 +131,11 @@ const WrapR = styled.div`
     padding: 6px 16px;
     background: #fff;
     border-radius: 4px;
-    border: 1px solid #2196f3;
-    color: #2196f3;
+    border: 1px solid var(--primary-regular);
+    color: var(--primary-regular);
     font-weight: 400;
     .icon {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     &.disable {
       border: 1px solid #bdbdbd;

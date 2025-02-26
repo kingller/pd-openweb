@@ -9,7 +9,7 @@ const AddSubListWrap = styled.div`
     color: #9e9e9e;
     span {
       margin-left: 6px;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   label {

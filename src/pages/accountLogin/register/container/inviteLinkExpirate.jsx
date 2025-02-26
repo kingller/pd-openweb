@@ -21,7 +21,7 @@ const Wrap = styled.div`
     text-decoration: none;
 
     &:hover {
-      background: #1e88e5;
+      background: var(--primary-regular);
     }
   }
 `;

@@ -18,7 +18,7 @@ const MenuWrap = styled(Menu)`
     &.cur {
       .Item-content,
       .Item-content:not(.disabled):hover {
-        background-color: #1e88e5 !important;
+        background-color: var(--primary-regular) !important;
         color: #fff !important;
         .gray_75 {
           color: #fff;
@@ -27,7 +27,7 @@ const MenuWrap = styled(Menu)`
     }
     .Item-content:not(.disabled):hover {
       background: #f5f5f5 !important;
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
   .GroupTypeMenuWrap {
@@ -47,7 +47,7 @@ const MenuWrap = styled(Menu)`
       padding: 0 16px;
       &:hover {
         background: #f5f5f5;
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }

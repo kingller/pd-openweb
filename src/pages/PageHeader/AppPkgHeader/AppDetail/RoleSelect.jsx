@@ -55,9 +55,9 @@ const RoleSelectWrap = styled.div`
       &.active {
         background: #e4f3fd;
         font-weight: 600;
-        color: #2196f3;
+        color: var(--primary-regular);
         .icon {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }
@@ -67,7 +67,7 @@ const RoleSelectWrap = styled.div`
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
     .clearAll:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
     .top {
       justify-content: space-between;

@@ -50,7 +50,7 @@ const WaterMarkSettingWrap = styled.div`
     border: 1px solid #d8d8d8;
     box-sizing: border-box;
     &.active {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
 `;

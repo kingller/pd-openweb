@@ -32,7 +32,7 @@ const CalItem = styled.div`
       margin-right: 0;
     }
     &:hover {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
 `;

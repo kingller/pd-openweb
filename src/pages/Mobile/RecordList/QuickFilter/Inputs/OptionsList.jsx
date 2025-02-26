@@ -7,7 +7,7 @@ import _ from 'lodash';
 const Item = styled.div`
   padding: 8px 0;
   .icon-done {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 

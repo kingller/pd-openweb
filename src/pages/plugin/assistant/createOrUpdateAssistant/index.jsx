@@ -78,7 +78,7 @@ const ContentWrapper = styled.div`
         cursor: pointer;
         &.isActive {
           background: #fff;
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

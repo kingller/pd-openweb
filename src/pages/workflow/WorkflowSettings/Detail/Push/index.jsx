@@ -22,14 +22,14 @@ const MsgTypeBtn = styled.div`
   cursor: pointer;
   &.active {
     position: relative;
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
     &::before {
       position: absolute;
       right: -8px;
       top: -8px;
       border-style: solid;
       border-width: 8px;
-      border-color: #2196f3 transparent transparent transparent;
+      border-color: var(--primary-regular) transparent transparent transparent;
       content: '';
       transform: rotateZ(-135deg);
     }
@@ -63,7 +63,7 @@ const BtnContent = styled.div`
     color: #bdbdbd;
     cursor: pointer;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .Font13.bold {
@@ -518,7 +518,7 @@ export default class Push extends Component {
       { text: _l('成功'), value: 1, color: '#4CAF50', icon: 'icon-plus-interest' },
       { text: _l('失败'), value: 2, color: '#F44336', icon: 'icon-delete_out' },
       { text: _l('警告'), value: 3, color: '#FFBA00', icon: 'icon-error1' },
-      { text: _l('通知'), value: 4, color: '#2196F3', icon: 'icon-info' },
+      { text: _l('通知'), value: 4, color: 'var(--primary-regular)', icon: 'icon-info' },
     ];
 
     return (

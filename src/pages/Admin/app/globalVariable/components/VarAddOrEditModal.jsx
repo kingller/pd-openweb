@@ -89,7 +89,7 @@ const FormItem = styled.div`
     }
     &.ant-select-focused {
       .ant-select-selector {
-        border-color: #1e88e5 !important;
+        border-color: var(--primary-regular) !important;
       }
     }
     &.ant-select-disabled {
@@ -129,7 +129,7 @@ const VarNumberContainer = styled.div`
       }
       &:hover {
         i {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }
@@ -197,7 +197,7 @@ const AppListContainer = styled.div`
         color: #bdbdbd;
         cursor: pointer;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

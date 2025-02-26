@@ -26,7 +26,7 @@ const DEFAULT_COLORS_ROW_1 = [
 ];
 
 const DEFAULT_COLORS_ROW_2 = [
-  '#2196f3ff',
+  'var(--primary-regular)ff',
   '#08c9c9ff',
   '#00c345ff',
   '#fad714ff',
@@ -52,7 +52,7 @@ const DEFAULT_COLORS_ROW_3 = [
 const DEFAULT_COLORS2 = [
   '#333333ff',
   '#757575ff',
-  '#2196f3ff',
+  'var(--primary-regular)ff',
   '#08c9c9ff',
   '#00c345ff',
   '#fad714ff',
@@ -114,7 +114,7 @@ class ColorPicker extends Component {
 
   static defaultProps = {
     visible: false,
-    value: '#2196f3',
+    value: 'var(--primary-regular)',
     isPopupBody: false,
     sysColor: false,
     themeColor: '',

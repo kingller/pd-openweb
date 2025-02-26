@@ -47,7 +47,7 @@ const EmptyContent = styled.div`
   .workflowLineBtn {
     width: auto !important;
     .icon-custom_add_circle {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
       &:hover {
         color: #1565c0 !important;
       }

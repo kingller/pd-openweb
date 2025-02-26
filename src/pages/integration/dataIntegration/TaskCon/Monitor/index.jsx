@@ -239,7 +239,7 @@ function Monitor(props) {
       yField: 'value',
       seriesField: 'category',
       smooth: true,
-      color: ['#61DDAA', '#2196F3'],
+      color: ['#61DDAA', 'var(--primary-regular)'],
       xAxis: {
         label: {
           style: {

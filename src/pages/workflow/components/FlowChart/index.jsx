@@ -370,7 +370,7 @@ export class FlowChart extends Component {
               <span className="workflowEditBtnLine" />
 
               <Legend className="flexRow alignItemsCenter">
-                <div className="legendLine" style={{ background: '#2196f3' }} />
+                <div className="legendLine" style={{ background: 'var(--primary-regular)' }} />
                 <div>{_l('已执行')}</div>
               </Legend>
               <Legend className="flexRow alignItemsCenter mLeft20">

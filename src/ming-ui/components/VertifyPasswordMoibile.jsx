@@ -39,10 +39,10 @@ const VertifyPasswordDialogWrap = styled(Popup)`
       border: 1px solid #ddd;
     }
     .ming.Button--primary {
-      background: #2196f3;
+      background: var(--primary-regular);
     }
     .ming.Button--primary:hover {
-      background: #2196f3;
+      background: var(--primary-regular);
     }
   }
 `;

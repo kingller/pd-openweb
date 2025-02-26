@@ -80,7 +80,7 @@ const ArrowUp = styled.span`
   cursor: pointer;
   &:hover,
   &.active {
-    border-color: transparent transparent #2196f3 transparent;
+    border-color: transparent transparent var(--primary-regular) transparent;
   }
 `;
 
@@ -92,7 +92,7 @@ const ArrowDown = styled.span`
   margin-top: 2px;
   &:hover,
   &.active {
-    border-color: #2196f3 transparent transparent transparent;
+    border-color: var(--primary-regular) transparent transparent transparent;
   }
 `;
 let ajaxPromise = null;

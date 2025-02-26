@@ -14,7 +14,7 @@ const Wrap = styled.div`
   }
   .back {
     &:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
   img {
@@ -108,7 +108,7 @@ const Wrap = styled.div`
     line-height: 1.5;
   }
   .loginBtn {
-    background: #2196f3;
+    background: var(--primary-regular);
     height: 48px;
     border-radius: 4px;
     line-height: 48px;

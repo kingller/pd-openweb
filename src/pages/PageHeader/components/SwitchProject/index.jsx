@@ -52,7 +52,7 @@ const ProjectItem = styled.div`
   height: 40px;
   line-height: 40px;
   &.active {
-    color: #2196f3;
+    color: var(--primary-regular);
     background: rgb(33, 150, 243, 0.08);
   }
   &:not(.active):hover {

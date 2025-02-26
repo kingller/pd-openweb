@@ -17,7 +17,7 @@ const SelectedUser = styled(BorderBox)`
   align-items: center;
   padding: 0 10px;
   cursor: pointer;
-  ${({ active }) => (active ? 'border-color: #2196f3;' : '')}
+  ${({ active }) => (active ? 'border-color: var(--primary-regular);' : '')}
   > .con {
     flex: 1;
     overflow: hidden;
@@ -64,7 +64,7 @@ const AccountItem = styled.div`
   flex-direction: row;
   align-items: center;
   &:hover {
-    background: #2196f3;
+    background: var(--primary-regular);
     color: #fff;
   }
 `;

@@ -31,7 +31,7 @@ const ChartListWrapper = styled.div`
       color: #9e9e9e;
       cursor: pointer;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     &:hover {

@@ -64,7 +64,7 @@ const CustomPageContentWrap = styled.div`
     .iconWrap {
       color: #757575a1;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     .svgWrap {

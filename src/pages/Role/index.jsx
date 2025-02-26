@@ -81,8 +81,8 @@ const Wrap = styled.div`
     border-bottom: 3px solid transparent;
     &.current {
       position: relative;
-      color: #2196f3;
-      border-bottom: 3px solid #2196f3;
+      color: var(--primary-regular);
+      border-bottom: 3px solid var(--primary-regular);
     }
   }
 `;
@@ -92,7 +92,7 @@ const WrapOpenPortalBtn = styled.div`
   height: 34px;
   background: #f3faff;
   border-radius: 18px;
-  color: #2196f3;
+  color: var(--primary-regular);
   font-weight: 500;
   &:hover {
     background: #ebf6fe;
@@ -139,13 +139,13 @@ const WrapPop = styled.div`
     .btn {
       margin-top: 16px;
       line-height: 36px;
-      background: #2196f3;
+      background: var(--primary-regular);
       border-radius: 3px;
       padding: 0 24px;
       color: #fff;
       font-weight: 600;
       &:hover {
-        background: #1e88e5;
+        background: var(--primary-regular);
       }
     }
     .helpPortal {

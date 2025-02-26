@@ -57,7 +57,7 @@ const ExpandBtn = styled.div`
   line-height: 36px;
   margin-left: 20px;
   cursor: pointer;
-  color: #2196f3;
+  color: var(--primary-regular);
   font-size: 13px;
   .icon {
     margin-right: 2px;
@@ -79,7 +79,7 @@ const Input = styled.input`
     border-color: #bbb;
   }
   &:focus {
-    border-color: #1e88e5;
+    border-color: var(--primary-regular);
   }
 `;
 const { RangePicker } = DatePicker;

@@ -23,7 +23,7 @@ export const Wrap = styled.div`
     text-align: center;
     .changeBtn {
       font-size: 14px;
-      color: #2196f3;
+      color: var(--primary-regular);
       font-weight: bold;
       &:hover {
         color: #1182dd;

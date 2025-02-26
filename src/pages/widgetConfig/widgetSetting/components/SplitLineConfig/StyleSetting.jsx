@@ -7,7 +7,7 @@ import './index.less';
 
 const THEME_COLORS = {
   0: '#FF982D',
-  1: '#2196F3',
+  1: 'var(--primary-regular)',
   2: '#4CAF50',
 };
 

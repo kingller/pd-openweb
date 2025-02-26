@@ -42,9 +42,9 @@ const Wrap = styled.div`
           font-size: 17px;
         }
         &.menuTab-active {
-          border-bottom-color: #2196f3;
+          border-bottom-color: var(--primary-regular);
           a {
-            color: #2196f3 !important;
+            color: var(--primary-regular) !important;
           }
         }
       }

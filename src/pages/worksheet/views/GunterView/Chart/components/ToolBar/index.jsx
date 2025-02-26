@@ -28,7 +28,7 @@ const ToolBarWrap = styled.div(
   z-index: 10;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 6px;
   .icon-download:hover {
-    color: #2196f3 !important;
+    color: var(--primary-regular) !important;
   }
   .line{
     height: 20px;
@@ -55,7 +55,7 @@ const SelectWrap = styled(Select)`
   }
   &:hover {
     .icon-arrow-down {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
   &.mobile {

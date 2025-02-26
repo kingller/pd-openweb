@@ -58,7 +58,7 @@ const DisplayItemWrap = styled.div`
   .verticalDragDir {
     position: absolute;
     height: 4px;
-    background: #2196f3;
+    background: var(--primary-regular);
   }
   .drag-top,
   .drag-view_top {
@@ -72,7 +72,7 @@ const DisplayItemWrap = styled.div`
     top: 0;
     width: 4px;
     height: 100%;
-    background: #2196f3;
+    background: var(--primary-regular);
   }
   .drag-left {
     left: -2px;

@@ -74,7 +74,7 @@ export const AddNode = styled(Circle)`
     color: #9e9e9e;
     transition: transform 0.25s;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       transform: rotate(90deg);
     }
   }
@@ -113,7 +113,7 @@ const MoreOperate = styled.span`
   font-size: 18px;
   &:hover {
     background-color: rgba(0, 0, 0, 0.03);
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 const MenuWrap = styled(Menu)`

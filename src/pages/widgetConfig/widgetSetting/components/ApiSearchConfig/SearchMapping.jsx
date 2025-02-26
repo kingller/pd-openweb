@@ -52,7 +52,7 @@ const SetConfig = styled.div`
     margin-right: 7px;
   }
   &:hover {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
 `;
 

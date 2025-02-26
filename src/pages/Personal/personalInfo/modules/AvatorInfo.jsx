@@ -28,9 +28,9 @@ const Wrap = styled.div`
     border: 1px solid #dddddd;
     line-height: 36px;
     &.save {
-      background: #2196f3;
+      background: var(--primary-regular);
       color: #fff;
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
 `;

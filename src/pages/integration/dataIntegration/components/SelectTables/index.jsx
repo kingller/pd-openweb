@@ -10,7 +10,7 @@ import _ from 'lodash';
 
 const NewItem = styled.div`
   padding: 5px 12px;
-  color: #2196f3;
+  color: var(--primary-regular);
   cursor: pointer;
 `;
 

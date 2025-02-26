@@ -232,8 +232,8 @@ export const NODE_ICON = {
     },
     bgColor: {
       1: '#ffa340',
-      5: '#2196f3',
-      6: '#2196f3',
+      5: 'var(--primary-regular)',
+      6: 'var(--primary-regular)',
       7: '#4C7D9E',
       8: '#4C7D9E',
       9: '#4158DB',
@@ -243,13 +243,13 @@ export const NODE_ICON = {
       23: '#01ca83',
       25: '#4C7D9E',
       45: '#4C7D9E',
-      106: '#2196f3',
+      106: 'var(--primary-regular)',
     },
   },
   gateway: {
     icon: 'workflow_branch',
     text: _l('分支'),
-    bgColor: '#2196f3',
+    bgColor: 'var(--primary-regular)',
   },
   write: {
     icon: 'workflow_write',
@@ -264,7 +264,7 @@ export const NODE_ICON = {
   cc: {
     icon: 'workflow_notice',
     text: _l('抄送'),
-    bgColor: '#2196f3',
+    bgColor: 'var(--primary-regular)',
   },
   action: {
     icon: {
@@ -299,12 +299,12 @@ export const NODE_ICON = {
   msg: {
     icon: 'workflow_sms',
     text: _l('短信'),
-    bgColor: '#2196f3',
+    bgColor: 'var(--primary-regular)',
   },
   email: {
     icon: 'email',
     text: _l('邮件'),
-    bgColor: '#2196f3',
+    bgColor: 'var(--primary-regular)',
   },
   delay: {
     icon: 'workflow_delayed',
@@ -334,7 +334,7 @@ export const NODE_ICON = {
   push: {
     icon: 'interface_push',
     text: _l('界面推送'),
-    bgColor: '#2196f3',
+    bgColor: 'var(--primary-regular)',
   },
   file: {
     icon: 'print',
@@ -344,7 +344,7 @@ export const NODE_ICON = {
   template: {
     icon: 'wechat',
     text: _l('发送服务号消息'),
-    bgColor: '#2196f3',
+    bgColor: 'var(--primary-regular)',
   },
   pbc: {
     icon: 'pbc',
@@ -384,7 +384,7 @@ export const NODE_ICON = {
   notice: {
     icon: 'hr_message_reminder',
     text: _l('站内通知'),
-    bgColor: '#2196f3',
+    bgColor: 'var(--primary-regular)',
   },
   snapshot: {
     icon: 'camera_alt',
@@ -415,16 +415,16 @@ export const NODE_ICON = {
   plugin: {
     icon: 'workflow',
     text: _l('插件'),
-    bgColor: '#2196f3',
+    bgColor: 'var(--primary-regular)',
   },
   singleInfo: {
     icon: 'person_search',
     text: _l('获取单条人员/部门信息'),
-    bgColor: '#2196f3',
+    bgColor: 'var(--primary-regular)',
   },
   moreInfo: {
     icon: 'group-members',
     text: _l('获取多条人员/部门信息'),
-    bgColor: '#2196f3',
+    bgColor: 'var(--primary-regular)',
   },
 };

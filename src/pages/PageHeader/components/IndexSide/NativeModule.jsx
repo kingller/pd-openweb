@@ -5,7 +5,7 @@ import { navigateTo } from 'src/router/navigateTo';
 import _ from 'lodash';
 
 const NATIVE_MODULES = [
-  { id: 'feed', icon: 'dynamic-empty', text: _l('动态'), color: '#2196f3', href: '/feed', key: 1 },
+  { id: 'feed', icon: 'dynamic-empty', text: _l('动态'), color: 'var(--primary-regular)', href: '/feed', key: 1 },
   { id: 'task', icon: 'task_basic_application', text: _l('任务'), color: '#3cca8f', href: '/apps/task', key: 2 },
   { id: 'calendar', icon: 'sidebar_calendar', text: _l('日程'), color: '#ff6d6c', href: '/apps/calendar/home', key: 3 },
   { id: 'knowledge', icon: 'sidebar_knowledge', text: _l('文件'), color: '#F89803', href: '/apps/kc', key: 4 },
@@ -53,7 +53,7 @@ export default class NativeModule extends Component {
         <ul className={cx('nativeModuleWrap', { hideGroup: !isShow })}>
           {NATIVE_MODULES.map(({ id, icon, href, text, color }) => (
             <li key={id} onClick={() => navigateTo(href)}>
-              <div className="iconWrap" style={{ backgroundColor: color || '#2196f3' }}>
+              <div className="iconWrap" style={{ backgroundColor: color || 'var(--primary-regular)' }}>
                 <Icon icon={icon} className="Font18 White" />
               </div>
               <span className="moduleName overflow_ellipsis">{text}</span>

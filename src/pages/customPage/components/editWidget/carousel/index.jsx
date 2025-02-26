@@ -31,7 +31,7 @@ const Wrap = styled.div`
         border: none;
       }
       &.active {
-        color: #2196f3;
+        color: var(--primary-regular);
         font-weight: bold;
         border-radius: 3px;
         background-color: #fff;

@@ -38,7 +38,7 @@ const Box = styled.div`
   .workflowOperate {
     color: #757575;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .workflowNodeName {

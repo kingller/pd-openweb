@@ -74,7 +74,7 @@ const TemplateList = styled.div`
     color: #757575;
     &:hover,
     &.active {
-      color: #2196f3;
+      color: var(--primary-regular);
       background-color: #e8f5ff;
     }
   }

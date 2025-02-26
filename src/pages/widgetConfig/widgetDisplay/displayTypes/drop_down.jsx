@@ -16,7 +16,7 @@ const ScalePoint = styled.span`
   width: 8px;
   height: 8px;
   border-radius: 8px;
-  border: 2px solid #2196f3;
+  border: 2px solid var(--primary-regular);
   > span {
     user-select: none;
     white-space: nowrap;

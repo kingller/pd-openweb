@@ -67,7 +67,7 @@ const FileItemWrap = styled.div`
   .passwordInputBox {
     width: 248px;
     line-height: 40px;
-    border: 1px solid #2196f3;
+    border: 1px solid var(--primary-regular);
     border-radius: 3px;
     padding: 0 12px;
     box-sizing: border-box;

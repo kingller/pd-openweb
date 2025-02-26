@@ -33,7 +33,7 @@ const Wrap = styled.div`
         border: 1px solid #bdbdbd;
       }
       &:focus {
-        border: 1px solid #2196f3;
+        border: 1px solid var(--primary-regular);
       }
     }
   }
@@ -50,13 +50,13 @@ const Wrap = styled.div`
   .ant-input:focus,
   .ant-input-focused {
     box-shadow: none;
-    border: 1px solid #2196f3;
+    border: 1px solid var(--primary-regular);
   }
   .sysBtn {
     line-height: 34px;
     background: #f5f5f5;
     border-radius: 4px;
-    color: #2196f3;
+    color: var(--primary-regular);
     padding: 0 12px;
     display: inline-block;
     cursor: pointer;

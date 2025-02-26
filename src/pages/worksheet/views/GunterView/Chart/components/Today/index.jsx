@@ -13,7 +13,7 @@ const TodayWrapper = styled.div`
   color: #fff;
   padding: 1px 5px;
   border-radius: 4px;
-  background-color: #2196f3;
+  background-color: var(--primary-regular);
   &.left {
     left: 5px;
   }

@@ -25,14 +25,14 @@ const Wrap = styled.ul`
       font-weight: normal;
     }
     &.current {
-      background: #f2f9ff;
-      box-shadow: inset 0 0 0 2px #2196f3;
-      color: #2196f3;
+      background: --primary-light-hover;
+      box-shadow: inset 0 0 0 2px var(--primary-regular);
+      color: var(--primary-regular);
       box-sizing: border-box;
       z-index: 1;
       position: relative;
       .icon {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     p {

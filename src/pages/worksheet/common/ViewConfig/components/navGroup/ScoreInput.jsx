@@ -19,7 +19,7 @@ const DropWrap = styled.div`
     &.cur {
       background: rgba(33, 150, 243, 0.2);
       .icon {
-        color: #2196f3;
+        color: var(--primary-regular);
         display: inline-block;
         line-height: 32px;
       }

@@ -121,7 +121,7 @@ const WrapDrop = styled.div`
   max-height: 360px;
 `;
 const WrapAdd = styled.span`
-  color: #2196f3;
+  color: var(--primary-regular);
 `;
 export default function GroupDialog(props) {
   const { onHide, onOk, visible, className, sourceInfos = [], flowData } = props;

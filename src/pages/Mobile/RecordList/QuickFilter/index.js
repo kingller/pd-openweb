@@ -29,7 +29,7 @@ const Con = styled.div`
       margin-bottom: 20px;
     }
     .selected {
-      color: #2196f3;
+      color: var(--primary-regular);
       max-width: 100px;
       padding-left: 10px;
       font-weight: 500;
@@ -44,7 +44,7 @@ const Con = styled.div`
     }
     .query {
       color: #fff;
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
     }
   }
 `;

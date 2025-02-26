@@ -15,9 +15,9 @@
 
     // type
     &--primary {
-      background: var(--app-primary-color);
+      background: var(--primary-regular);
       &:hover {
-        background: var(--app-primary-hover-color);
+        background: var(--primary-hover);
       }
     }
     &--secondary {
@@ -46,12 +46,12 @@
       }
     }
     &--ghost {
-      color: var(--app-primary-color);
+      color: var(--primary-regular);
       background: transparent;
-      border: 1px solid var(--app-primary-color);
+      border: 1px solid var(--primary-regular);
       line-height: 26px !important;
       &:hover {
-        color: white;
+        color: var(--primary-regular);
         background: var(--primary-light-hover);
       }
     }
@@ -62,7 +62,7 @@
       line-height: 26px !important;
       &:not(.Button--disabled):hover {
         border-color: #bdbdbd;
-        color: #2196f3;
+        color: var(--primary-regular);
         background: #fff;
       }
       // status
@@ -79,7 +79,7 @@
       color: @gray;
       background: transparent;
       &:hover {
-        color: var(--app-primary-color);
+        color: var(--primary-regular);
       }
     }
 

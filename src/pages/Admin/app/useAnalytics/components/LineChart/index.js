@@ -218,7 +218,7 @@ export default class LineChart extends React.Component {
             max: this.getCeil(maxValue),
             min: 0,
           },
-          color: ['#2196F3', '#61DDAA'],
+          color: ['var(--primary-regular)', '#61DDAA'],
           tooltip: {
             title: date => {
               const currentDate = moment(date).format('YYYY/MM/DD');

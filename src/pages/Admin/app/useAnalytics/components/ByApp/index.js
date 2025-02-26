@@ -38,7 +38,7 @@ const ByAppWrap = styled.div`
         border-radius: 3px;
       }
       .currentTab {
-        color: #2196f3;
+        color: var(--primary-regular);
         background-color: #fff;
       }
     }
@@ -89,7 +89,7 @@ const ByAppWrap = styled.div`
       &:hover {
         background: #f5f5f5;
         .nameBox {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
         .chartIcon {
           display: inline-block;
@@ -97,7 +97,7 @@ const ByAppWrap = styled.div`
           cursor: pointer;
         }
         .chartIcon:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

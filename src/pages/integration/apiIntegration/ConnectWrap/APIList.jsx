@@ -29,7 +29,7 @@ const Wrap = styled.div`
   }
   .addApi {
     padding: 8px 24px;
-    background: #2196f3;
+    background: var(--primary-regular);
     border-radius: 21px;
     color: #fff;
     display: inline-block;

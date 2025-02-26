@@ -275,7 +275,7 @@ class UserTable extends React.Component {
                 <Icon
                   icon="visibility"
                   className="visibiliityIcon"
-                  style={isSetShowColumn ? { color: '#2196f3' } : {}}
+                  style={isSetShowColumn ? { color: 'var(--primary-regular)' } : {}}
                 />
               </Tooltip>
             </Dropdown>

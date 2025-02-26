@@ -19,8 +19,8 @@ export const Option = styled.div`
   background-color: #F5F5F5;
   &.checked {
     color: #fff;
-    border-color: #2196f3;
-    background-color: #2196f3;
+    border-color: var(--primary-regular);
+    background-color: var(--primary-regular);
   }
   &.more {
     padding: 3px 12px;

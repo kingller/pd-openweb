@@ -1,4 +1,4 @@
-@activeColor: #2196f3;
+@activeColor: var(--primary-regular);
 @refuseColor: #f44336;
 @passColor: #4caf50;
 @returnColor: #ffa340;
@@ -6,7 +6,7 @@
 .workflowStep {
   &.allowSelect {
     .pointerItem {
-      background-color: #2196f3 !important;
+      background-color: var(--primary-regular) !important;
     }
     .stepContentWrap {
       cursor: pointer;
@@ -45,7 +45,7 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     border: 2px solid #fff;
     &.active {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
 
@@ -183,7 +183,7 @@
         margin-top: -6px;
         flex: 0 0 20px;
         background-color: #fff;
-        box-shadow: 0 0 10px 1px #2196f3;
+        box-shadow: 0 0 10px 1px var(--primary-regular);
 
         &:after {
           content: '';
@@ -193,7 +193,7 @@
           width: 16px;
           height: 16px;
           border-radius: 50%;
-          background: #2196f3;
+          background: var(--primary-regular);
         }
       }
     }

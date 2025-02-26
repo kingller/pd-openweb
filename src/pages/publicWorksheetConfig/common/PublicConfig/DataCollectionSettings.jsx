@@ -51,7 +51,7 @@ const RangeInputContainer = styled.div`
     border-color: #ddd !important;
 
     &:focus {
-      border-color: #1e88e5 !important;
+      border-color: var(--primary-regular) !important;
     }
   }
 
@@ -71,7 +71,7 @@ const CustomTimePicker = styled(TimePicker)`
     border-color: #ddd !important;
   }
   &.ant-picker-focused {
-    border-color: #1e88e5 !important;
+    border-color: var(--primary-regular) !important;
   }
 `;
 
@@ -81,7 +81,7 @@ const MonthDropdownItem = styled.div`
   align-items: center;
 
   .Icon {
-    color: #2196f3 !important;
+    color: var(--primary-regular) !important;
     position: unset !important;
   }
   &:hover {
@@ -110,11 +110,11 @@ const DaySelectContainer = styled.div`
     cursor: pointer;
 
     :hover {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
 
     &.active {
-      background: #2196f3;
+      background: var(--primary-regular);
       color: #fff;
     }
   }
@@ -145,10 +145,10 @@ const WeekContainer = styled.div`
       border-right-width: 1px;
     }
     :hover {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
     &.active {
-      background: #2196f3;
+      background: var(--primary-regular);
       color: #fff;
     }
   }
@@ -172,7 +172,7 @@ const NoExpandSelect = styled.div`
 
   :hover,
   &.active {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
 `;
 

@@ -38,7 +38,7 @@ const TABS_ITEM = styled.div`
       right: 0;
       content: '';
       height: 0;
-      border-bottom: 3px solid #2196f3;
+      border-bottom: 3px solid var(--primary-regular);
     }
   }
 `;

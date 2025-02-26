@@ -117,7 +117,7 @@ export default function FormulaDate(props) {
                   </Fragment>
                 }
               >
-                <span className="pointer" style={{ color: '#2196f3' }}>
+                <span className="pointer" style={{ color: 'var(--primary-regular)' }}>
                   {_l('查看时间单位')}
                 </span>
               </Tooltip>

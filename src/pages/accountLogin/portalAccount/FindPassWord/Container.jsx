@@ -20,8 +20,8 @@ const Wrap = styled.div`
       padding-bottom: 8px;
       border-bottom: 1px solid #fff;
       &.isCur {
-        color: #2196f3;
-        border-bottom: 1px solid #2196f3;
+        color: var(--primary-regular);
+        border-bottom: 1px solid var(--primary-regular);
       }
     }
   }

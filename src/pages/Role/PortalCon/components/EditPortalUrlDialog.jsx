@@ -38,7 +38,7 @@ const Wrap = styled.div`
     line-height: 34px;
     padding: 0 5px;
     &:focus {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
   .errTxt {

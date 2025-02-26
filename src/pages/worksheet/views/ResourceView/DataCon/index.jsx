@@ -30,7 +30,7 @@ const Wrap = styled.div`
           }
         }
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
       input {

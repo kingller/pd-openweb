@@ -7,7 +7,7 @@ import appManagement from 'src/api/appManagement';
 import './index.less';
 import _ from 'lodash';
 
-const COLORS = ['#e91e63', '#ff9800', '#4caf50', '#00bcd4', '#2196f3', '#9c27b0', '#3f51b5', '#455a64'];
+const COLORS = ['#e91e63', '#ff9800', '#4caf50', '#00bcd4', 'var(--primary-regular)', '#9c27b0', '#3f51b5', '#455a64'];
 
 function SortableItem(props) {
   const { item, onChangeStatus, onEdit, onDelete, DragHandle } = props;

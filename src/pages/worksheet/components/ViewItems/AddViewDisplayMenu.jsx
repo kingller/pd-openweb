@@ -74,9 +74,9 @@ const Wrap = styled.div`
         color: #757575;
       }
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
         .icon {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }
@@ -84,7 +84,7 @@ const Wrap = styled.div`
   .toCustomLib {
     color: #9d9d9d;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .minBold {
@@ -117,10 +117,10 @@ const Wrap = styled.div`
         color: #333;
       }
       &:hover {
-        border: 1px solid #2196f3;
+        border: 1px solid var(--primary-regular);
         i,
         .viewName {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

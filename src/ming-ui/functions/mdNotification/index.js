@@ -7,7 +7,7 @@ const Btn = styled.div`
   display: inline-block;
   border-radius: 5px;
   font-size: 14px;
-  color: #2196f3;
+  color: var(--primary-regular);
   padding: 0 11px;
   line-height: 31px;
   margin-left: 10px;

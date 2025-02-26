@@ -81,12 +81,12 @@ const ListBox = styled.div`
     &:hover {
       background: rgba(247, 247, 247, 1);
       .titleText {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
   .optionTxt {
-    color: #2196f3;
+    color: var(--primary-regular);
     &:hover {
       color: #1565c0;
     }

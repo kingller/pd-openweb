@@ -53,7 +53,7 @@ const Wrap = styled.div`
     width: 100%;
     box-sizing: border-box;
     &:focus {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
 `;
@@ -1097,7 +1097,7 @@ class WorksheetApi extends Component {
             {!isSharePage && (
               <span
                 className="Hand Font13 mLeft20"
-                style={{ color: '#2196F3' }}
+                style={{ color: 'var(--primary-regular)' }}
                 onClick={() => {
                   this.setState({
                     showWorksheetAliasDialog: true,
@@ -1114,7 +1114,7 @@ class WorksheetApi extends Component {
             {!isSharePage && (
               <span
                 className="Right Hand Font13"
-                style={{ color: '#2196F3' }}
+                style={{ color: 'var(--primary-regular)' }}
                 onClick={() => {
                   this.setState({
                     showAliasDialog: !showAliasDialog,

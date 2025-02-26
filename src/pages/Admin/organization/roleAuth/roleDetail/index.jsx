@@ -44,8 +44,8 @@ const DetailDrawer = styled(Drawer)`
       border-bottom: 2px solid transparent;
       cursor: pointer;
       &.isActive {
-        border-color: #2196f3;
-        color: #2196f3;
+        border-color: var(--primary-regular);
+        color: var(--primary-regular);
         font-weight: bold;
       }
     }

@@ -191,7 +191,7 @@ export const Wrap = styled.div`
     }
     &:hover {
       .icon {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
@@ -199,7 +199,7 @@ export const Wrap = styled.div`
     flex: 1;
     height: 36px;
     background: rgba(33, 150, 243, 0.1);
-    color: #2196f3;
+    color: var(--primary-regular);
     border-radius: 3px;
     line-height: 36px;
     text-align: center;
@@ -257,7 +257,7 @@ export const Wrap = styled.div`
         border-right: none;
       }
       &.active {
-        background: #2196f3;
+        background: var(--primary-regular);
         color: #fff;
       }
     }

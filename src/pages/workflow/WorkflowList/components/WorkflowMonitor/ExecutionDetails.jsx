@@ -374,7 +374,7 @@ export default class ExecutionDetails extends Component {
                     <span
                       className="dot"
                       style={
-                        _.isUndefined(routerIndex) ? {} : { background: routerIndex === -1 ? '#2196F3' : '#FFC37C' }
+                        _.isUndefined(routerIndex) ? {} : { background: routerIndex === -1 ? 'var(--primary-regular)' : '#FFC37C' }
                       }
                     ></span>
                     <span className="mLeft5">{routerName || ''}</span>

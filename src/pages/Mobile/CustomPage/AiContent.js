@@ -73,7 +73,7 @@ function AiContent(props) {
       return widget.value ? (
         <SuspensionAi
           className="flexRow alignItemsCenter justifyContentCenter card"
-          style={{ backgroundColor: iconColor || '#2196f3' }}
+          style={{ backgroundColor: iconColor || 'var(--primary-regular)' }}
           onClick={() => {
             openAssistantChat({ assistantId: suspensionAi.id, name: suspensionAi.name });
           }}
@@ -83,7 +83,7 @@ function AiContent(props) {
       ) : (
         <SuspensionAi
           className="flexRow alignItemsCenter justifyContentCenter card"
-          style={{ backgroundColor: '#2196f3' }}
+          style={{ backgroundColor: 'var(--primary-regular)' }}
           onClick={() => {
             alert(_l('助手已关闭或删除'), 3);
           }}

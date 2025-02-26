@@ -10,7 +10,7 @@ const EmptyHierarchyWrap = styled.div`
     padding: 0;
     height: 28px;
     border-radius: 0;
-    border-bottom: 2px solid #2196f3;
+    border-bottom: 2px solid var(--primary-regular);
     background-color: transparent;
     font-size: 14px;
     font-weight: bold;
@@ -42,7 +42,7 @@ const EmptyHierarchyWrap = styled.div`
     &.allowAdd {
       cursor: pointer;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }

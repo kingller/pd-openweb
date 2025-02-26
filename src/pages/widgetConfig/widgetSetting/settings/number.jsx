@@ -33,7 +33,7 @@ const NUMBER_COLOR_TYPE = [
 
 const defaultItemColor = {
   type: 1,
-  color: '#2196f3',
+  color: 'var(--primary-regular)',
   colors: [],
 };
 

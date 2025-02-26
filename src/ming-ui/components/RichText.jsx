@@ -124,7 +124,7 @@ const Wrapper = styled.div(
       }
       &.ck-focused {
         background: #fff !important;
-        border: 1px solid #2196f3 !important;
+        border: 1px solid var(--primary-regular) !important;
       }
     }
   }

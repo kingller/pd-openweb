@@ -31,7 +31,7 @@ const EditUserExtendInfoCon = styled.div`
     font-weight: 400;
     -webkit-transition: color ease-in 0.2s, border-color ease-in 0.2s, background-color ease-in 0;
     transition: color ease-in 0.2s, border-color ease-in 0.2s, background-color ease-in 0;
-    background: #1e88e5;
+    background: var(--primary-regular);
     cursor: pointer;
   }
   .saveBtn:hover {

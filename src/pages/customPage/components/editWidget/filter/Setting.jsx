@@ -29,7 +29,7 @@ const Wrap = styled.div`
     }
   }
   .icon-delete2:hover {
-    color: #2196F3;
+    color: var(--primary-regular);
   }
 `;
 

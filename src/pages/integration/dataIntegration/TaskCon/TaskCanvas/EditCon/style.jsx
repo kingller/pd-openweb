@@ -70,10 +70,10 @@ export const WrapL = styled.div`
     background: #ffffff;
     border: 1px dashed #dddddd;
     border-radius: 4px;
-    color: #2196f3;
+    color: var(--primary-regular);
     line-height: 58px;
     &:hover {
-      border: 1px dashed #2196f3;
+      border: 1px dashed var(--primary-regular);
     }
   }
   .dropWorksheet {
@@ -116,8 +116,8 @@ export const WrapL = styled.div`
       }
       &.isCur {
         background: rgba(33, 150, 243, 0.1);
-        border: 1px solid #2196f3;
-        color: #2196f3;
+        border: 1px solid var(--primary-regular);
+        color: var(--primary-regular);
       }
     }
   }
@@ -125,7 +125,7 @@ export const WrapL = styled.div`
     .icon {
       color: #bdbdbd;
       &:hover {
-        color: #2196f3 !important;
+        color: var(--primary-regular) !important;
       }
     }
   }

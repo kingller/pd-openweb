@@ -21,15 +21,15 @@ const Con = styled.div`
   }
   .hoverHighlight {
     &:hover {
-      color: #2196f3 !important;
-      border-color: #2196f3;
+      color: var(--primary-regular) !important;
+      border-color: var(--primary-regular);
     }
   }
   .chartSheetHeader + div {
     display: none;
   }
   .chartSheetHeader .dataTitle {
-    border-bottom: 3px solid #2196f3;
+    border-bottom: 3px solid var(--primary-regular);
   }
   .searchInputComp + div {
     display: flex;

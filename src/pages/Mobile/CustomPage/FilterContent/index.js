@@ -35,9 +35,9 @@ const FilterEntry = styled.div`
     width: 100%;
   }
   &.highlight {
-    color: #2196f3;
+    color: var(--primary-regular);
     .icon {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
 `;

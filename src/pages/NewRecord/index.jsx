@@ -24,7 +24,7 @@ const ScaleButton = styled.div`
     line-height: 1.4em;
   }
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 

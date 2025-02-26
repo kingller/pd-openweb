@@ -85,7 +85,7 @@ const WrapPopup = styled.div`
     }
     &:hover {
       color: #fff;
-      background: #2196f3;
+      background: var(--primary-regular);
       .icon {
         color: #fff;
       }

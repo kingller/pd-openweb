@@ -12,9 +12,9 @@ const UploadWrap = styled.div`
     color: #bdbdbd;
   }
   &:hover {
-    border: 1px dashed #2196f3;
+    border: 1px dashed var(--primary-regular);
     .icon {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;
@@ -94,7 +94,7 @@ export default class UploadFile extends Component {
         <Progress
           style={{ width: 196, marginLeft: '36px' }}
           trailColor="#eaeaea"
-          strokeColor="#2196f3"
+          strokeColor="var(--primary-regular)"
           strokeWidth={8}
           percent={Math.floor((file.loaded / (file.size || 0)) * 100)}
         />

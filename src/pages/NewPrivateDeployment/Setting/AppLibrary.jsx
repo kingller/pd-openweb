@@ -16,10 +16,10 @@ const SetButton = styled.div`
   text-align: center;
   line-height: 26px;
   border-radius: 3px 3px 3px 3px;
-  border: 1px solid #2196f3;
+  border: 1px solid var(--primary-regular);
   margin-top: 20px;
   cursor: pointer;
-  color: #2196f3;
+  color: var(--primary-regular);
 `;
 
 const Wrap = styled.div`

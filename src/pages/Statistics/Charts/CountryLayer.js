@@ -22,7 +22,7 @@ const PathWrapper = styled.div`
   border-radius: 4px;
   background-color: #fff;
   .item {
-    color: #2196f3;
+    color: var(--primary-regular);
     cursor: pointer;
     &:last-child {
       color: #000;
@@ -41,7 +41,7 @@ const ZoomWrapper = styled.div`
   right: 10px;
   z-index: 10;
   .icon:hover {
-    color: #2196f3 !important;
+    color: var(--primary-regular) !important;
   }
 `;
 

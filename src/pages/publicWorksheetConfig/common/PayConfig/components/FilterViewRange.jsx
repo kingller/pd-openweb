@@ -10,7 +10,7 @@ const Wrap = styled.div`
   border: 1px solid #e0e0e0;
   padding: 0 10px;
   &.current {
-    border: 1px solid #2196f3 !important;
+    border: 1px solid var(--primary-regular) !important;
   }
 `;
 

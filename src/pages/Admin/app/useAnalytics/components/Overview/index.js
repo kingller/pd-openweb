@@ -81,7 +81,7 @@ const ChartWrap = styled.div`
         cursor: pointer;
         margin: 2px;
         &.currentDimension {
-          color: #2196f3;
+          color: var(--primary-regular);
           background-color: #fff;
           border-radius: 3px;
         }
@@ -109,7 +109,7 @@ const ChartWrap = styled.div`
       vertical-align: middle;
     }
     .colorBlue {
-      background: #2196f3;
+      background: var(--primary-regular);
     }
     .colorGreen {
       background: #61ddaa;

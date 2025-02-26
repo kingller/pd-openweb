@@ -26,7 +26,7 @@ const GenerateJSONBox = styled.textarea`
   border: 1px solid #ddd;
   resize: none;
   &:focus {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
 `;
 

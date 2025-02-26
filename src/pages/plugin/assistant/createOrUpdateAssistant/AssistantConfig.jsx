@@ -146,7 +146,7 @@ const FormItem = styled.div`
       font-size: 16px;
       color: #757575;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
@@ -271,7 +271,7 @@ export default function AssistantConfig(props) {
               <SelectIcon
                 hideInput
                 style={{ left: '-480px', top: '10px' }}
-                iconColor={iconColor || '#2196f3'}
+                iconColor={iconColor || 'var(--primary-regular)'}
                 icon={icon}
                 projectId={projectId}
                 onModify={({ iconColor, icon, iconUrl }) => {
@@ -296,7 +296,7 @@ export default function AssistantConfig(props) {
           >
             <div
               className={cx('updateAvatarBtn', { isAdd: !iconUrl })}
-              style={{ backgroundColor: iconUrl ? iconColor || '#2196f3' : '' }}
+              style={{ backgroundColor: iconUrl ? iconColor || 'var(--primary-regular)' : '' }}
             >
               {iconUrl ? (
                 <SvgIcon url={iconUrl} fill={'#fff'} size={32} />

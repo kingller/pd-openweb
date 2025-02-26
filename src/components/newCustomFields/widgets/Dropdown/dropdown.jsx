@@ -108,7 +108,7 @@ export default class Widgets extends Component {
 
     checkIds.forEach(item => {
       if ((item || '').toString().indexOf('add_') > -1 && !selectProps.noPushAdd_) {
-        noDelOptions.push({ key: item, color: '#2196F3', value: item.split('add_')[1] });
+        noDelOptions.push({ key: item, color: 'var(--primary-regular)', value: item.split('add_')[1] });
       }
     });
     const mobileCheckItems = noDelOptions.concat(delOptions).filter(i => _.includes(checkIds, i.key));

@@ -17,7 +17,7 @@ const InputWrap = styled.div`
   border: 1px solid #e0e0e0;
   border-radius: 3px;
   &.focusWrap {
-    border: 1px solid #1e88e5;
+    border: 1px solid var(--primary-regular);
   }
   .ming.Input {
     border: none;

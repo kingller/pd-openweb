@@ -247,7 +247,7 @@ export default class GunterChart extends Component {
               onClick={this.handleUpdateGroupingVisible}
               onMouseOver={() => {
                 if (!groupingVisible) return;
-                document.querySelector(`.gunterView-${base.viewId} .gunterDirectory`).style.borderColor = '#2196f3';
+                document.querySelector(`.gunterView-${base.viewId} .gunterDirectory`).style.borderColor = 'var(--primary-regular)';
               }}
               onMouseOut={() => {
                 if (!groupingVisible) return;

@@ -140,7 +140,7 @@ export default function NotFillStatus(props) {
             request.statusExtra !== 'no' &&
             (canSubmitByLimit || !!_.get(abilityExpand, 'allowViewChange.isAllowViewChange')) && (
               <Tip2
-                style={{ color: '#2196F3', margin: '24px 0', fontWeight: 600 }}
+                style={{ color: 'var(--primary-regular)', margin: '24px 0', fontWeight: 600 }}
                 className="flexRow justifyContentCenter alignItemsCenter"
               >
                 <FilledRecord

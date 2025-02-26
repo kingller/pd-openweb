@@ -40,8 +40,8 @@ const AppLinkWrap = styled.div`
     border: 1px solid #dddddd;
     margin-left: 8px;
     &:hover {
-      color: #2196f3;
-      border: 1px solid #2196f3;
+      color: var(--primary-regular);
+      border: 1px solid var(--primary-regular);
     }
   }
 `;

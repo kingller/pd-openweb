@@ -29,10 +29,10 @@ const IconWrapper = styled.div`
 
   &:hover {
     .iconText {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
     i {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
 `;

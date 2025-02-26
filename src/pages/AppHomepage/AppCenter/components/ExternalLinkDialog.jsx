@@ -92,7 +92,7 @@ const LinkIcon = styled.div`
   }
   &:hover {
     i {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;
@@ -117,7 +117,7 @@ const PopupWrapper = styled.div`
     cursor: pointer;
     &:hover {
       color: #fff;
-      background: #2196f3;
+      background: var(--primary-regular);
     }
   }
   .divider {

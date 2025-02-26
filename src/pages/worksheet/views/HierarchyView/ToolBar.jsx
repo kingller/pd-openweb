@@ -90,7 +90,7 @@ const SelectWrap = styled(Select)`
   }
   &:hover {
     .icon-arrow-down {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
 `;

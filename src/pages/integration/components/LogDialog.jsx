@@ -24,8 +24,8 @@ const Wrap = styled.div`
       box-sizing: border-box;
       border-bottom: 3px solid rgba(0, 0, 0, 0);
       &.isCur {
-        color: #2196f3;
-        border-bottom: 3px solid #2196f3;
+        color: var(--primary-regular);
+        border-bottom: 3px solid var(--primary-regular);
       }
     }
   }

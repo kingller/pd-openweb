@@ -36,7 +36,7 @@ const SyncTaskWrapper = styled.div`
     }
     &.ant-select-focused {
       .ant-select-selector {
-        border-color: #1e88e5 !important;
+        border-color: var(--primary-regular) !important;
       }
     }
     &.disabled {
@@ -57,7 +57,7 @@ const SyncTaskWrapper = styled.div`
       line-height: 28px;
     }
     &:hover {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
   .titleItem {
@@ -105,7 +105,7 @@ const CardWrapper = styled.div`
     font-weight: 500;
   }
   &:hover {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
 `;
 

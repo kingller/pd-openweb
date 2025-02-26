@@ -217,7 +217,7 @@ class AppearanceConfig extends React.Component {
                 up.disableBrowse();
               }}
             >
-              <UploadBtn height="44" bg="#F3FAFF" color="#2196F3" hoverBg="#EBF6FE" style={{ margin: '10px 0' }}>
+              <UploadBtn height="44" bg="#F3FAFF" color="var(--primary-regular)" hoverBg="#EBF6FE" style={{ margin: '10px 0' }}>
                 {isUploading ? (
                   <i className="icon icon-loading_button rotate"></i>
                 ) : (

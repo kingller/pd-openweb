@@ -21,8 +21,8 @@ export const WrapHeader = styled.div`
       border-bottom: 3px solid transparent;
       border-top: 3px solid transparent;
       &.cur {
-        color: #2196f3;
-        border-bottom: 3px solid #2196f3;
+        color: var(--primary-regular);
+        border-bottom: 3px solid var(--primary-regular);
       }
     }
   }
@@ -34,7 +34,7 @@ export const WrapHeader = styled.div`
   .moreop {
     color: #bdbdbd;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;
@@ -56,8 +56,8 @@ export const WrapNav = styled.div`
     border-radius: 24px;
     border: 1px solid #dddddd;
     &:hover {
-      color: #2196f3;
-      border: 1px solid #2196f3;
+      color: var(--primary-regular);
+      border: 1px solid var(--primary-regular);
     }
   }
   .search {
@@ -72,7 +72,7 @@ export const WrapNav = styled.div`
       .moreop {
         color: #bdbdbd;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
       cursor: pointer;
@@ -82,19 +82,19 @@ export const WrapNav = styled.div`
         color: #9e9e9e;
       }
       &.cur {
-        color: #2196f3;
+        color: var(--primary-regular);
         background: #f3faff !important;
         border-radius: 3px 3px 3px 3px;
         font-weight: bold !important;
         position: relative;
         .Icon {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
         &::before {
           content: ' ';
           width: 3px;
           height: 14px;
-          background: #2196f3;
+          background: var(--primary-regular);
           display: inline-block;
           position: absolute;
           left: 0;
@@ -129,7 +129,7 @@ export const WrapNav = styled.div`
         }
         .tag {
           padding: 0 6px;
-          color: #2196f3;
+          color: var(--primary-regular);
           background: rgba(33, 150, 243, 0.1);
           border-radius: 11px;
           line-height: 22px;
@@ -140,14 +140,14 @@ export const WrapNav = styled.div`
           background: #fafafa;
         }
         &.cur {
-          color: #2196f3 !important;
+          color: var(--primary-regular) !important;
           .roleIcon {
-            color: #2196f3;
+            color: var(--primary-regular);
           }
           .icon-drag_indicator {
             color: #9e9e9e !important;
             &:hover {
-              color: #2196f3 !important;
+              color: var(--primary-regular) !important;
             }
           }
           font-weight: bold !important;
@@ -163,7 +163,7 @@ export const WrapNav = styled.div`
           .moreop {
             opacity: 1;
             &:hover {
-              color: #2196f3;
+              color: var(--primary-regular);
             }
           }
         }
@@ -178,7 +178,7 @@ export const WrapTableCon = styled.div`
     .toOthers,
     .del {
       font-weight: 400;
-      color: #2196f3;
+      color: var(--primary-regular);
       line-height: 37px;
       height: 37px;
       background: #f3faff;
@@ -201,7 +201,7 @@ export const WrapFooter = styled.div`
     font-size: 14px;
     font-weight: 400;
     transition: color ease-in 0.2s, border-color ease-in 0.2s, background-color ease-in 0;
-    background: #1e88e5;
+    background: var(--primary-regular);
     &:hover {
       background: #1565c0;
     }
@@ -248,8 +248,8 @@ export const WrapFooter = styled.div`
     font-weight: 400;
     transition: color ease-in 0.2s, border-color ease-in 0.2s, background-color ease-in 0;
     &:hover {
-      border: 1px solid #2196f3;
-      color: #2196f3;
+      border: 1px solid var(--primary-regular);
+      color: var(--primary-regular);
     }
   }
   .line {

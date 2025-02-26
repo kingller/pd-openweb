@@ -89,7 +89,7 @@ const ListItem = styled.div`
     color: #4caf50;
   }
   .reviewing {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 

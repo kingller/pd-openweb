@@ -18,7 +18,7 @@ import _ from 'lodash';
 const MenuItemWrap = styled(MenuItem)`
   &.active,
   &.hover {
-    background-color: #1e88e5 !important;
+    background-color: var(--primary-regular) !important;
     .Item-content,
     .Icon {
       color: #fff !important;

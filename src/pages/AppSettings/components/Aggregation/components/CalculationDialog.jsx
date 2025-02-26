@@ -28,7 +28,7 @@ const Wrap = styled.div`
     border-radius: 0 0 3px 0;
     &:hover {
       i {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }

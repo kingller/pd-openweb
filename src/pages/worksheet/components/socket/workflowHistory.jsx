@@ -33,8 +33,8 @@ const StatusWrap = styled.ul`
     line-height: 36px;
     &.active,
     &:hover {
-      color: #2196f3;
-      border-bottom-color: #2196f3;
+      color: var(--primary-regular);
+      border-bottom-color: var(--primary-regular);
     }
   }
 `;

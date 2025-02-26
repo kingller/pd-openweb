@@ -38,7 +38,7 @@ const ActionWrap = styled.div`
     margin-right: 30px;
     &:hover {
       background-color: #f5f5f5;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .act {
@@ -52,9 +52,9 @@ const ActionWrap = styled.div`
       font-size: 18px;
     }
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       .icon {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }

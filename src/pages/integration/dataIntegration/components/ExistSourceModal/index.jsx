@@ -90,7 +90,7 @@ const LeftListWrapper = styled.div`
     &:hover {
       span,
       i {
-        color: #2196f3 !important ;
+        color: var(--primary-regular) !important ;
       }
     }
   }

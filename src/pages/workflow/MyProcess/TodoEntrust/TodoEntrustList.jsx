@@ -58,14 +58,14 @@ margin-top: 20px;
 line-height: 36px;
 border: 0;
 border-radius: 4px;
-background-color: ${isMobile ? (isAdd ? '#fff' : '#2196f3') : isAdd ? '#f5f5f5' : '#f7f7f7'} ;
-color: ${isMobile && !isAdd ? '#fff' : '#2196f3'};
+background-color: ${isMobile ? (isAdd ? '#fff' : 'var(--primary-regular)') : isAdd ? '#f5f5f5' : '#f7f7f7'} ;
+color: ${isMobile && !isAdd ? '#fff' : 'var(--primary-regular)'};
 font-size: ${isMobile ? '13px' : '14px'};
 cursor: pointer;
 
 &:hover {
   color: ${!isAdd && '#fff'}
-  background-color: ${!isAdd ? '#2196f3' : '#fff'};
+  background-color: ${!isAdd ? 'var(--primary-regular)' : '#fff'};
 }
 &.mobileStyle {
   height: 32px;

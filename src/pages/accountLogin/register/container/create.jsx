@@ -48,9 +48,9 @@ const Wrap = styled.div`
           transition: all 0.3s;
         }
         &.active {
-          border: 2px solid #2196f3 !important;
+          border: 2px solid var(--primary-regular) !important;
           .title {
-            color: #2196f3 !important;
+            color: var(--primary-regular) !important;
             top: -9;
           }
           .Dropdown--placeholder {
@@ -94,7 +94,7 @@ const WrapCon = styled.div`
     padding: 6px 8px;
     &:hover,
     &.isCur {
-      background: #2196f3;
+      background: var(--primary-regular);
       color: #fff;
       .ThemeColor3 {
         color: #fff !important;

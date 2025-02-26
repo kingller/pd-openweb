@@ -328,7 +328,7 @@ export default class MessageSettings extends Component {
                 {!_.isEmpty(templates) && <div className="Font14 mTop10 mBottom5">{_l('短信模板')}</div>}
                 {this.renderTemplates(item.name, templates)}
                 <div
-                  style={{ color: '#2196F3' }}
+                  style={{ color: 'var(--primary-regular)' }}
                   className="mTop20 pointer"
                   onClick={() => this.setState({ editDialogKey: item.name, editIndex: '', currentTemp: { type: 1, id: '', vars: [] } })}
                 >

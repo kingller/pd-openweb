@@ -31,7 +31,7 @@ const Item = styled.div(
     padding: 10px 0;
     margin-bottom: 0px;
     box-sizing: border-box;
-    border: 1px solid ${highlight ? '#2196f3' : 'transparent'};
+    border: 1px solid ${highlight ? 'var(--primary-regular)' : 'transparent'};
     > * {
       pointer-events: none;
       user-select: none;
@@ -101,7 +101,7 @@ const ExpandBtn = styled.div(
   display: inline-block;
   margin-left: 20px;
   cursor: pointer;
-  color: #2196f3;
+  color: var(--primary-regular);
   font-size: 13px;
   .icon {
     margin-right: 2px;

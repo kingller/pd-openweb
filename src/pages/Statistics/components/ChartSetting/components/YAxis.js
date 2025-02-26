@@ -62,7 +62,7 @@ const renderOverlay = (props) => {
           {normTypes
             .map(item => (
               <Menu.Item
-                style={{ width: 120, color: item.value === normType ? '#1e88e5' : null }}
+                style={{ width: 120, color: item.value === normType ? 'var(--primary-regular)' : null }}
                 key={item.value}
                 onClick={() => {
                   onNormType(controlId, item.value);
@@ -86,7 +86,7 @@ const renderOverlay = (props) => {
             },
           ]).map(item => (
             <Menu.Item
-              style={{ width: 120, color: item.value === normType ? '#1e88e5' : null }}
+              style={{ width: 120, color: item.value === normType ? 'var(--primary-regular)' : null }}
               key={item.value}
               onClick={() => {
                 onNormType(controlId, item.value);
@@ -122,7 +122,7 @@ const renderOverlay = (props) => {
             .filter(data => (data.value ? true : hideVisible))
             .map(item => (
               <Menu.Item
-                style={{ width: 120, color: item.value === emptyShowType ? '#1e88e5' : null }}
+                style={{ width: 120, color: item.value === emptyShowType ? 'var(--primary-regular)' : null }}
                 key={item.value}
                 onClick={() => {
                   onEmptyShowType(controlId, item.value);

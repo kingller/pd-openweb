@@ -32,11 +32,11 @@ const FilterContent = styled.div`
     cursor: pointer;
 
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       background: #f5f5f5;
     }
     &.isActive {
-      color: #2196f3;
+      color: var(--primary-regular);
       background: rgba(33, 150, 243, 0.07);
     }
   }
@@ -88,7 +88,7 @@ const FilterItem = styled.div`
 
       &.isActive {
         font-weight: 600;
-        color: #2196f3;
+        color: var(--primary-regular);
       }
       &:hover {
         border-color: #ccc;
@@ -118,7 +118,7 @@ const FilterItem = styled.div`
     cursor: pointer;
 
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       background: #f5f5f5;
     }
   }
@@ -137,7 +137,7 @@ const SourceListBox = styled.div`
       height: 8px;
 
       &.selected {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
@@ -158,7 +158,7 @@ const SourceListBox = styled.div`
     &:hover {
       background: rgba(247, 247, 247, 1);
       .titleText {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
       .optionIcon {
         background: rgba(247, 247, 247, 1);
@@ -193,7 +193,7 @@ const SourceListBox = styled.div`
     background: #fff;
 
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       background: #fff !important;
     }
   }

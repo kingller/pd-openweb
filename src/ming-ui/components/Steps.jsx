@@ -261,7 +261,7 @@ export default function Steps(props) {
     setWidth(currentValue >= 0 ? (currentValue / (filterOptions.length - 1)) * 100 : 0);
   }, [currentValue]);
 
-  const currentColor = enumDefault2 === 1 ? _.get(filterOptions[currentValue], 'color') || '#f1f1f1' : '#2196f3';
+  const currentColor = enumDefault2 === 1 ? _.get(filterOptions[currentValue], 'color') || '#f1f1f1' : 'var(--primary-regular)';
 
   if (isMobile && direction === '1') {
     return (

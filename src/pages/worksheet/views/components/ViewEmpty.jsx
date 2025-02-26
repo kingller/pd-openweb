@@ -10,7 +10,7 @@ const ViewEmptyWrap = styled.div`
   justify-content: center;
   &.empty {
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .iconCon {

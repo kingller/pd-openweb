@@ -534,8 +534,8 @@ export default class Con extends React.Component {
                 <li
                   style={{
                     ...STYLE_PRINT.relations_Ul_Li,
-                    border: sign === !i ? '0.1px solid #2196f3' : '0.1px solid #bdbdbd',
-                    color: sign === !i ? '#2196f3' : '#bdbdbd',
+                    border: sign === !i ? '0.1px solid var(--primary-regular)' : '0.1px solid #bdbdbd',
+                    color: sign === !i ? 'var(--primary-regular)' : '#bdbdbd',
                     zIndex: sign === !i ? 1 : 0,
                   }}
                   onClick={() => setStyle(l.value)}

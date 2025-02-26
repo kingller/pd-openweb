@@ -16,7 +16,7 @@ const SelectWrapper = styled.div`
     }
     &.ant-select-focused {
       .ant-select-selector {
-        border-color: #1e88e5 !important;
+        border-color: var(--primary-regular) !important;
       }
     }
     &.disabled {

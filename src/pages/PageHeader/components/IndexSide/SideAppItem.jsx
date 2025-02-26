@@ -66,7 +66,7 @@ function SideAppItem({
       }}
     >
       <li>
-        <div className="iconWrap" style={{ backgroundColor: iconColor || '#2196f3' }}>
+        <div className="iconWrap" style={{ backgroundColor: iconColor || 'var(--primary-regular)' }}>
           <SvgIcon url={iconUrl} fill="#fff" size={18} />
         </div>
         <div className="appInfo">

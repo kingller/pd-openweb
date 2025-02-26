@@ -30,7 +30,7 @@ const EditableCardWrap = styled.div`
       vertical-align: text-top;
     }
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

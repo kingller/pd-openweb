@@ -40,7 +40,7 @@ const SelectCard = styled.div`
   cursor: pointer;
 
   &:hover {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
 
   .svg-icon {
@@ -60,7 +60,7 @@ const SelectCard = styled.div`
     font-size: 20px;
 
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
       background: #f5f5f5;
     }
   }
@@ -106,7 +106,7 @@ const SourceSelectFormWrapper = styled.div`
         background: #f2f2f2;
       }
       :focus {
-        border-color: #2196f3 !important;
+        border-color: var(--primary-regular) !important;
         background: #fff;
       }
     }

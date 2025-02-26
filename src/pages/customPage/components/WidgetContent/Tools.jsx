@@ -55,13 +55,13 @@ const ToolsWrap = styled.ul`
     cursor: pointer;
     color: #757575;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     &.del:hover {
       color: #f44336;
     }
     &.highlight {
-      color: #2196f3;
+      color: var(--primary-regular);
       &.del {
         color: #f44336;
       }

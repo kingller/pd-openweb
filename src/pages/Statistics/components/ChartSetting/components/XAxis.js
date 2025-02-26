@@ -216,7 +216,7 @@ export default class XAxis extends Component {
                   <Menu.Item
                     className="valignWrapper"
                     disabled={item.value === xaxes.particleSizeType ? true : disableParticleSizeTypes.includes(item.value)}
-                    style={{ width: 200, color: item.value === (xaxes.particleSizeType || 1) ? '#1e88e5' : null }}
+                    style={{ width: 200, color: item.value === (xaxes.particleSizeType || 1) ? 'var(--primary-regular)' : null }}
                     key={item.value}
                     onClick={() => {
                       this.handleUpdateTimeParticleSizeType(item.value);
@@ -235,7 +235,7 @@ export default class XAxis extends Component {
                       <Menu.Item
                         className="valignWrapper"
                         disabled={item.value === xaxes.particleSizeType ? true : disableParticleSizeTypes.includes(item.value)}
-                        style={{ width: 200, color: item.value === (xaxes.particleSizeType || 1) ? '#1e88e5' : null }}
+                        style={{ width: 200, color: item.value === (xaxes.particleSizeType || 1) ? 'var(--primary-regular)' : null }}
                         key={item.value}
                         onClick={() => {
                           this.handleUpdateTimeParticleSizeType(item.value);
@@ -254,7 +254,7 @@ export default class XAxis extends Component {
                 {formatTimeFormats(xaxes.particleSizeType).map(item => (
                   <Menu.Item
                     className="valignWrapper"
-                    style={{ width: 200, color: item.value === xaxes.showFormat ? '#1e88e5' : null }}
+                    style={{ width: 200, color: item.value === xaxes.showFormat ? 'var(--primary-regular)' : null }}
                     key={item.value}
                     onClick={() => {
                       this.handleChangeXaxes({ showFormat: item.value });
@@ -265,7 +265,7 @@ export default class XAxis extends Component {
                 ))}
                 <Menu.Item
                   className="valignWrapper"
-                  style={{ width: 200, color: !_.find(timeFormats, { value: xaxes.showFormat }) ? '#1e88e5' : null }}
+                  style={{ width: 200, color: !_.find(timeFormats, { value: xaxes.showFormat }) ? 'var(--primary-regular)' : null }}
                   key="customShowFormat"
                   onClick={() => {
                     this.setState({ showFormatDialogVisible: true });
@@ -282,7 +282,7 @@ export default class XAxis extends Component {
             {areaParticleSizeDropdownData.map(item => (
               <Menu.Item
                 disabled={item.value === xaxes.particleSizeType ? true : disableParticleSizeTypes.includes(item.value)}
-                style={{ width: 120, color: item.value === (xaxes.particleSizeType || 1) ? '#1e88e5' : null }}
+                style={{ width: 120, color: item.value === (xaxes.particleSizeType || 1) ? 'var(--primary-regular)' : null }}
                 key={item.value}
                 onClick={() => {
                   this.handleUpdateTimeParticleSizeType(item.value);
@@ -298,7 +298,7 @@ export default class XAxis extends Component {
             {cascadeParticleSizeDropdownData.map(item => (
               <Menu.Item
                 disabled={item.value === xaxes.particleSizeType}
-                style={{ width: 120, color: item.value === (xaxes.particleSizeType || 1) ? '#1e88e5' : null }}
+                style={{ width: 120, color: item.value === (xaxes.particleSizeType || 1) ? 'var(--primary-regular)' : null }}
                 key={item.value}
                 onClick={() => {
                   this.handleUpdateTimeParticleSizeType(item.value);
@@ -324,7 +324,7 @@ export default class XAxis extends Component {
               getEmptyTypes(reportType).map(item => (
                 <Menu.Item
                   key={item.value}
-                  style={{ color: item.value === xaxes.emptyType ? '#1e88e5' : null }}
+                  style={{ color: item.value === xaxes.emptyType ? 'var(--primary-regular)' : null }}
                   onClick={() => {
                     this.handleChangeXaxes({ emptyType: item.value });
                   }}

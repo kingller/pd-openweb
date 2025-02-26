@@ -22,11 +22,11 @@ const Wrap = styled.div`
   .addFilterItem {
     height: 36px;
     padding: 0 15px;
-    color: #40a9ff;
+    color: var(--primary-regular);
     border: none;
     border-radius: 24px;
     &:hover {
-      color: #1079cc;
+      color: var(--primary-hover);
     }
   }
 
@@ -58,7 +58,7 @@ const Wrap = styled.div`
         border: 1px solid #efefef;
       }
       .active {
-        border-color: #2196F3;
+        border-color: var(--primary-regular);
       }
     }
   }

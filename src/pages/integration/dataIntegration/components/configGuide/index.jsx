@@ -31,9 +31,9 @@ const TabList = styled.div`
         padding-bottom: 8px;
       }
       &.isCur {
-        border-bottom: 3px solid #2196f3;
+        border-bottom: 3px solid var(--primary-regular);
         a {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }

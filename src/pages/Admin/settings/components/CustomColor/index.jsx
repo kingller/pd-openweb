@@ -24,7 +24,7 @@ const ColorBox = styled.div(
   position: relative;
   cursor: pointer;
   &:hover {
-    border-color: #2196F3;
+    border-color: var(--primary-regular);
     .removeIcon {
       opacity: ${hasRemove ? 1 : 0};
     }
@@ -56,7 +56,7 @@ const ColorBox = styled.div(
     cursor: pointer;
     color: #bdbdbd;
     &:hover {
-      color: #2196F3;
+      color: var(--primary-regular);
     }
   }
   .hide {

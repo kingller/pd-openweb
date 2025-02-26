@@ -34,7 +34,7 @@ const ParamsWrapper = styled.div`
     color: #9e9e9e;
   }
   .ming.Input:focus {
-    border-color: #2196f3 !important;
+    border-color: var(--primary-regular) !important;
   }
   .repeatItem {
     border-color: red !important;

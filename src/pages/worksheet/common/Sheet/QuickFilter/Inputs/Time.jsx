@@ -40,7 +40,7 @@ const Con = styled.div`
     border-color: #ccc;
   }
   &.active {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
   &:hover {
     .clearIcon {

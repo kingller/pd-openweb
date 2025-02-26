@@ -38,7 +38,7 @@ const Wrapper = styled.div`
     font-weight: initial !important;
   }
   .highlig {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   .tip-top {
     height: 18px;

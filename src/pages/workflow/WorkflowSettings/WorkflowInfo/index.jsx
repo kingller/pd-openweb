@@ -29,7 +29,7 @@ class WorkflowInfo extends Component {
     this.state = {
       name: props.flowInfo.name,
       explain: props.flowInfo.explain || '',
-      iconColor: props.flowInfo.iconColor || '#2196f3',
+      iconColor: props.flowInfo.iconColor || 'var(--primary-regular)',
       iconName: props.flowInfo.iconName || '',
     };
   }
@@ -39,7 +39,7 @@ class WorkflowInfo extends Component {
       this.setState({
         name: nextProps.flowInfo.name,
         explain: nextProps.flowInfo.explain || '',
-        iconColor: nextProps.flowInfo.iconColor || '#2196f3',
+        iconColor: nextProps.flowInfo.iconColor || 'var(--primary-regular)',
         iconName: nextProps.flowInfo.iconName || '',
       });
     }

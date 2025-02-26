@@ -32,10 +32,10 @@ const FormItem = styled.div`
       line-height: 34px;
     }
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     &.isActive {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

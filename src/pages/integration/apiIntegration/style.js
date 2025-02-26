@@ -58,7 +58,7 @@ export const ActWrap = styled.div`
   margin-left: 8px;
 `;
 export const BtnWrap = styled.div`
-  background: #2196f3;
+  background: var(--primary-regular);
   &:hover {
     background: #1764c0;
   }
@@ -85,7 +85,7 @@ export const RedMenuItemWrap = styled(MenuItemWrap)`
 export const WrapFooter = styled.div`
   .btn {
     padding: 0 32px;
-    background: #2196f3;
+    background: var(--primary-regular);
     color: #fff;
     line-height: 36px;
     border-radius: 3px;
@@ -100,7 +100,7 @@ export const WrapFooter = styled.div`
     color: #757575;
     margin-right: 52px;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     padding: 8px 32px;
   }
@@ -121,9 +121,9 @@ export const CardTopWrap = styled.div`
       }
       &.isEdit {
         .iconParam {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
-        border: 1px solid #2196f3;
+        border: 1px solid var(--primary-regular);
       }
       .tip {
         position: absolute;
@@ -136,8 +136,8 @@ export const CardTopWrap = styled.div`
       padding: 0 20px;
       margin-right: 12px;
       line-height: 26px;
-      color: #2196f3;
-      border: 1px solid #2196f3;
+      color: var(--primary-regular);
+      border: 1px solid var(--primary-regular);
       border-radius: 26px;
       height: 28px;
       &:hover {
@@ -154,6 +154,6 @@ export const WrapBtn = styled.div`
   padding: 8px 12px;
   margin: 0 auto;
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;

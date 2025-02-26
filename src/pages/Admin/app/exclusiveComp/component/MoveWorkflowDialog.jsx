@@ -22,7 +22,7 @@ const ContentWrap = styled.ul`
   > li.active,
   > li:hover {
     background: rgba(33, 150, 243, 0.11);
-    border: 1px solid #2196f3;
+    border: 1px solid var(--primary-regular);
   }
   .emptyWrap {
     margin-top: 94px;

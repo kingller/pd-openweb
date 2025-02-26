@@ -66,7 +66,7 @@ const Wrap = styled.div`
         }
         .ck-focused {
           background: #fff !important;
-          border: 1px solid #2196f3 !important;
+          border: 1px solid var(--primary-regular) !important;
           border-radius: 0 0 10px 10px!important;
         }
       }

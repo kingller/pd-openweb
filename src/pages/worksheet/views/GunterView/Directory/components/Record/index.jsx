@@ -30,7 +30,7 @@ export const RecordWrapper = styled.div`
       border: none;
       height: 30px;
       line-height: 30px;
-      border: 2px solid #2196f3;
+      border: 2px solid var(--primary-regular);
     }
     &:hover {
       .icon-edit {
@@ -73,7 +73,7 @@ export const RecordWrapper = styled.div`
   .icon-more_horiz {
     opacity: 0;
     &:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
   &:hover .icon-more_horiz {

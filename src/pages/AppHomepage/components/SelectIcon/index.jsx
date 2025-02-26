@@ -11,7 +11,7 @@ import _ from 'lodash';
 import IconTabs from './IconTabs';
 import { getThemeColors } from 'src/util';
 
-const DEFAULT_COLOR = '#2196f3';
+const DEFAULT_COLOR = 'var(--primary-regular)';
 
 @withClickAway
 class SelectIcon extends Component {

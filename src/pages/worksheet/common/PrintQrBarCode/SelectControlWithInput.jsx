@@ -19,7 +19,7 @@ const Title = styled.div`
     color: #9e9e9e;
     cursor: pointer;
     &.on {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

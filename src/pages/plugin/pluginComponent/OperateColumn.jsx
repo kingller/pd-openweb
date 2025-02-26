@@ -37,7 +37,7 @@ const ConfirmDialog = styled(Dialog)`
     border: 1px solid #ccc !important;
     padding: 3px 10px !important;
     &.ant-input-affix-wrapper-focused {
-      border-color: #2196f3 !important;
+      border-color: var(--primary-regular) !important;
     }
   }
 `;

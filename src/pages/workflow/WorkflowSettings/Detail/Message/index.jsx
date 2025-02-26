@@ -30,7 +30,7 @@ const TagBox = styled.div`
     color: #fff !important;
   }
   &.blue {
-    background: #2196f3;
+    background: var(--primary-regular);
     color: #fff !important;
   }
 `;

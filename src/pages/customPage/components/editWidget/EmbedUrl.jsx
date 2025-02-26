@@ -48,11 +48,11 @@ const ContentWrap = styled(FlexCenter)`
   .previewBtn {
     height: 36px;
     padding: 0 15px;
-    color: #40a9ff;
+    color: var(--primary-regular);
     border: none;
     border-radius: 24px;
     &:hover {
-      color: #1079cc;
+      color: var(--primary-hover);
     }
   }
 `;

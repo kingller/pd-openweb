@@ -761,7 +761,7 @@ Calendar.Method = {
       }
       if (rgbColor.indexOf('rgb(144, 202, 249)') >= 0) {
         // 蓝色
-        return '#1E88E5';
+        return 'var(--primary-regular)';
       }
       if (rgbColor.indexOf('rgb(165, 214, 167)') >= 0) {
         // 绿色

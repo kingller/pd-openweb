@@ -41,7 +41,7 @@ const DataSourceWrap = styled.div`
         color: #333;
       }
       .viewName {
-        color: #2196f3;
+        color: var(--primary-regular);
         max-width: 200px;
         margin-left: 6px;
         margin-top: -2px;

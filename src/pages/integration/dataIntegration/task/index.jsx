@@ -42,17 +42,17 @@ const SyncTaskWrapper = styled.div`
       cursor: pointer;
 
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
         background: #f5f5f5;
       }
       &.isActive {
-        color: #2196f3;
+        color: var(--primary-regular);
         background: rgba(33, 150, 243, 0.07);
       }
     }
     .addTaskButton {
       padding: 8px 24px;
-      background: #2196f3;
+      background: var(--primary-regular);
       border-radius: 18px;
       color: #fff;
       display: inline-block;

@@ -38,8 +38,8 @@ const FailInfoCon = styled.div`
       height: 36px;
       text-align: center;
       line-height: 36px;
-      background: #2196f3;
-      border: 1px solid #2196f3;
+      background: var(--primary-regular);
+      border: 1px solid var(--primary-regular);
       opacity: 1;
       border-radius: 28px;
       font-size: 13px;

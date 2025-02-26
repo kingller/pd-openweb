@@ -73,7 +73,7 @@ const TreeWrap = styled(Tree)`
       }
       .nodeName {
         font-weight: 600 !important;
-        color: #2196f3 !important;
+        color: var(--primary-regular) !important;
       }
     }
   }

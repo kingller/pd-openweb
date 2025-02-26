@@ -16,8 +16,8 @@ const Option = styled.div`
   user-select: none;
   &.checked {
     color: #fff;
-    border-color: #2196f3 !important;
-    background-color: #2196f3;
+    border-color: var(--primary-regular) !important;
+    background-color: var(--primary-regular);
     &.multiple {
       .selectedIcon {
         font-size: 16px;

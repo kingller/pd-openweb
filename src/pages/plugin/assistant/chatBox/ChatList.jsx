@@ -129,7 +129,7 @@ export default function ChatList(props) {
         {item.role === 'assistant' && (
           <Avatar
             className={cx({ hasBorder: !iconUrl })}
-            style={{ backgroundColor: iconUrl ? iconColor || '#2196f3' : '' }}
+            style={{ backgroundColor: iconUrl ? iconColor || 'var(--primary-regular)' : '' }}
           >
             {iconUrl ? (
               <SvgIcon url={iconUrl} fill={'#fff'} size={24} />

@@ -24,9 +24,9 @@ const Con = styled.div`
     transform: rotate(${({ folded }) => (folded ? '180deg' : '0deg')});
   }
   &:hover {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
     .line {
-      background: #2196f3;
+      background: var(--primary-regular);
       transition: transform 0.2s ease-in;
     }
   }

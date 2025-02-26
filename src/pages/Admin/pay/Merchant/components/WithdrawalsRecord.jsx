@@ -21,7 +21,7 @@ const BalanceWrap = styled.div`
   .icon-help {
     color: #9d9d9d;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

@@ -54,7 +54,7 @@ const Wrap = styled.div`
       left: 0;
       top: 50%;
       width: 4px;
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
       transform: translate(0, -4px);
     }
     &.dragStart {

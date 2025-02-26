@@ -19,8 +19,8 @@ const OrgSelectCon = styled.div`
     max-width: 287px;
   }
   .orgShowCon:hover {
-    border-color: #2196f3;
-    color: #2196f3;
+    border-color: var(--primary-regular);
+    color: var(--primary-regular);
   }
   .mLeft9 {
     margin-left: 9px !important;

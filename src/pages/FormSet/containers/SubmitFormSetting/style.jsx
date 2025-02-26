@@ -30,7 +30,7 @@ export const Con = styled.div`
       color: #9e9e9e;
     }
     &:focus {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
   .con {
@@ -47,7 +47,7 @@ export const Con = styled.div`
         padding-left: 0px;
       }
       .currentMenu {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     .ming.MenuItem .Item-content:not(.disabled):hover {
@@ -66,7 +66,7 @@ export const Con = styled.div`
         line-height: 32px;
         min-height: 32px;
         padding: 0 20px;
-        background: #2196f3;
+        background: var(--primary-regular);
         border-radius: 4px;
         max-width: 155px;
         box-sizing: border-box;
@@ -75,7 +75,7 @@ export const Con = styled.div`
         color: #bdbdbd;
         opacity: 0;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
     }
@@ -195,7 +195,7 @@ export const Wrap = styled.div`
     border: 1px solid #dddddd;
     padding: 0 12px;
     &:focus {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
 `;
@@ -252,13 +252,13 @@ export const WrapTxt = styled.div`
       width: 20px;
 
       &:hover {
-        color: #2196f3 !important;
+        color: var(--primary-regular) !important;
       }
     }
 
     .editWorkflow {
       width: auto;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

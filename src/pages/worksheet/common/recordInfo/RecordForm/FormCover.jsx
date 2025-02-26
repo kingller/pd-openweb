@@ -44,7 +44,7 @@ const CoverImgWrap = styled.div`
   cursor: pointer;
   box-sizing: border-box;
   ${props => (props.fromThumbnail ? 'border: 3px solid transparent;' : '')}
-  ${props => (props.isActive ? 'border-color: #2196f3;' : '')}
+  ${props => (props.isActive ? 'border-color: var(--primary-regular);' : '')}
   ${({ fromThumbnail, coverType }) => (fromThumbnail && coverType !== '1' ? 'margin: 1px 0' : '')}
   &:first-child {
     margin-top: 0px;

@@ -20,7 +20,7 @@ const HomeEntry = styled.div`
   cursor: pointer;
   &:hover {
     border-color: #ddd;
-    color: #2196f3;
+    color: var(--primary-regular);
   }
 `;
 const Wrap = styled.div`

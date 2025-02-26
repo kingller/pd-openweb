@@ -64,8 +64,8 @@ const TabWrap = styled.div`
       background-color: #f5f5f5;
     }
     &.active {
-      color: #2196f3;
-      border-bottom-color: #2196f3;
+      color: var(--primary-regular);
+      border-bottom-color: var(--primary-regular);
     }
   }
 `;

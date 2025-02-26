@@ -38,8 +38,8 @@ const BtnSettingWrap = styled.div`
       transition: all 0.25s;
       cursor: pointer;
       &.active {
-        color: #2196f3;
-        border-bottom-color: #2196f3;
+        color: var(--primary-regular);
+        border-bottom-color: var(--primary-regular);
       }
     }
   }
@@ -106,7 +106,7 @@ const BtnSettingWrap = styled.div`
         justify-content: center;
       }
       .active {
-        color: #2196F3 !important;
+        color: var(--primary-regular) !important;
         border-radius: 3px;
         padding: 3px 0;
         font-weight: bold;

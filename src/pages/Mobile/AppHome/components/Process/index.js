@@ -45,7 +45,7 @@ const ListWrap = styled.div`
       border-radius: 6px;
       text-align: center;
       &.active {
-        color: #2196f3;
+        color: var(--primary-regular);
         background: #ffffff;
         box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16);
       }

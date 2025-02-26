@@ -23,7 +23,7 @@ ul,ol{
 }
 a{
   text-decoration: none;
-  color: #1e88e5;
+  color: var(--primary-regular);
   cursor: pointer;
 }
 /*盒子布局*/
@@ -328,7 +328,7 @@ footer a{
   line-height: 50px;
   text-align: center;
   border-radius: 3px;
-  border: 1px solid #2196f3;
+  border: 1px solid var(--primary-regular);
   display: block;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
@@ -337,13 +337,13 @@ footer a{
 }
 footer a.join,footer a.addCalendar{
   color: #fff;
-  background-color: #2196f3;
+  background-color: var(--primary-regular);
 }
 footer a.addCalendar{
   margin-bottom: 20px;
 }
 footer a.wAddCalendar{
-  color: #2196f3;
+  color: var(--primary-regular);
   margin-top: 12px;
 }
 footer a.join.leave{
@@ -484,7 +484,7 @@ footer a.join.leave{
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px solid #2196f3;
+  border: 2px solid var(--primary-regular);
   border-bottom-color: transparent!important;
   -webkit-animation: clipLoader .75s infinite linear;
   -moz-animation: clipLoader .75s infinite linear;

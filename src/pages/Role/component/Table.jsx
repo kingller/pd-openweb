@@ -39,7 +39,7 @@ const Wrap = styled.div`
     }
     &.isSort {
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
@@ -119,7 +119,7 @@ const WrapLi = styled.div`
     .optionWrapTr {
       .moreop {
         &:hover {
-          color: #2196f3 !important;
+          color: var(--primary-regular) !important;
         }
       }
     }
@@ -151,7 +151,7 @@ const WrapSort = styled.div`
     display: none;
   }
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
   }
   &:hover,
   &.isCue {

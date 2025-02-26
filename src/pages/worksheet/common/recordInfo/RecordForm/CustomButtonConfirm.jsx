@@ -32,7 +32,7 @@ const SelectBox = styled(Select)`
   width: 100%;
   &.ant-select-focused {
     .ant-select-selector {
-      border-color: #1e88e5 !important;
+      border-color: var(--primary-regular) !important;
       box-shadow: none !important;
     }
   }

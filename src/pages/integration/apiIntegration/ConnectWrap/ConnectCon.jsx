@@ -99,7 +99,7 @@ const Wrap = styled.div`
       .icon {
         opacity: 1;
         &:hover {
-          color: #2196f3 !important;
+          color: var(--primary-regular) !important;
         }
       }
     }
@@ -119,8 +119,8 @@ const Wrap = styled.div`
         color: #757575;
       }
       &.isCur {
-        color: #2196f3;
-        border-bottom: 3px solid #2196f3;
+        color: var(--primary-regular);
+        border-bottom: 3px solid var(--primary-regular);
       }
     }
   }
@@ -144,7 +144,7 @@ const Wrap = styled.div`
       .btn {
         margin: 40px auto 0;
         padding: 11px 50px;
-        background: #2196f3;
+        background: var(--primary-regular);
         color: #fff;
         line-height: 1em;
         border-radius: 30px;

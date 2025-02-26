@@ -39,9 +39,9 @@ const Wrap = styled.div`
       color: #333;
       a {
         text-decoration: none;
-        color: #1294f7;
+        color: var(--primary-regular);
         font-weight: 600;
-        border: 1px solid #1294f7 !important;
+        border: 1px solid var(--primary-regular) !important;
         &:hover {
           background-color: #fff;
         }
@@ -52,7 +52,7 @@ const Wrap = styled.div`
       a {
         color: #333;
         &:hover {
-          color: #1294f7;
+          color: var(--primary-regular);
         }
       }
       a[disabled] {

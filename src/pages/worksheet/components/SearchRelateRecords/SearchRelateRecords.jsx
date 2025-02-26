@@ -29,7 +29,7 @@ const SearchCon = styled.div`
     color: #bdbdbd;
   }
   &.focus {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
 `;
 
@@ -59,7 +59,7 @@ const LoadingButton = styled.div`
   height: 29px;
   line-height: 29px;
   padding: 0 12px;
-  color: #2196f3;
+  color: var(--primary-regular);
   border-radius: 3px;
   font-size: 13px;
   .loading {
@@ -78,7 +78,7 @@ const NewRecordButton = styled.div`
   margin-top: 20px;
   height: 38px;
   border-radius: 38px;
-  background-color: #2196f3;
+  background-color: var(--primary-regular);
   padding: 0 24px;
   color: #fff;
   display: flex;

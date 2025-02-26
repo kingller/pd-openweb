@@ -18,7 +18,7 @@ export const TagWrap = styled.div`
     background-color: #FFFFFF;
     margin: 0 10px 10px 0;
     &.add {
-      color: #2196F3;
+      color: var(--primary-regular);
       transition: all 0.3s;
       &:hover {
         color: #1079cc;

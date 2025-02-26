@@ -40,7 +40,7 @@ const DelateDialogWrap = styled.ul`
       cursor: pointer;
       color: #9e9e9e;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }

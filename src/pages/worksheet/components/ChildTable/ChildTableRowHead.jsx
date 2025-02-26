@@ -61,7 +61,7 @@ const Con = styled.span`
       top: 0;
       bottom: 0;
       width: 2px;
-      background: #2196f3;
+      background: var(--primary-regular);
     }
   }
   &:not(.disabled).hover {

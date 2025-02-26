@@ -75,9 +75,9 @@ const SelectCon = styled.div`
     margin: 0 4px;
   }
   .selectLight {
-    color: #2196f3;
+    color: var(--primary-regular);
     .icon {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .left {

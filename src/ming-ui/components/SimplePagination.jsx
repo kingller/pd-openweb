@@ -36,7 +36,7 @@ const Con = styled.div`
     text-align: center;
     font-size: 13px !important;
     &:focus {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
   .pageNumber {

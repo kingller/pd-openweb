@@ -46,7 +46,7 @@ const TreeExpandIcon = styled.div`
   margin-right: 10px;
   &:hover {
     .icon {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     background: rgba(0, 0, 0, 0.05);
     .line {

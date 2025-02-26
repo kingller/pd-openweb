@@ -56,15 +56,15 @@ const Wrap = styled.div`
       font-weight: 500;
       color: #757575;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
       &.current {
-        color: #2196f3;
+        color: var(--primary-regular);
         &::before {
           content: ' ';
           width: 100%;
           height: 3px;
-          background: #2196f3;
+          background: var(--primary-regular);
           border-radius: 2px;
           display: inline-block;
           position: absolute;
@@ -92,7 +92,7 @@ const WrapCon = styled.div`
     box-sizing: border-box;
     line-height: 36px;
     cursor: pointer;
-    background: #2196f3;
+    background: var(--primary-regular);
     color: #fff;
     &:hover {
       background-color: #1565c0;
@@ -109,8 +109,8 @@ const WrapCon = styled.div`
     line-height: 36px;
     cursor: pointer;
     background: #fff;
-    border: 1px solid #2196f3;
-    color: #2196f3;
+    border: 1px solid var(--primary-regular);
+    color: var(--primary-regular);
     margin-left: 16px;
     padding: 0 32px;
     width: auto;

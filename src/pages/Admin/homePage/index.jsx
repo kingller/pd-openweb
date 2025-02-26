@@ -458,7 +458,7 @@ export default function HomePage({ match, location: routerLocation }) {
                             ? '#eaeaea'
                             : percentValue > 90
                             ? { from: '#F51744 ', to: '#FF5779' }
-                            : { from: '#2196f3 ', to: '#4bb2ff' }
+                            : { from: 'var(--primary-regular) ', to: '#4bb2ff' }
                         }
                         strokeWidth={4}
                         percent={percentValue}

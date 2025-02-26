@@ -27,7 +27,7 @@ const Con = styled.div`
       padding: 0 16px;
       line-height: 38px;
       height: 38px;
-      background: #2196f3 0% 0% no-repeat padding-box;
+      background: var(--primary-regular) 0% 0% no-repeat padding-box;
       border-radius: 32px;
       text-align: center;
       font-size: 13px;
@@ -105,7 +105,7 @@ const Con = styled.div`
             opacity: 0;
           }
           .edit {
-            color: #2196f3;
+            color: var(--primary-regular);
             &:hover {
               opacity: 0.8;
             }
@@ -116,7 +116,7 @@ const Con = styled.div`
 
           & > span {
             display: inline-flex;
-            color: #2196f3;
+            color: var(--primary-regular);
 
             &:hover {
               opacity: 0.8;
@@ -159,7 +159,7 @@ const ArrowUp = styled.span`
   cursor: pointer;
   &:hover,
   &.active {
-    border-color: transparent transparent #2196f3 transparent;
+    border-color: transparent transparent var(--primary-regular) transparent;
   }
 `;
 
@@ -171,7 +171,7 @@ const ArrowDown = styled.span`
   margin-top: 2px;
   &:hover,
   &.active {
-    border-color: #2196f3 transparent transparent transparent;
+    border-color: var(--primary-regular) transparent transparent transparent;
   }
 `;
 

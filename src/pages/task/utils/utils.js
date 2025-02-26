@@ -114,16 +114,16 @@ export const formatTimeInfo = (time, isCompleteAppear) => {
     text = `${text} ${time.format('HH:mm')}`;
   } else if (diff == -1) {
     text = _l('明天');
-    color = '#2196F3';
+    color = 'var(--primary-regular)';
     text = `${text} ${time.format('HH:mm')}`;
   } else if (diff == 1) {
     text = _l('昨天');
-    color = '#2196F3';
+    color = 'var(--primary-regular)';
     text = `${text} ${time.format('HH:mm')}`;
   } else if (moment(currentTime).isSame(time, 'week')) {
     // 本周
     text = time.format('ddd');
-    color = '#2196F3';
+    color = 'var(--primary-regular)';
     text = `${text} ${time.format('HH:mm')}`;
   } else if (currentYear === timeYear) {
     // 本年
@@ -173,9 +173,9 @@ const getTimeInfo = (start, end, isCompleteAppear) => {
     if (start.color == '#4caf50' || end.color == '#4caf50') {
       // 如果有绿色
       color = '#4caf50';
-    } else if (start.color == '#2196F3' || end.color == '#2196F3') {
+    } else if (start.color == 'var(--primary-regular)' || end.color == 'var(--primary-regular)') {
       // 如果有蓝色
-      color = '#2196F3';
+      color = 'var(--primary-regular)';
     }
 
     el = `<span style="color:${color};">${start.text} ~ ${end.text}</span>`;
@@ -198,7 +198,7 @@ export const formatTaskTime = (status, startTime, endTime, actualStartTime, comp
   const render = (text, color, className = '') => `<span style="color:${color};" class="${className}">${text}</span>`;
   const COLORS = {
     gray: '#757575',
-    blue: '#2196f3',
+    blue: 'var(--primary-regular)',
     green: '#4caf50',
     red: '#ff0000',
     yellow: '#ffa414',

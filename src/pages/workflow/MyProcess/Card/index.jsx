@@ -292,7 +292,7 @@ export default class Card extends Component {
       <span
         className="stepTimeConsuming flexRow"
         style={{
-          color: time > 0 ? '#F44336' : currentAccountNotified ? '#FF9800' : '#2196f3',
+          color: time > 0 ? '#F44336' : currentAccountNotified ? '#FF9800' : 'var(--primary-regular)',
         }}
       >
         <Icon icon={time > 0 ? 'error1' : 'hourglass'} className="Font14 mRight2" />

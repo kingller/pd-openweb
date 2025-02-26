@@ -21,7 +21,7 @@ const TelConfigWrap = styled.div`
     border: 1px solid #ddd;
     border-radius: 4px;
     &:hover {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
   .title {

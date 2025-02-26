@@ -59,7 +59,7 @@ const Wrap = styled.div`
       .icon {
         color: #9e9e9e;
         &:hover {
-          color: #2196f3;
+          color: var(--primary-regular);
         }
       }
       .tabItem {
@@ -72,16 +72,16 @@ const Wrap = styled.div`
       background: #ffffff;
       bottom: 0;
       .btnCon {
-        background: #2196f3;
+        background: var(--primary-regular);
         color: #fff;
         height: 36px;
         line-height: 36px;
-        border: 1px solid #2196f3;
+        border: 1px solid var(--primary-regular);
         border-radius: 3px;
         padding: 0 36px;
         &.cancleBtn {
           background: #fff;
-          color: #2196f3;
+          color: var(--primary-regular);
         }
         &.disabled {
           border: 1px solid #bdbdbd;

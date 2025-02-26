@@ -30,7 +30,7 @@ const Wrap = styled.div`
     min-width: 0;
     background: #bdbdbd;
     &.isRun {
-      background: #2196f3;
+      background: var(--primary-regular);
     }
     .iconTitle {
       color: #fff;

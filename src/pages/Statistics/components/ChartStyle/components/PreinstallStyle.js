@@ -26,13 +26,13 @@ const styles = [{
   }
 }, {
   value: 2,
-  color: '#2196F3',
+  color: 'var(--primary-regular)',
   name: _l('商务'),
   config: {
     columnTextColor: '#fff',
-    columnBgColor: '#2196F3',
+    columnBgColor: 'var(--primary-regular)',
     lineTextColor: '#fff',
-    lineBgColor: '#2196F3',
+    lineBgColor: 'var(--primary-regular)',
   }
 }, {
   value: 3,

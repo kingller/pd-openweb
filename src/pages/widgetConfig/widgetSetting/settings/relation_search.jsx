@@ -37,7 +37,7 @@ const RelateSheetWrap = styled.div`
   .filterBtn {
     color: #9e9e9e;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;
@@ -64,7 +64,7 @@ const RelateSheetCover = styled.div`
       color: #9e9e9e;
       line-height: 34px;
       &.active {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
@@ -89,8 +89,8 @@ const CoverWrap = styled.div`
     padding: 6px 18px;
     color: #757575;
     &.active {
-      color: #2196f3;
-      border-color: #2196f3;
+      color: var(--primary-regular);
+      border-color: var(--primary-regular);
     }
     &:last-child {
       border-radius: 0px 3px 3px 0px;

@@ -13,7 +13,7 @@ const Wrapper = styled.div`
     cursor: pointer;
     display: none;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

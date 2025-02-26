@@ -35,7 +35,7 @@ const WrapSys = styled.div`
     .toUser {
       color: #5a5a5a;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }

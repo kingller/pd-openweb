@@ -59,7 +59,7 @@ const SelectInfoWrap = styled.div`
     border: 1px solid #eee;
     border-radius: 4px;
     &:hover {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
     .text {
       margin: 6px 0 0 12px;

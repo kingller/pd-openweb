@@ -35,7 +35,7 @@ const Wrap = styled.div`
         border-bottom: 3px solid #fff;
         word-break: break-all;
         &.isCur {
-          color: #2196f3;
+          color: var(--primary-regular);
           border-bottom: 3px solid rgba(33, 150, 243);
         }
       }
@@ -73,7 +73,7 @@ const WrapWXCon = styled.div`
       top: 0;
       background: rgba(250, 250, 250, 0.95);
       i {
-        color: #2196f3;
+        color: var(--primary-regular);
         margin: 80px 0 0;
         display: inline-block;
       }
@@ -82,7 +82,7 @@ const WrapWXCon = styled.div`
       }
       .refresh {
         padding: 10px 24px;
-        background: #2196f3;
+        background: var(--primary-regular);
         opacity: 1;
         border-radius: 18px;
         color: #fff;

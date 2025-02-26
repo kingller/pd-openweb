@@ -69,7 +69,7 @@ const CascaderSearchSelectWrap = styled.ul`
     }
     .CityPicker-Search-Highline {
       background: unset;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;

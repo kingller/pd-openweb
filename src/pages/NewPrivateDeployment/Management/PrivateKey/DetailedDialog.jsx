@@ -11,7 +11,7 @@ const Wrap = styled(Dialog)`
     padding: 40px 24px !important;
   }
   .copy {
-    color: #2196F3;
+    color: var(--primary-regular);
     cursor: pointer;
     margin-left: 13px;
   }

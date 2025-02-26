@@ -102,11 +102,11 @@ export const SectionItem = styled.div`
       color: #757575;
       flex: 1;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
       &.active {
         background: #ffffff;
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }

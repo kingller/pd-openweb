@@ -28,7 +28,7 @@ const Wrap = styled.div`
       border: 1px solid #bdbdbd;
     }
     &:focus {
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
   .uploadLogo {
@@ -39,7 +39,7 @@ const Wrap = styled.div`
     border-radius: 4px;
     line-height: 80px;
     position: relative;
-    color: #2196f3;
+    color: var(--primary-regular);
     padding: 6px;
     .upload_logo {
       height: 100%;
@@ -66,12 +66,12 @@ const Wrap = styled.div`
       background: #fff;
       border-radius: 50%;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
     &:hover {
       background: rgba(33, 150, 243, 0.1);
-      border: 2px dashed #2196f3;
+      border: 2px dashed var(--primary-regular);
       .delete {
         display: block;
       }
@@ -147,7 +147,7 @@ const Wrap = styled.div`
         border-radius: 3px 0px 0px 3px;
       }
       &.current {
-        background: #2196f3;
+        background: var(--primary-regular);
         color: #fff;
         position: relative;
         z-index: 1;
@@ -179,7 +179,7 @@ const Wrap = styled.div`
     padding: 0 16px;
     background: #f3faff;
     border-radius: 6px;
-    color: #2196f3;
+    color: var(--primary-regular);
     display: inline-block;
     height: 44px;
     line-height: 44px;
@@ -192,7 +192,7 @@ const Wrap = styled.div`
   .hideUploadBgTxt {
     color: #9e9e9e;
     a {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .loginDemo {

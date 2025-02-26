@@ -26,13 +26,13 @@ const PasswordInputBox = styled.div`
     margin-right: 16px;
     &.editInput {
       background: #fff;
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
     }
   }
   .icon-edit,
   .icon-content-copy {
     &:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
   .error {

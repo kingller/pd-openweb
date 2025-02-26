@@ -76,7 +76,7 @@ const OptionsWrap = styled.div`
       color: #9e9e9e;
       span:hover,
       i:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
@@ -106,7 +106,7 @@ const OptionListItem = styled.div`
       color: #9e9e9e;
       font-size: 16px;
       &:hover {
-        color: #2196f3;
+        color: var(--primary-regular);
       }
     }
   }
@@ -129,7 +129,7 @@ const OptionListItem = styled.div`
     }
     i {
       &:hover {
-        color: #2196f3 !important;
+        color: var(--primary-regular) !important;
       }
     }
     .hideIcon {
@@ -148,7 +148,7 @@ const OptionListItem = styled.div`
       bottom: 0;
       width: 100%;
       background-color: #fff;
-      color: #2196f3;
+      color: var(--primary-regular);
       cursor: pointer;
       font-weight: 600;
       &:hover {
@@ -315,7 +315,7 @@ export default function SelectOptions(props) {
                   e.stopPropagation();
                   let newData = { enumDefault2: +!enumDefault2 };
                   if (_.find(options, i => !i.color)) {
-                    newData.options = options.map(i => ({ ...i, color: i.color || '#2196f3' }));
+                    newData.options = options.map(i => ({ ...i, color: i.color || 'var(--primary-regular)' }));
                   }
                   onChange(newData);
                 }}

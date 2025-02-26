@@ -37,7 +37,7 @@ const Header = styled.div`
     font-size: 22px;
     color: #9e9e9e;
     &:hover {
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
 `;
@@ -55,8 +55,8 @@ const DraftButton = styled.div`
   color: #333 !important;
   background-color: #fff;
   &:hover {
-    border: 1px solid #2196f3 !important;
-    color: #2196f3 !important;
+    border: 1px solid var(--primary-regular) !important;
+    color: var(--primary-regular) !important;
   }
 `;
 

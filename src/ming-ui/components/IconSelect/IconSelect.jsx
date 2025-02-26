@@ -9,7 +9,7 @@ import './IconSelect.less';
 import _ from 'lodash';
 
 // const ClickAwayable = createDecoratedComponent(withClickAway);
-const COLOR_LIST = ['#2196f3', '#01ca83', '#f44336', '#00bcd4', '#4c7d9e', '#ffa340'];
+const COLOR_LIST = ['var(--primary-regular)', '#01ca83', '#f44336', '#00bcd4', '#4c7d9e', '#ffa340'];
 
 export default class IconSelect extends Component {
   static propTypes = {

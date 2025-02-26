@@ -34,7 +34,7 @@ const OutputListItem = styled.div(
     border-color: #ddd;
     padding: 0 10px;
     &:focus {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
 `,

@@ -202,7 +202,7 @@ export default class SheetModal extends Component {
             });
           }}
         >
-          <SvgIcon className="svgIconWrap" url={sheet.iconUrl} fill={isActive ? '#2196f3' : '#9e9e9e'} size={18} />
+          <SvgIcon className="svgIconWrap" url={sheet.iconUrl} fill={isActive ? 'var(--primary-regular)' : '#9e9e9e'} size={18} />
           <span className={cx('bold mLeft8 ellipsis', { ThemeColor: isActive })}>{sheet.workSheetName}</span>
         </div>
       </Fragment>

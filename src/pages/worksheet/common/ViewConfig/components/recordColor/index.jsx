@@ -80,7 +80,7 @@ const SelectedControlCon = styled.div`
   height: 36px;
   padding: 0 5px 0 14px;
   &:hover {
-    border-color: #2196f3;
+    border-color: var(--primary-regular);
   }
   .controlTypeIcon {
     font-size: 16px;

@@ -21,7 +21,7 @@ const BuildAppBox = styled.div`
       justify-content: space-between;
       .icon1 {
         width: 58px;
-        background: #2196f3;
+        background: var(--primary-regular);
         border-radius: 50%;
         text-align: center;
         .icon {
@@ -76,7 +76,7 @@ const BuildAppBox = styled.div`
     width: 132px;
     height: 36px;
     line-height: 36px;
-    background: #2196f3;
+    background: var(--primary-regular);
     opacity: 1;
     border-radius: 18px;
     color: #fff;
@@ -105,7 +105,7 @@ const BuildAppBox = styled.div`
   }
   .linkTxt {
     font-size: 13px;
-    color: #2196f3;
+    color: var(--primary-regular);
     cursor: pointer;
   }
   .BoldText {

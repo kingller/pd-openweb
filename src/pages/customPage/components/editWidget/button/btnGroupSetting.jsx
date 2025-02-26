@@ -87,7 +87,7 @@ const SettingWrap = styled.div`
     border-radius: 18px;
     background-color: #fff;
     font-weight: bold;
-    color: #2196f3;
+    color: var(--primary-regular);
     &:hover {
       background-color: rgba(255, 255, 255, 1);
       color: #1079cc;
@@ -122,7 +122,7 @@ const SettingWrap = styled.div`
           border: none;
         }
         &.active {
-          color: #2196f3;
+          color: var(--primary-regular);
           border-radius: 3px;
           background-color: #fff;
         }

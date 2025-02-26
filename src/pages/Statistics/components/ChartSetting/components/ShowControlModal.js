@@ -15,7 +15,7 @@ const SearchControlWrapper = styled.div`
     border: none;
   }
   .icon-close:hover {
-    color: #2196f3 !important;
+    color: var(--primary-regular) !important;
   }
 `;
 
@@ -29,7 +29,7 @@ const ButtonWrapper = styled.div`
   background-color: #f5f5f5;
   cursor: pointer;
   &:hover {
-    color: #2196f3;
+    color: var(--primary-regular);
     background-color: #f0f0f0;
   }
 `;

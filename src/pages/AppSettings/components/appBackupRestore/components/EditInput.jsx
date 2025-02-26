@@ -13,7 +13,7 @@ const EditInputCon = styled.div`
   }
   .input {
     border: none;
-    border-bottom: 2px solid #2196f3;
+    border-bottom: 2px solid var(--primary-regular);
     padding: 4px 0;
   }
   .ant-input:focus,

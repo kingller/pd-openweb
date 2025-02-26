@@ -40,8 +40,8 @@ const Header = styled.div`
       line-height: 45px;
       border-bottom: 3px solid transparent;
       &.active {
-        border-bottom-color: #2196f3;
-        color: #2196f3;
+        border-bottom-color: var(--primary-regular);
+        color: var(--primary-regular);
       }
       &:first-child {
         margin-right: 30px;

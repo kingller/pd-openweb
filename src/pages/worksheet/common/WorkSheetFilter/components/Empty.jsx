@@ -17,7 +17,7 @@ const Con = styled.div`
   .addFilter {
     border-radius: 36px !important;
     padding: 0 16px !important;
-    background-color: #2196f3;
+    background-color: var(--primary-regular);
     &:hover {
       background-color: #1565c0;
     }

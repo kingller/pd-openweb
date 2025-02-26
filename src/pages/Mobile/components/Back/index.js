@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Content = styled.div`
   display: flex;
-  color: #2196f3;
+  color: var(--primary-regular);
   width: 44px;
   height: 44px;
   border-radius: 50%;

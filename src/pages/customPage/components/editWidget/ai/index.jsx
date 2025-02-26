@@ -10,7 +10,7 @@ const Wrap = styled.div`
   height: 520px;
   .header {
     .create:hover * {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
   .ming.Radio {
@@ -33,7 +33,7 @@ const Wrap = styled.div`
       background-color: #f5f5f5;
     }
     &:hover {
-      border-color: #2196f3;
+      border-color: var(--primary-regular);
     }
   }
   .emptyState {
@@ -45,8 +45,8 @@ const Wrap = styled.div`
       background-color: #f5f5f5;
     }
     .create {
-      color: #2196f3;
-      border: 1px solid #2196f3;
+      color: var(--primary-regular);
+      border: 1px solid var(--primary-regular);
       padding: 5px 20px;
       border-radius: 24px;
     }
@@ -153,7 +153,7 @@ export default function Ai(props) {
               >
                 <div
                   className="iconWrap flexRow alignItemsCenter justifyContentCenter"
-                  style={{ background: aiComponentIds.includes(item.id) ? '#bdbdbd' : item.iconColor || '#2196f3' }}
+                  style={{ background: aiComponentIds.includes(item.id) ? '#bdbdbd' : item.iconColor || 'var(--primary-regular)' }}
                 >
                   <SvgIcon url={item.iconUrl} fill="#fff" />
                 </div>

@@ -55,7 +55,7 @@ const DisplayRowListWrap = styled.div`
     right: 0;
     height: 100%;
     width: 4px;
-    background: #2196f3;
+    background: var(--primary-regular);
     &.top,
     &.bottom {
       width: 100%;

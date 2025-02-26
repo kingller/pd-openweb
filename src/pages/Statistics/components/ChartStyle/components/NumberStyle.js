@@ -16,7 +16,7 @@ const Wrap = styled.div`
       padding: 3px 8px !important;
     }
     .active .shape {
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
     }
   }
   .lable {
@@ -146,7 +146,7 @@ export const defaultNumberChartStyle = {
   contrastText: _l('同比'),
   shape: 'square',
   iconVisible: false,
-  iconColor: '#2196F3',
+  iconColor: 'var(--primary-regular)',
   icon: '3_1_coins',
 };
 
@@ -243,7 +243,7 @@ const IconSetting = props => {
   const [visible, setVisible] = useState(false);
   const { numberChartColor, numberChartColorIndex = 1 } = customPageConfig;
   const icon = numberChartStyle.icon || '3_1_coins';
-  const { iconColor } = replaceColor({ iconColor: numberChartStyle.iconColor || '#2196F3' }, {}, themeColor);
+  const { iconColor } = replaceColor({ iconColor: numberChartStyle.iconColor || 'var(--primary-regular)' }, {}, themeColor);
   return (
     <Wrap className="mBottom16">
       <div className="flexRow valignWrapper mBottom12">

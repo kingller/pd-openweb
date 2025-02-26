@@ -11,7 +11,7 @@ export const BillInfoWrap = styled.div`
       font-weight: 600;
     }
     .invoiceSetting {
-      color: #2196f3;
+      color: var(--primary-regular);
       margin: 0 8px;
     }
   }
@@ -20,7 +20,7 @@ export const BillInfoWrap = styled.div`
     align-items: center;
     i,
     .balance {
-      color: #2196f3;
+      color: var(--primary-regular);
       margin: 0 8px;
     }
     .recharge,
@@ -28,7 +28,7 @@ export const BillInfoWrap = styled.div`
       display: inline-block;
       height: 24px;
       line-height: 24px;
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
       color: #fff;
       font-size: 12px;
       padding: 0 16px;
@@ -39,9 +39,9 @@ export const BillInfoWrap = styled.div`
     }
     .warningBtn {
       background-color: #fff;
-      border: 1px solid #2196f3;
+      border: 1px solid var(--primary-regular);
       line-height: 22px;
-      color: #2196f3;
+      color: var(--primary-regular);
       &:hover {
         background-color: #fff;
         border: 1px solid #1565c0;
@@ -72,7 +72,7 @@ export const BillInfoWrap = styled.div`
         padding: 6px;
         &.active,
         &:hover {
-          border-bottom-color: #2196f3;
+          border-bottom-color: var(--primary-regular);
         }
       }
     }
@@ -90,7 +90,7 @@ export const BillInfoWrap = styled.div`
       .dateRange {
         margin: 0 8px;
         background: #e2f2fd;
-        color: #2196f3;
+        color: var(--primary-regular);
         padding: 0 12px;
         border-radius: 4px;
         display: inline-block;
@@ -242,7 +242,7 @@ export const AccountIdOperation = styled.ul`
     line-height: 36px;
     transition: all 0.25s;
     &:hover {
-      background-color: #2196f3;
+      background-color: var(--primary-regular);
       color: #fff;
     }
   }

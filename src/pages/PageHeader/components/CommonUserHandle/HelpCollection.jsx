@@ -56,7 +56,7 @@ const CollectionWrap = styled.div`
     width: 316px;
     background: #ffffff;
     border-radius: 8px;
-    border: 1px solid #2196f3;
+    border: 1px solid var(--primary-regular);
     padding: 10px 15px;
     box-sizing: border-box;
     &:hover {

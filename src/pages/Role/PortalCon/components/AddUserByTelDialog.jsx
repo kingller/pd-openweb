@@ -29,9 +29,9 @@ const Wrap = styled.div`
     line-height: 36px;
     background: #f8f8f8;
     border-radius: 3px;
-    color: #2196f3;
+    color: var(--primary-regular);
     i {
-      color: #2196f3;
+      color: var(--primary-regular);
       line-height: 36px;
     }
     &:hover {

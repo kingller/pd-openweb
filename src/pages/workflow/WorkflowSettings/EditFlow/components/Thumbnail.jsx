@@ -26,7 +26,7 @@ const Box = styled.div`
 `;
 
 const Frame = styled.div`
-  border: 1px solid #2196f3;
+  border: 1px solid var(--primary-regular);
   border-radius: 3px;
   position: absolute;
 `;

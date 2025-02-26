@@ -63,7 +63,7 @@ const FormItem = styled.div`
       border-color: #bbb;
     }
     &.ant-picker-focused {
-      border-color: #1e88e5;
+      border-color: var(--primary-regular);
     }
   }
   &.fitContent {

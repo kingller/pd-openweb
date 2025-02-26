@@ -11,9 +11,9 @@ const Wrap = styled.div`
     background: #ffffff;
     border: 1px dashed #dddddd;
     border-radius: 4px;
-    color: #2196f3;
+    color: var(--primary-regular);
     &:hover {
-      border: 1px dashed #2196f3;
+      border: 1px dashed var(--primary-regular);
     }
   }
   .sourceCard {

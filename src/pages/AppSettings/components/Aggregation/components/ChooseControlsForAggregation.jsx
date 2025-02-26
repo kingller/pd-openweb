@@ -19,7 +19,7 @@ const Wrap = styled.div`
     }
     &.hs {
       background: #f5f5f5;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
     svg {
       margin-top: 2px;
@@ -59,7 +59,7 @@ function ChooseWorksheet(props) {
                   <div className={cx('flex flexRow alignItemsCenter Hand')}>
                     <SvgIcon
                       url={o.iconUrl ? o.iconUrl : `${md.global.FileStoreConfig.pubHost}/customIcon/${o.icon}.svg`}
-                      fill={hs ? '#2196f3' : '#757575'}
+                      fill={hs ? 'var(--primary-regular)' : '#757575'}
                       size={16}
                     />
                     <div className={cx('flex mLeft5 overflow_ellipsis WordBreak Bold', hs ? 'ThemeColor3' : 'Gray')}>

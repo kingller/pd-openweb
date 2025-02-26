@@ -5,7 +5,7 @@ export const AddRelate = styled.div`
     font-size: 14px;
     span {
       margin-left: 6px;
-      color: #2196f3;
+      color: var(--primary-regular);
     }
   }
   .relateWrap {
@@ -25,7 +25,7 @@ export const AddRelate = styled.div`
       margin-top: 16px;
       &.active {
         background: #f0f8ff;
-        border: 1px solid #2196f3;
+        border: 1px solid var(--primary-regular);
       }
     }
     .selectItem {
@@ -53,13 +53,13 @@ export const AddRelate = styled.div`
         border-left: none !important;
       }
       &:first-child {
-        border-right: 1px solid #2196f3 !important;
+        border-right: 1px solid var(--primary-regular) !important;
       }
 
       &.active,
       &:hover {
-        color: #2196f3;
-        border: 1px solid #2196f3;
+        color: var(--primary-regular);
+        border: 1px solid var(--primary-regular);
       }
       &.active {
         font-weight: bold;

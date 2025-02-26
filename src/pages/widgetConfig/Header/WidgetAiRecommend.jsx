@@ -74,7 +74,7 @@ const AiWidgetWrap = styled.div`
     text-align: center;
     background: rgba(33, 150, 243, 0.12);
     border-radius: 32px;
-    color: #2196f3;
+    color: var(--primary-regular);
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
@@ -153,7 +153,7 @@ const AiWidgetWrap = styled.div`
         height: 36px;
         text-align: center;
         line-height: 36px;
-        background: #2196f3;
+        background: var(--primary-regular);
         border-radius: 32px;
         color: #fff;
         font-size: 14px;

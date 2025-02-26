@@ -29,7 +29,7 @@ const ConfigWrap = styled.div`
     border-radius: 3px;
     padding: 0 12px;
     line-height: 32px;
-    color: #2196f3;
+    color: var(--primary-regular);
     font-weight: bold;
     &:hover {
       color: #1780d3;

@@ -46,7 +46,7 @@ const PreviewContentWrapper = styled.div`
       }
     }
     .actionIcon:hover {
-      color: #2196f3 !important;
+      color: var(--primary-regular) !important;
     }
   }
   .displayNone {

@@ -102,7 +102,7 @@ const renderOverlay = ({
             popupOffset={[0, -15]}
           >
             <Menu.Item
-              style={{ width: 120, color: !xaxisEmpty ? '#1e88e5' : null }}
+              style={{ width: 120, color: !xaxisEmpty ? 'var(--primary-regular)' : null }}
               onClick={() => {
                 onChangeData(axis.controlId, { xaxisEmpty: false });
               }}
@@ -111,7 +111,7 @@ const renderOverlay = ({
             </Menu.Item>
             {xaxisEmptyShowTypes.map(item => (
               <Menu.Item
-                style={{ width: 120, color: xaxisEmpty && item.value === xaxisEmptyType ? '#1e88e5' : null }}
+                style={{ width: 120, color: xaxisEmpty && item.value === xaxisEmptyType ? 'var(--primary-regular)' : null }}
                 key={item.value}
                 onClick={() => {
                   onChangeData(axis.controlId, {
@@ -141,7 +141,7 @@ const renderOverlay = ({
           >
             {emptyShowTypes.map(item => (
               <Menu.Item
-                style={{ width: 120, color: item.value === emptyShowType ? '#1e88e5' : null }}
+                style={{ width: 120, color: item.value === emptyShowType ? 'var(--primary-regular)' : null }}
                 key={item.value}
                 onClick={() => {
                   onChangeData(axis.controlId, { emptyShowType: item.value });
@@ -158,7 +158,7 @@ const renderOverlay = ({
           {normTypes
             .map(item => (
               <Menu.Item
-                style={{ width: 120, color: item.value === normType ? '#1e88e5' : null }}
+                style={{ width: 120, color: item.value === normType ? 'var(--primary-regular)' : null }}
                 key={item.value}
                 onClick={() => {
                   onChangeData(axis.controlId, { normType: item.value });
@@ -174,7 +174,7 @@ const renderOverlay = ({
           {(control.enumDefault === 1 ? normTypes : textNormTypes).map(item => (
             <Menu.Item
               className="valignWrapper"
-              style={{ width: 120, color: item.value === normType ? '#1e88e5' : null }}
+              style={{ width: 120, color: item.value === normType ? 'var(--primary-regular)' : null }}
               key={item.value}
               onClick={() => {
                 onChangeData(axis.controlId, { normType: item.value });
@@ -200,7 +200,7 @@ const renderOverlay = ({
                   disabled={item.value === particleSizeType ? true : newDisableParticleSizeTypes.includes(item.value)}
                   style={{
                     width: 200,
-                    color: item.value === particleSizeType ? '#1e88e5' : null,
+                    color: item.value === particleSizeType ? 'var(--primary-regular)' : null,
                   }}
                   key={item.value}
                   onClick={() => {
@@ -224,7 +224,7 @@ const renderOverlay = ({
                       }
                       style={{
                         width: 200,
-                        color: item.value === particleSizeType ? '#1e88e5' : null,
+                        color: item.value === particleSizeType ? 'var(--primary-regular)' : null,
                       }}
                       key={item.value}
                       onClick={() => {
@@ -244,7 +244,7 @@ const renderOverlay = ({
               {formatTimeFormats(particleSizeType).map(item => (
                 <Menu.Item
                   className="valignWrapper"
-                  style={{ width: 200, color: item.value === showFormat ? '#1e88e5' : null }}
+                  style={{ width: 200, color: item.value === showFormat ? 'var(--primary-regular)' : null }}
                   key={item.value}
                   onClick={() => {
                     onChangeData(axis.controlId, { showFormat: item.value });
@@ -255,7 +255,7 @@ const renderOverlay = ({
               ))}
               <Menu.Item
                 className="valignWrapper"
-                style={{ width: 200, color: !_.find(timeFormats, { value: showFormat }) ? '#1e88e5' : null }}
+                style={{ width: 200, color: !_.find(timeFormats, { value: showFormat }) ? 'var(--primary-regular)' : null }}
                 key="customShowFormat"
                 onClick={() => {
                   openShowFormatDialog({
@@ -278,7 +278,7 @@ const renderOverlay = ({
           {areaParticleSizeDropdownData.map(item => (
             <Menu.Item
               disabled={item.value === particleSizeType ? true : newDisableParticleSizeTypes.includes(item.value)}
-              style={{ width: 120, color: item.value === particleSizeType ? '#1e88e5' : null }}
+              style={{ width: 120, color: item.value === particleSizeType ? 'var(--primary-regular)' : null }}
               key={item.value}
               onClick={() => {
                 onUpdateParticleSizeType(axis.controlId, particleSizeType, item.value);
@@ -294,7 +294,7 @@ const renderOverlay = ({
           {cascadeParticleSizeDropdownData.map(item => (
             <Menu.Item
               disabled={item.value === particleSizeType}
-              style={{ width: 120, color: item.value === (particleSizeType || 1) ? '#1e88e5' : null }}
+              style={{ width: 120, color: item.value === (particleSizeType || 1) ? 'var(--primary-regular)' : null }}
               key={item.value}
               onClick={() => {
                 onUpdateParticleSizeType(axis.controlId, particleSizeType, item.value);

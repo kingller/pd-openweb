@@ -23,7 +23,7 @@ const SelectedFilter = styled(FlexCenter)`
   line-height: 29px;
   margin-right: 16px;
   vertical-align: middle;
-  color: #1e88e5;
+  color: var(--primary-regular);
   background-color: #e3f2fd;
   padding: 0 10px;
   .text {
