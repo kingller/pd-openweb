@@ -5,6 +5,7 @@ import qs from 'query-string';
 import { Provider } from 'react-redux';
 import ConnectChatWindow from 'src/pages/chat/containers/ChatWindow';
 import store from 'redux/configureStore';
+import { Theme } from 'pandora';
 
 export default class ChatWindowEntrypoint extends Component {
   constructor(props) {
@@ -32,4 +33,8 @@ export default class ChatWindowEntrypoint extends Component {
 
 const root = createRoot(document.getElementById('app'));
 
-root.render(<ChatWindowEntrypoint />);
+root.render(
+  <Theme>
+    <ChatWindowEntrypoint />
+  </Theme>,
+);

@@ -10,6 +10,7 @@ import _ from 'lodash';
 import DocumentTitle from 'react-document-title';
 import 'mobile/index.less';
 import { browserIsMobile, getTranslateInfo, getAppLangDetail } from 'src/util';
+import { Theme } from 'pandora';
 
 const Header = ({ data, callback, onSubmit }) => {
   return (
@@ -213,4 +214,8 @@ class WorksheetRowEdit extends Component {
 
 const root = createRoot(document.getElementById('app'));
 
-root.render(<WorksheetRowEdit />);
+root.render(
+  <Theme>
+    <WorksheetRowEdit />
+  </Theme>,
+);

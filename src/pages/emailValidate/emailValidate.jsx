@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import accountController from 'src/api/account';
 import { getRequest } from 'src/util';
+import { Theme } from 'pandora';
 import './style.css';
 
 var ACTIONRESULTS = {
@@ -79,4 +80,8 @@ function Comp(props) {
 
 const root = createRoot(document.getElementById('app'));
 
-root.render(<Comp />);
+root.render(
+  <Theme>
+    <Comp />
+  </Theme>,
+);
