@@ -25,7 +25,7 @@ const StepsWrap = styled(Steps)`
     margin-bottom: 60px;
   }
   .ant-steps-item-process .ant-steps-item-title {
-    color: #1890ff !important;
+    color: var(--primary-regular) !important;
   }
   .ant-steps-item-icon {
     width: 28px;
@@ -52,7 +52,7 @@ const StepsWrap = styled(Steps)`
   }
   &.isFinished {
     .ant-steps-item:first-child > .ant-steps-item-container > .ant-steps-item-tail::after {
-      background-color: #1890ff !important;
+      background-color: var(--primary-regular) !important;
     }
     .ant-steps-item.customTail > .ant-steps-item-container > .ant-steps-item-tail::after {
       background-color: #e0e0e0 !important;

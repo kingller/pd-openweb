@@ -22,7 +22,7 @@ const Menu = styled.div`
   }
   .active:not(.clearDate), .item:not(.clearDate):hover {
     color: #fff;
-    background-color: #1890ff;
+    background-color: var(--primary-regular);
   }
 `;
 

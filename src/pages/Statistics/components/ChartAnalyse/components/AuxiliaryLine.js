@@ -33,13 +33,13 @@ const InputWrap = styled.div`
     position: absolute;
     right: 15px;
     top: 10px;
-    color: #1890ff !important;
+    color: var(--primary-regular) !important;
   }
 `;
 
 const DeleteWrap = styled.span`
   &:hover .icon {
-    color: #1890ff !important;
+    color: var(--primary-regular) !important;
   }
 `;
 

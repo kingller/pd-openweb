@@ -8,7 +8,7 @@ const Footer = styled.div`
   .ant-btn-link {
     color: #9e9e9e;
     &:hover {
-      color: #1890ff;
+      color: var(--primary-regular);
     }
   }
   .ant-btn-primary {
